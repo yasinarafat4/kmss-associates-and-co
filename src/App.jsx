@@ -1,10 +1,17 @@
-import React from 'react';
+import React from "react";
+import Banner from "./components/Banner/Banner";
+import Footer from "./shared/Footer";
+import Navbar from "./shared/Navbar";
 
 const App = () => {
   return (
-    <div>
-      Saifuls Portfolio
-    </div>
+    <>
+      <Navbar />
+      <div className="min-h-[calc(100vh-300px)]">
+        <Banner />
+      </div>
+      <Footer />
+    </>
   );
 };
 
