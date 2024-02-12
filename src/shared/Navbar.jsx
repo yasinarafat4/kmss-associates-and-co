@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../../src/assets/kms-logo.png";
 
 const Navbar = () => {
@@ -7,7 +7,6 @@ const Navbar = () => {
   const [navToggle, setNavToggle] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [theme, setTheme] = useState("light");
-  const location = useLocation();
 
   // Dark and Light Mood effect
   useEffect(() => {
@@ -46,38 +45,17 @@ const Navbar = () => {
               </p>
             </Link>
           </div>
-          <a
-            href="#services"
-            className={
-              location.pathname === "/services"
-                ? "underline text-green-500"
-                : " dark:text-slate-100"
-            }
-          >
+          <a href="#services">
             <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
               Services
             </p>
           </a>
-          <a
-            href="#about"
-            className={
-              location.pathname === "/about"
-                ? "underline text-green-500"
-                : " dark:text-slate-100"
-            }
-          >
+          <a href="#about">
             <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
               About
             </p>
           </a>
-          <a
-            href="#contact"
-            className={
-              location.pathname === "/contact"
-                ? "underline text-green-500"
-                : " dark:text-slate-100"
-            }
-          >
+          <a href="#contact">
             <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
               Contact
             </p>
