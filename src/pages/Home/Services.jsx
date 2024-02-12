@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Container from "../../components/Container";
 import SectionTitle from "../../components/SectionTitle";
 
@@ -6,17 +7,110 @@ const Services = () => {
   return (
     <Container>
       <SectionTitle heading={"Our Services"} />
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui earum et
-      necessitatibus dolorem quidem perferendis soluta, dicta, fugiat odio
-      optio, enim ex. Facilis, tempora perferendis blanditiis, odio soluta velit
-      inventore deserunt consequuntur numquam repellendus minima, commodi
-      aperiam ipsa esse possimus quos tempore iure. Corrupti amet, animi quidem,
-      ut, praesentium eaque veniam nulla optio aliquid similique velit.
-      Perspiciatis ipsam itaque cum dolorum voluptates obcaecati labore mollitia
-      quisquam veritatis facilis, pariatur iste cupiditate magnam doloribus
-      ullam natus vel at alias nulla blanditiis hic? Accusamus natus dolore
-      architecto accusantium debitis ducimus tempore repellat, ipsum vero? Sunt
-      nobis ipsa molestiae, et provident impedit nulla!
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {/* service-1 */}
+        <Link className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8">
+          <img
+            className="w-16"
+            src="https://i.ibb.co/rpMhq5H/pngtree-check-mark-icon-png-image-3566317.jpg"
+            alt="lorem-icon"
+          />
+          <div>
+            <h2 className="font-semibold text-base xl:text-lg">
+              Lorem ipsum dolor sit amet.
+            </h2>
+            <p className="text-sm xl:text-base">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
+              labore corporis!{" "}
+            </p>
+          </div>
+        </Link>
+        {/* service-2 */}
+        <Link className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8">
+          <img
+            className="w-16"
+            src="https://i.ibb.co/rpMhq5H/pngtree-check-mark-icon-png-image-3566317.jpg"
+            alt="lorem-icon"
+          />
+          <div>
+            <h2 className="font-semibold text-base xl:text-lg">
+              Lorem ipsum dolor sit amet.
+            </h2>
+            <p className="text-sm xl:text-base">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
+              labore corporis!{" "}
+            </p>
+          </div>
+        </Link>
+        {/* service-3 */}
+        <Link className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8">
+          <img
+            className="w-16"
+            src="https://i.ibb.co/rpMhq5H/pngtree-check-mark-icon-png-image-3566317.jpg"
+            alt="lorem-icon"
+          />
+          <div>
+            <h2 className="font-semibold text-base xl:text-lg">
+              Lorem ipsum dolor sit amet.
+            </h2>
+            <p className="text-sm xl:text-base">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
+              labore corporis!{" "}
+            </p>
+          </div>
+        </Link>
+        {/* service-4 */}
+        <Link className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8">
+          <img
+            className="w-16"
+            src="https://i.ibb.co/rpMhq5H/pngtree-check-mark-icon-png-image-3566317.jpg"
+            alt="lorem-icon"
+          />
+          <div>
+            <h2 className="font-semibold text-base xl:text-lg">
+              Lorem ipsum dolor sit amet.
+            </h2>
+            <p className="text-sm xl:text-base">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
+              labore corporis!{" "}
+            </p>
+          </div>
+        </Link>
+        {/* service-5 */}
+        <Link className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8">
+          <img
+            className="w-16"
+            src="https://i.ibb.co/rpMhq5H/pngtree-check-mark-icon-png-image-3566317.jpg"
+            alt="lorem-icon"
+          />
+          <div>
+            <h2 className="font-semibold text-base xl:text-lg">
+              Lorem ipsum dolor sit amet.
+            </h2>
+            <p className="text-sm xl:text-base">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
+              labore corporis!{" "}
+            </p>
+          </div>
+        </Link>
+        {/* service-6 */}
+        <Link className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8">
+          <img
+            className="w-16"
+            src="https://i.ibb.co/rpMhq5H/pngtree-check-mark-icon-png-image-3566317.jpg"
+            alt="lorem-icon"
+          />
+          <div>
+            <h2 className="font-semibold text-base xl:text-lg">
+              Lorem ipsum dolor sit amet.
+            </h2>
+            <p className="text-sm xl:text-base">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
+              labore corporis!{" "}
+            </p>
+          </div>
+        </Link>
+      </div>
     </Container>
   );
 };
