@@ -11,7 +11,7 @@ const Banner = () => {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content flex items-center justify-start text-neutral-content">
         <div>
-          <h1 className="mb-5 text-2xl md:text-3xl lg:text-5xl font-bold">
+          <h1 className="mb-5 text-2xl md:text-3xl lg:text-4xl font-bold">
             Hello there
           </h1>
           <p className="mb-5 w-full md:w-3/5 lg:w-2/5 text-sm md:text-base">
