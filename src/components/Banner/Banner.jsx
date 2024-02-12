@@ -9,19 +9,23 @@ const Banner = () => {
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-start text-neutral-content">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">
+      <div className="hero-content flex items-center justify-start text-neutral-content">
+        <div>
+          <h1 className="mb-5 text-2xl md:text-3xl lg:text-5xl font-bold">
             Hello there
           </h1>
-          <p className="mb-5 text-base">
+          <p className="mb-5 w-full md:w-3/5 lg:w-2/5 text-sm md:text-base">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
           <div className="flex gap-4">
-            <button className="py-2 px-4 text-sm md:text-base bg-green-600 text-white rounded-sm">My Company</button>
-            <button className="py-2 px-4 text-sm md:text-base bg-orange-600 hover:bg-green-600 duration-300 text-white rounded-sm">Get in Touch</button>
+            <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-green-600 text-white rounded-sm">
+              My Company
+            </button>
+            <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-orange-600 hover:bg-green-600 duration-300 text-white rounded-sm">
+              Get in Touch
+            </button>
           </div>
         </div>
       </div>
