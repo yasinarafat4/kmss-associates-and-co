@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="bg-slate-800 dark:bg-slate-900 text-white lg:grid grid-cols-3 gap-10 px-10 py-10">
+    <section id="contact" className="bg-slate-800 dark:bg-slate-900 text-white lg:grid grid-cols-3 gap-10 px-10 pb-10 pt-20">
       <div className="col-span-1">
         <h2 className="text-start lg:text-end text-2xl md:text-3xl font-semibold mb-4">
           GET A CALL BACK
@@ -77,7 +77,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 

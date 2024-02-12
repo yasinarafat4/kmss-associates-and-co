@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../src/assets/kms-logo.png";
 
 const Navbar = () => {
@@ -7,6 +7,7 @@ const Navbar = () => {
   const [navToggle, setNavToggle] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [theme, setTheme] = useState("light");
+  const location = useLocation();
 
   // Dark and Light Mood effect
   useEffect(() => {
@@ -38,57 +39,49 @@ const Navbar = () => {
         } top-[4rem] flex w-full flex-col bg-white pb-3 pt-2 transition-all duration-300 dark:bg-slate-900 lg:static lg:w-[unset] lg:flex-row lg:bg-transparent lg:pb-0 lg:pt-0 dark:lg:bg-transparent`}
       >
         <div className="menu menu-horizontal flex-col space-y-3 lg:space-y-0 px-1 lg:flex-row lg:gap-4 xl:gap-6">
-          <div
-            onClick={() => setNavToggle(!navToggle)}
-            className={({ isActive }) =>
-              isActive
-                ? "underline text-slate-100"
-                : "text-slate-100 dark:text-slate-100"
-            }
-          >
+          <div>
             <Link to="/">
               <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
                 Home
               </p>
             </Link>
           </div>
-          <div
-            onClick={() => setNavToggle(!navToggle)}
-            className={({ isActive }) =>
-              isActive
-                ? "underline text-slate-100"
-                : "text-slate-100 dark:text-slate-100"
+          <a
+            href="#services"
+            className={
+              location.pathname === "/services"
+                ? "underline text-green-500"
+                : " dark:text-slate-100"
             }
           >
             <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
               Services
             </p>
-          </div>
-
-          <div
-            onClick={() => setNavToggle(!navToggle)}
-            className={({ isActive }) =>
-              isActive
-                ? "underline text-slate-100"
-                : "text-slate-100 dark:text-slate-100"
+          </a>
+          <a
+            href="#about"
+            className={
+              location.pathname === "/about"
+                ? "underline text-green-500"
+                : " dark:text-slate-100"
             }
           >
             <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
               About
             </p>
-          </div>
-          <div
-            onClick={() => setNavToggle(!navToggle)}
-            className={({ isActive }) =>
-              isActive
-                ? "underline text-slate-100"
-                : "text-slate-100 dark:text-slate-100"
+          </a>
+          <a
+            href="#contact"
+            className={
+              location.pathname === "/contact"
+                ? "underline text-green-500"
+                : " dark:text-slate-100"
             }
           >
             <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
               Contact
             </p>
-          </div>
+          </a>
 
           {/* Avatar */}
         </div>
