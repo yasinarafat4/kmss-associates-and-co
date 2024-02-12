@@ -6,6 +6,7 @@ const About = () => {
   return (
     <Container>
       <SectionTitle heading={"About Us"} />
+      <div className="dark:bg-slate-900 dark:text-white">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui earum et
       necessitatibus dolorem quidem perferendis soluta, dicta, fugiat odio
       optio, enim ex. Facilis, tempora perferendis blanditiis, odio soluta velit
@@ -28,6 +29,9 @@ const About = () => {
       quibusdam labore iusto ex sed ipsa, fuga velit pariatur? Nemo
       reprehenderit ipsum illo debitis sequi quis soluta praesentium, itaque
       autem iure consequuntur tempore.
+
+      </div>
+      
     </Container>
   );
 };

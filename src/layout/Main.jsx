@@ -5,11 +5,13 @@ import Navbar from "../shared/Navbar";
 
 const Main = () => {
   return (
-    <div>
+    <>
       <Navbar />
-      <Outlet />
+      <div className="min-h-[calc(100vh-324px)]">
+        <Outlet />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

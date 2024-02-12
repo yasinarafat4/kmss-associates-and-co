@@ -7,7 +7,7 @@ import Todo from "./Todo";
 
 const Home = () => {
   return (
-    <div>
+    <div className="dark:bg-slate-900 dark:text-white">
       <Banner />
       <Services />
       <About />

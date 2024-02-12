@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../../src/assets/kms-logo.png";
 
 const Navbar = () => {
@@ -23,11 +24,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar sticky top-0 z-50 bg-white shadow-lg dark:bg-slate-900  dark:text-white lg:px-20">
+    <nav className="navbar sticky top-0 z-50 bg-white shadow-lg dark:bg-slate-800  dark:text-white lg:px-20">
       <div className="flex-1">
-        <div className="flex justify-center items-center">
-          <img className="w-14 md:w-20" src={logo} alt="" />
-        </div>
+        <Link to="/">
+          <div className="flex justify-center items-center">
+            <img className="w-14 md:w-20" src={logo} alt="" />
+          </div>
+        </Link>
       </div>
       <div
         className={`absolute ${
@@ -43,9 +46,11 @@ const Navbar = () => {
                 : "text-slate-100 dark:text-slate-100"
             }
           >
-            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
-              Home
-            </p>
+            <Link to="/">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
+                Home
+              </p>
+            </Link>
           </div>
           <div
             onClick={() => setNavToggle(!navToggle)}

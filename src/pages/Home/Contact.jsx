@@ -22,6 +22,7 @@ const Contact = () => {
                 type="text"
                 id="name"
                 name="name"
+                placeholder="Your Name"
                 className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-green-500 text-slate-800"
                 required
               />
@@ -34,6 +35,7 @@ const Contact = () => {
                 type="email"
                 id="email"
                 name="email"
+                placeholder="Your Email"
                 className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-green-500 text-slate-800"
                 required
               />
@@ -46,6 +48,7 @@ const Contact = () => {
                 type="number"
                 id="phone"
                 name="phone"
+                placeholder="Your Number"
                 className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-green-500 text-slate-800"
                 required
               />
@@ -60,6 +63,7 @@ const Contact = () => {
                 id="message"
                 name="message"
                 rows="5"
+                placeholder="Your Message"
                 className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-green-500 text-slate-800"
                 required
               ></textarea>
