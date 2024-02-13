@@ -40,23 +40,23 @@ const Navbar = () => {
         <div className="menu menu-horizontal flex-col space-y-3 lg:space-y-0 px-1 lg:flex-row lg:gap-4 xl:gap-6">
           <div>
             <Link onClick={() => setNavToggle(false)} to="/">
-              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-green-500 hover:duration-500">
                 Home
               </p>
             </Link>
           </div>
           <a onClick={() => setNavToggle(false)} href="#services">
-            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
+            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-green-500 hover:duration-500">
               Services
             </p>
           </a>
           <a onClick={() => setNavToggle(false)} href="#about">
-            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
+            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-green-500 hover:duration-500">
               About
             </p>
           </a>
           <a onClick={() => setNavToggle(false)} href="#contact">
-            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500">
+            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-green-500 hover:duration-500">
               Contact
             </p>
           </a>

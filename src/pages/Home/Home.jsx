@@ -2,8 +2,8 @@ import React from "react";
 import About from "./About";
 import Banner from "./Banner";
 import Contact from "./Contact";
+import MyStats from "./MyStats";
 import Services from "./Services";
-import Todo from "./Todo";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <Services />
       <About />
       <Contact />
-      <Todo />
+      <MyStats />
     </div>
   );
 };
