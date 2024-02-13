@@ -5,33 +5,36 @@ import SectionTitle from "../../components/SectionTitle";
 const About = () => {
   return (
     <Container>
-      <section id="about" className="pt-20">
+      <section id="about" className="pt-20 dark:bg-slate-900 dark:text-white">
         <SectionTitle heading={"About Us"} />
-        <div className="dark:bg-slate-900 dark:text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui earum et
-          necessitatibus dolorem quidem perferendis soluta, dicta, fugiat odio
-          optio, enim ex. Facilis, tempora perferendis blanditiis, odio soluta
-          velit inventore deserunt consequuntur numquam repellendus minima,
-          commodi aperiam ipsa esse possimus quos tempore iure. Corrupti amet,
-          animi quidem, ut, praesentium eaque veniam nulla optio aliquid
-          similique velit. Perspiciatis ipsam itaque cum dolorum voluptates
-          obcaecati labore mollitia quisquam veritatis facilis, pariatur iste
-          cupiditate magnam doloribus ullam natus vel at alias nulla blanditiis
-          hic? Accusamus natus dolore architecto accusantium debitis ducimus
-          tempore repellat, ipsum vero? Sunt nobis ipsa molestiae, et provident
-          impedit nulla! <br />
-          <br />
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nam
-          quia mollitia soluta deleniti fuga assumenda! Fugiat ducimus esse
-          quidem mollitia sapiente accusamus, earum quaerat id corporis magni
-          iste debitis officiis, dolorum eligendi odit a aspernatur veritatis!
-          Possimus optio quaerat culpa maiores, consectetur quo architecto,
-          laborum voluptas nemo nesciunt aspernatur excepturi iste dolore? Quo
-          hic culpa sequi voluptate architecto sed incidunt, dolore fugit libero
-          debitis, ipsam reprehenderit dolorem ratione nisi unde distinctio
-          vitae consectetur asperiores vel. Quo quibusdam labore iusto ex sed
-          ipsa, fuga velit pariatur? Nemo reprehenderit ipsum illo debitis sequi
-          quis soluta praesentium, itaque autem iure consequuntur tempore.
+
+        <div className="flex w-full items-center justify-center bg-white dark:bg-slate-900 dark:text-white px-8">
+          <div className="flex w-full max-w-6xl gap-10 lg:flex-row flex-col items-center justify-between">
+            <div className="max-w-md md:space-y-6 sm:space-y-5 space-y-4">
+              <h1 className="lg:text-2xl text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                Hello!
+              </h1>
+              <p className="lg:text-lg md:text-base text-sm text-gray-600 dark:text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                eius iure sequi porro unde praesentium reiciendis. Molestiae,
+                fuga! Nostrum aliquam fugit quis quaerat quo tempore ducimus
+                facere quasi aliquid, error veniam eveniet dolorum rerum nulla?
+                Deleniti quisquam, ut error nam voluptatibus deserunt
+                repudiandae qui nostrum soluta nobis obcaecati minima atque
+                nisi! Optio, iste qui quam possimus eius nobis ea harum
+                distinctio doloremque temporibus animi.
+              </p>
+              <p className="text-sm text-gray-500 dark:text-white">
+                Trusted by 5000+ Users
+              </p>
+            </div>
+            <div className="relative">
+              <img
+                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7"
+                className="relative lg:h-[550px] md:h-[490px] h-[300px] w-[500px] bg-gray-400 rounded-b-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </Container>
