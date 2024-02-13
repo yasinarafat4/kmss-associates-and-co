@@ -23,7 +23,7 @@ const Banner = () => {
             <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-green-600 text-white rounded-sm">
               My Company
             </button>
-            <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-orange-600 hover:bg-green-600 duration-300 text-white rounded-sm">
+            <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-orange-600 hover:bg-slate-950 duration-300 text-white rounded-sm">
               Get in Touch
             </button>
           </div>

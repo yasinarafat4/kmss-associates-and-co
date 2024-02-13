@@ -5,8 +5,8 @@ const Footer = () => {
   const currentYear = currentDate.getFullYear();
 
   return (
-    <footer className="bg-slate-800 dark:bg-slate-800 text-white py-8 px-4">
-      <div className="lg:grid grid-cols-3 gap-6">
+    <footer className="bg-slate-800 dark:bg-slate-800 text-white pt-8 px-4">
+      <div className="lg:grid grid-cols-3 gap-6 pb-8  md:px-10 xl:px-3">
         <div className="col-span-1 pb-3 lg:pb-0">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -47,9 +47,34 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      <div className="text-center pt-10">
-        <p class="mt-4 text-sm">© {currentYear} KMS. All rights reserved.</p>
+      <hr />
+      <div className="text-center md:flex items-center justify-between py-4 md:px-10 xl:px-3">
+        <p class="mt-4 text-sm">© {currentYear} All rights reserved by K/M Association.</p>
+        {/* Social Icons */}
+        <div className="flex justify-center items-center pt-3 gap-2">
+          <a href="https://www.facebook.com">
+            <img
+              src="https://i.ibb.co/3d2ygD0/facebook-4.png"
+              alt="Facebook"
+              className="w-6 h-auto mr-2"
+            />
+          </a>
+          <a href="https://www.linkedin.com">
+            <img
+              src="https://i.ibb.co/pRp6105/linkedin-2.png
+                "
+              alt="LinkedIn"
+              className="w-6 h-auto mr-2"
+            />
+          </a>
+          <a href="https://twitter.com">
+            <img
+              src="https://i.ibb.co/MGRThhw/twitter-2.png"
+              alt="Twitter"
+              className="w-6 h-auto mr-2"
+            />
+          </a>
+        </div>
       </div>
     </footer>
   );
