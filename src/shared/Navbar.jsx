@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../src/assets/kms-logo.png";
+import logo from "../../src/assets/unex_logo.png";
 
 const Navbar = () => {
   // States
@@ -27,8 +27,9 @@ const Navbar = () => {
     <nav className="navbar sticky top-0 z-50 bg-white shadow-lg dark:bg-slate-800  dark:text-white lg:px-20">
       <div className="flex-1">
         <Link to="/">
-          <div className="flex justify-center items-center">
-            <img className="w-14 md:w-20" src={logo} alt="" />
+          <div className="flex flex-col justify-center items-center">
+            <img className="w-20 md:w-28" src={logo} alt="" />
+            <p className="text-slate-400 dark:text-orange-800 text-xs md:text-base tracking-wide md:tracking-wider">Associates</p>
           </div>
         </Link>
       </div>
@@ -60,17 +61,10 @@ const Navbar = () => {
               Contact
             </p>
           </a>
-
-          {/* Avatar */}
-        </div>
-        <div title="K.M Saiful Islam" className="avatar">
-          <div className="w-8 mx-4 rounded-full ring ring-success ring-offset-base-100 ring-offset-2">
-            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-          </div>
         </div>
 
         {/* Dark & Light mode */}
-        <label className="swap swap-rotate mt-2 lg:mt-0 lg:mr-3">
+        <label className="swap swap-rotate mt-2 lg:mt-0 lg:mx-4">
           <input type="checkbox" />
 
           {isDarkMode ? (

@@ -33,6 +33,10 @@ const About = () => {
                 src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7"
                 className="relative lg:h-[550px] md:h-[490px] h-[300px] w-[500px] bg-gray-400 rounded-b-full object-cover"
               />
+              {/* <img
+                src={aboutImage}
+                className="relative bg-gray-400 rounded-b-full object-cover"
+              /> */}
             </div>
           </div>
         </div>
