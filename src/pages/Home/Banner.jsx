@@ -13,12 +13,10 @@ const Banner = () => {
       <div className="hero-content flex items-center justify-start text-neutral-content">
         <div>
           <h1 className="mb-5 text-2xl md:text-3xl lg:text-4xl font-bold">
-            Hello there
+            Hello there!
           </h1>
           <p className="mb-5 w-full md:w-3/5 lg:w-2/5 text-sm md:text-base">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+          {/* Trusted legal and professional consultants specializing in corporate law, tax, accounting, VAT, and investment services. Get expert guidance and personalized support. Choose us for comprehensive solutions. */}
           </p>
           <div className="flex gap-4">
             <Link to={"/more-about-us"}>

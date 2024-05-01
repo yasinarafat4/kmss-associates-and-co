@@ -9,10 +9,7 @@ const Footer = () => {
       <div className="lg:grid grid-cols-3 gap-6 pb-8  md:px-10 xl:px-3">
         <div className="col-span-1 pb-3 lg:pb-0">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            maiores impedit quas maxime quod odit alias modi vero ut,
-            consectetur dignissimos consequuntur, ex, optio tenetur incidunt
-            quos veritatis rerum quo?
+          
           </p>
         </div>
         <div className="col-span-2">
