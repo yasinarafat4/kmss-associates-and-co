@@ -2,7 +2,7 @@ import React from "react";
 import About from "./About";
 import Banner from "./Banner";
 import Contact from "./Contact";
-import MyStats from "./MyStats";
+import FAQs from "./FAQs";
 import Services from "./Services";
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
       <Services />
       <About />
       <Contact />
-      <MyStats />
+      <FAQs />
     </div>
   );
 };
