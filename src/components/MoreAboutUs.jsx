@@ -37,7 +37,7 @@ const MoreAboutUs = () => {
           <div>
             <div className="lg:flex items-center gap-10 space-y-4">
               <img
-                className="xl:hidden rounded-b-2xl mb-4 lg:mb-0"
+                className="w-full md:w-3/5 mx-auto xl:hidden rounded-b-2xl mb-4 lg:mb-0"
                 src={ceoImg}
                 alt="CEO Image"
               />
