@@ -16,7 +16,7 @@ const Banner = () => {
             Hello there!
           </h1>
           <p className="mb-5 w-full md:w-3/5 lg:w-2/5 text-sm md:text-base">
-          {/* Trusted legal and professional consultants specializing in corporate law, tax, accounting, VAT, and investment services. Get expert guidance and personalized support. Choose us for comprehensive solutions. */}
+          Trusted legal and professional consultants specializing in corporate law, tax, accounting, VAT, and investment services. Get expert guidance and personalized support. Choose us for comprehensive solutions.
           </p>
           <div className="flex gap-4">
             <Link to={"/more-about-us"}>
