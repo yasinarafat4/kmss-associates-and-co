@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="lg:grid grid-cols-3 gap-6 pb-8  md:px-10 xl:px-3">
         <div className="col-span-1 pb-3 lg:pb-0">
           <p>
-          
+          Providing exceptional legal and professional services with integrity and excellence. Tailored solutions to meet your unique needs. Contact us for expert advice and personalized support.
           </p>
         </div>
         <div className="col-span-2">
