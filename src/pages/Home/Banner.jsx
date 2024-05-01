@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -20,12 +21,18 @@ const Banner = () => {
             a id nisi.
           </p>
           <div className="flex gap-4">
-            <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-green-600 text-white rounded-sm">
-              My Company
-            </button>
-            <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-orange-600 hover:bg-slate-950 duration-300 text-white rounded-sm">
-              Get in Touch
-            </button>
+            <Link to={"/more-about-us"}>
+              <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-green-600 text-white rounded-sm">
+                My Company
+              </button>
+            </Link>
+
+            <a href="#services">
+              {" "}
+              <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-orange-700 hover:bg-slate-950 duration-300 text-white rounded-sm">
+                Get in Touch
+              </button>
+            </a>
           </div>
         </div>
       </div>

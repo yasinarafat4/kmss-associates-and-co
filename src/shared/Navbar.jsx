@@ -28,8 +28,8 @@ const Navbar = () => {
       <div className="flex-1">
         <Link to="/">
           <div className="flex flex-col justify-center items-center">
-            <img className="w-20 md:w-28" src={logo} alt="" />
-            <p className="text-slate-400 dark:text-orange-800 text-xs md:text-base tracking-wide md:tracking-wider">Associates</p>
+            <img className="w-20 md:w-28" src={logo} alt="nav_logo" />
+            <p className="text-slate-400 dark:text-orange-600 text-xs md:text-base tracking-wide md:tracking-wider">Associates</p>
           </div>
         </Link>
       </div>
