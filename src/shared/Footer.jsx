@@ -23,7 +23,7 @@ const Footer = () => {
                 alt=""
                 class="w-6 h-auto mr-2"
               />
-              <p>kms@gmail.com</p>
+              <p>unex@gmail.com</p>
             </div>
             <div class="flex items-center pt-3">
               <img
@@ -49,7 +49,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="text-center md:flex items-center justify-between py-4 md:px-10 xl:px-3">
-        <p class="mt-4 text-sm">© {currentYear} All rights reserved by K/M Association.</p>
+        <p class="mt-4 text-sm">© {currentYear} All rights reserved by UNEX Associates.</p>
         {/* Social Icons */}
         <div className="flex justify-center items-center pt-3 gap-2">
           <a href="https://www.facebook.com">

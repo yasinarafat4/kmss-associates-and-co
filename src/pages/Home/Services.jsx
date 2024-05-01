@@ -5,14 +5,58 @@ import Container from "../../components/Container";
 import SectionTitle from "../../components/SectionTitle";
 
 const Services = () => {
+
+const serviceData =[
+  {
+    id:1,
+    name:"LICENSING",
+    subTitle: 'We obtain formal government licenses for clients specific business or professional needs.',
+    route:'service-one'
+  },
+  {
+    id:2,
+    name:"ENTITY FORMATION",
+    subTitle: 'We guide Registered Companies in complying with business entity formation regulations.',
+    route:'service-two'
+  },
+  {
+    id:3,
+    name:"ACCOUNTING",
+    subTitle: 'We handle recording, analyzing, and reporting financial transactions for clients.',
+    route:'service-three'
+  },
+  {
+    id:4,
+    name:"TAX ADVISORY",
+    subTitle: 'We offer guidance and strategic advice on tax-related matters.',
+    route:'service-four'
+  },
+  {
+    id:5,
+    name:"AUDIT & ASSURANCE",
+    subTitle: 'We review financial data to ensure accuracy and compliance with standards.',
+    route:'service-five'
+  },
+  {
+    id:6,
+    name:"IPO & CAPITAL MARKET",
+    subTitle: 'We assist in IPOs and facilitate trading in capital markets for clients.',
+    route:'service-six'
+  }
+]
+
+
+
   return (
     <Container>
       <section id="services" className="pt-20">
         <SectionTitle heading={"Our Services"} />
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 dark:bg-slate-900 dark:text-white">
-          {/* service-1 */}
-          <Link
-            to={"/service-one"}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 dark:bg-slate-900 dark:text-white">
+          {/* services */}
+          {
+            serviceData.map((service)=>(
+              <Link
+            to={service.route}
             className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8 hover:bg-slate-200 hover:duration-500"
           >
             <div>
@@ -20,104 +64,15 @@ const Services = () => {
             </div>
             <div>
               <h2 className="font-semibold text-base xl:text-lg">
-                Lorem ipsum dolor sit amet.
+                {service.name}
               </h2>
               <p className="text-sm xl:text-base">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Impedit, labore corporis!{" "}
+               {service.subTitle}
               </p>
             </div>
           </Link>
-          {/* service-2 */}
-          <Link
-            to={"/service-two"}
-            className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8 hover:bg-slate-200 hover:duration-500"
-          >
-            <div>
-              <IoMdCheckmarkCircle className="text-7xl text-green-500 hover:text-slate-800 hover:duration-500" />
-            </div>
-            <div>
-              <h2 className="font-semibold text-base xl:text-lg">
-                Lorem ipsum dolor sit amet.
-              </h2>
-              <p className="text-sm xl:text-base">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Impedit, labore corporis!{" "}
-              </p>
-            </div>
-          </Link>
-          {/* service-3 */}
-          <Link
-            to={"/service-three"}
-            className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8 hover:bg-slate-200 hover:duration-500"
-          >
-            <div>
-              <IoMdCheckmarkCircle className="text-7xl text-green-500 hover:text-slate-800 hover:duration-500" />
-            </div>
-            <div>
-              <h2 className="font-semibold text-base xl:text-lg">
-                Lorem ipsum dolor sit amet.
-              </h2>
-              <p className="text-sm xl:text-base">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Impedit, labore corporis!{" "}
-              </p>
-            </div>
-          </Link>
-          {/* service-4 */}
-          <Link
-            to={"/service-four"}
-            className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8 hover:bg-slate-200 hover:duration-500"
-          >
-            <div>
-              <IoMdCheckmarkCircle className="text-7xl text-green-500 hover:text-slate-800 hover:duration-500" />
-            </div>
-            <div>
-              <h2 className="font-semibold text-base xl:text-lg">
-                Lorem ipsum dolor sit amet.
-              </h2>
-              <p className="text-sm xl:text-base">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Impedit, labore corporis!{" "}
-              </p>
-            </div>
-          </Link>
-          {/* service-5 */}
-          <Link
-            to={"/service-five"}
-            className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8 hover:bg-slate-200 hover:duration-500"
-          >
-            <div>
-              <IoMdCheckmarkCircle className="text-7xl text-green-500 hover:text-slate-800 hover:duration-500" />
-            </div>
-            <div>
-              <h2 className="font-semibold text-base xl:text-lg">
-                Lorem ipsum dolor sit amet.
-              </h2>
-              <p className="text-sm xl:text-base">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Impedit, labore corporis!{" "}
-              </p>
-            </div>
-          </Link>
-          {/* service-6 */}
-          <Link
-            to={"/service-six"}
-            className="flex items-center gap-2 shadow-lg rounded-md px-2 py-4 xl:px-4 xl:py-8 hover:bg-slate-200 hover:duration-500"
-          >
-            <div>
-              <IoMdCheckmarkCircle className="text-7xl text-green-500 hover:text-slate-800 hover:duration-500" />
-            </div>
-            <div>
-              <h2 className="font-semibold text-base xl:text-lg">
-                Lorem ipsum dolor sit amet.
-              </h2>
-              <p className="text-sm xl:text-base">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Impedit, labore corporis!{" "}
-              </p>
-            </div>
-          </Link>
+            ))
+          }
         </div>
       </section>
     </Container>

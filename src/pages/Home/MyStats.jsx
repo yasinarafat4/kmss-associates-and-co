@@ -19,9 +19,9 @@ const MyStats = () => {
       <div className="stats bg-transparent text-white stats-vertical md:stats-horizontal shadow">
         <div className="stat px-0 md:px-16 lg:px-28">
           <div className="stat-value text-white">
-            {inView ? <CountUp start={0} end={25} duration={3} /> : "25"}
+            {inView ? <CountUp start={0} end={6} duration={3} /> : "6"}
           </div>
-          <div className="stat-title text-white">Downloads</div>
+          <div className="stat-title text-white">Services</div>
         </div>
         <div className="stat px-0 md:px-16 lg:px-28">
           <div className="stat-value text-white">
