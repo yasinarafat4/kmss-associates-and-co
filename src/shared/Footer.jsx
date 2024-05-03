@@ -20,7 +20,7 @@ const Footer = () => {
                 alt=""
                 class="w-6 h-auto mr-2"
               />
-              <p>unexass@gmail.com</p>
+              <p>unex@gmail.com</p>
             </div>
             <div class="flex items-center pt-3">
               <img
