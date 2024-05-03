@@ -6,9 +6,7 @@ const Contact = () => {
           GET A CALL BACK
         </h2>
         <p className="text-start lg:text-end mb-6 lg:mb-0">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
-          at corporis magnam voluptate voluptates ut blanditiis eveniet
-          aspernatur repellendus reprehenderit.
+        If you need any support with Bangladesh Investment Development Authority Affairs (BIDA), ERC, IRC, project profiles, or both local and international accounting outsourcing, please reach out to us.
         </p>
       </div>
       <div className="col-span-2">
