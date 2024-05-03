@@ -1,9 +1,10 @@
 import React from 'react';
+import ServiceBanner from '../../components/ServiceBanner';
 
 const ServiceTwo = () => {
     return (
         <div>
-            ServiceTwo
+             <ServiceBanner heading={'Our Entity Formation Service'} />
         </div>
     );
 };
