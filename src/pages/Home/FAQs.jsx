@@ -26,7 +26,7 @@ const FAQs = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="rounded-lg font-sans">
+      <div className="rounded-lg font-serif">
       <h2 className='text-2xl md:text-3xl lg:text-4xl font-semibold text-center text-white mb-4'>Frequently Asked Questions</h2>
         {accordionsData.map((PerAccordion, idx) => (
           <div key={idx} className="border-b border-gray-500 last-of-type:border-none">

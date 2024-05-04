@@ -51,16 +51,16 @@ const serviceData =[
     <Container>
       <section id="services" className="pt-20">
         <SectionTitle heading={"Our Services"} />
-        <div title="Click to View Service" className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 dark:bg-slate-900 dark:text-white">
+        <div title="Click to View Service" className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 dark:bg-slate-900 dark:text-slate-200">
           {/* services */}
           {
             serviceData.map((service)=>(
               <Link
             to={service.route}
-            className="group flex items-center gap-2 border border-slate-500 hover:shadow-2xl rounded-md px-2 py-4 xl:px-4 xl:py-8 dark:hover:bg-slate-800 dark:text-white hover:duration-500"
+            className="group flex items-center gap-2 border border-slate-500 hover:shadow-2xl rounded-md px-2 py-4 xl:px-4 xl:py-8 dark:hover:bg-slate-800 dark:text-slate-200 hover:duration-500"
           >
             <div>
-              <IoMdCheckmarkCircle className="text-7xl text-green-500 group-hover:text-slate-800 dark:group-hover:text-slate-400 group-hover:duration-500 " />
+              <IoMdCheckmarkCircle className="text-7xl text-blue-500 group-hover:text-slate-800 dark:group-hover:text-slate-400 group-hover:duration-500 " />
             </div>
             <div>
               <h2 className="font-semibold text-base xl:text-lg">

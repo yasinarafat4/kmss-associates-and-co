@@ -7,23 +7,28 @@ import SectionTitle from "../../components/SectionTitle";
 const About = () => {
   return (
     <Container>
-      <section id="about" className="pt-20 dark:bg-slate-900 dark:text-white">
+      <section id="about" className="pt-20 dark:bg-slate-900 dark:text-slate-200">
         <SectionTitle heading={"Who We Are"} />
 
-        <div className="flex w-full items-center justify-center bg-white dark:bg-slate-900 dark:text-white px-8">
+        <div className="flex w-full items-center justify-center bg-white dark:bg-slate-900 dark:text-slate-200 px-2 lg:px-8">
           <div className="grid grid-cols-1 xl:grid-cols-5 items-center xl:gap-10">
             <div className="order-last xl:order-first col-span-3 space-y-4 md:space-y-6">
-              <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-white">
+              <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
                 <strong>UNEX & Associates</strong> UNEX & Associates is a
-                prestigious consultancy firm located in Dhaka, Bangladesh. The
-                firm offers a variety of legal and professional services,
-                including consultancy in income tax, accounting, company law and
-                corporate affairs, and value-added tax (VAT). UNEX & Associates
-                also provides services in compliance with various local laws and
-                regulations such as the Companies Act, Trade Organization Act,
-                and Societies Registration Act, among others.
+                prestigious consultancy firm located in Dhaka, Bangladesh.
               </p>
-              <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-white">
+              <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
+                The firm offers a variety of legal and professional services,
+                including consultancy in income tax, accounting, company law and
+                corporate affairs, and value-added tax (VAT).
+              </p>
+              <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
+                UNEX & Associates also provides services in compliance with
+                various local laws and regulations such as the Companies Act,
+                Trade Organization Act, and Societies Registration Act, among
+                others.
+              </p>
+              <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
                 The firm is dedicated to offering the best services to its
                 clients, including assistance with matters related to Bangladesh
                 Investment Development Authority Affairs (BIDA), ERC, IRC,
@@ -31,7 +36,7 @@ const About = () => {
                 outsourcing.
               </p>
               <Link to={"/more-about-us"}>
-                <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-green-600 text-white rounded-sm ms-0 lg:ms-[70px] xl:ms-0 mt-6">
+                <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-blue-600 text-white rounded-sm ms-0 lg:ms-[70px] xl:ms-0 mt-6">
                   More About Us
                 </button>
               </Link>

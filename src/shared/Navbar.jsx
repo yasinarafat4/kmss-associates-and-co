@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar sticky top-0 z-50 bg-white shadow-lg dark:bg-slate-800  dark:text-white lg:px-20">
+    <nav className="navbar sticky top-0 z-50 bg-white shadow-lg dark:bg-slate-800  dark:text-slate-200 lg:px-20">
       <div className="flex-1">
         <Link to="/">
           <div className="flex flex-col justify-center items-center">
@@ -41,23 +41,23 @@ const Navbar = () => {
         <div className="menu menu-horizontal flex-col space-y-3 lg:space-y-0 px-1 lg:flex-row lg:gap-4 xl:gap-6">
           <div>
             <Link onClick={() => setNavToggle(false)} to="/">
-              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-green-500 hover:duration-500">
+              <p className="text-lg 2xl:text-xl font-medium hover:text-blue-500 hover:duration-500">
                 Home
               </p>
             </Link>
           </div>
           <a onClick={() => setNavToggle(false)} href="#services">
-            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-green-500 hover:duration-500">
+            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
               Services
             </p>
           </a>
           <a onClick={() => setNavToggle(false)} href="#about">
-            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-green-500 hover:duration-500">
+            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
               About
             </p>
           </a>
           <a onClick={() => setNavToggle(false)} href="#contact">
-            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-green-500 hover:duration-500">
+            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
               Contact
             </p>
           </a>
@@ -69,7 +69,7 @@ const Navbar = () => {
 
           {isDarkMode ? (
             <svg
-              className="swap-on h-8 w-8 fill-current text-slate-800 dark:text-white"
+              className="swap-on h-8 w-8 fill-current text-slate-800 dark:text-slate-200"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               onClick={handleThemeSwitch}
@@ -79,7 +79,7 @@ const Navbar = () => {
             </svg>
           ) : (
             <svg
-              className="swap-off h-8 w-8 fill-current text-slate-800 dark:text-white"
+              className="swap-off h-8 w-8 fill-current text-slate-800 dark:text-slate-200"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               onClick={handleThemeSwitch}
