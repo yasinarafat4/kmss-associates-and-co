@@ -8,7 +8,7 @@ const MoreAboutUs = () => {
       <h2 className="text-3xl lg:text-4xl font-semibold text-center text-orange-700 dark:text-slate-200">
         About Us
       </h2>
-      <div className="px-2 lg:px-10 py-4 space-y-3">
+      <div className="px-2 lg:px-10 py-4 space-y-3 text-base lg:text-lg">
         <p className="text-start text-slate-800 dark:text-slate-200">
           UNEX & Associates, a renowned consultancy firm in Dhaka, Bangladesh,
           offers comprehensive legal and professional services covering various
@@ -42,7 +42,7 @@ const MoreAboutUs = () => {
                 src={ceoImg}
                 alt="CEO Image"
               />
-              <div className="space-y-4">
+              <div className="space-y-4 text-base lg:text-lg">
                 <p className="text-start text-slate-800 dark:text-slate-200">
                   By the grace of almighty Allah, I am grateful to lead this
                   company and express my words. Most service & consultant
@@ -73,7 +73,7 @@ const MoreAboutUs = () => {
             alt="CEO Image"
           />
         </div>
-        <p className="w-full xl:w-10/12 text-start text-slate-800 dark:text-slate-200">
+        <p className="w-full xl:w-10/12 text-start text-slate-800 dark:text-slate-200 text-base lg:text-lg">
           Our company culture also demands that we create a work environment
           that stresses dignity and ethics and a commitment to client
           representation. <br className="md:hidden"/> <br className="md:hidden"/> We have been recognized as one of the best places to

@@ -63,10 +63,10 @@ const serviceData =[
               <IoMdCheckmarkCircle className="text-7xl text-blue-500 group-hover:text-slate-800 dark:group-hover:text-slate-400 group-hover:duration-500 " />
             </div>
             <div>
-              <h2 className="font-semibold text-base xl:text-lg">
+              <h2 className="font-semibold text-base xl:text-xl">
                 {service.name}
               </h2>
-              <p className="text-sm xl:text-base">
+              <p className="text-sm xl:text-lg">
                {service.subTitle}
               </p>
             </div>

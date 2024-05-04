@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = currentDate.getFullYear();
 
   return (
-    <footer className="bg-slate-950 dark:bg-slate-950 text-white pt-8 px-4">
+    <footer className="bg-slate-950 dark:bg-slate-950 text-white pt-8 px-4 text-base lg:text-lg">
       <div className="lg:grid grid-cols-3 gap-6 pb-8  md:px-10 xl:px-3">
         <div className="col-span-1 pb-3 lg:pb-0">
           <p>
@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="text-center md:flex items-center justify-between py-4 md:px-10 xl:px-3">
-        <p class="mt-4 text-sm">© {currentYear} All rights reserved by UNEX Associates.</p>
+        <p class="mt-4 text-base lg:text-lg">© {currentYear} All rights reserved by UNEX Associates.</p>
         {/* Social Icons */}
         <div className="flex justify-center items-center pt-3 gap-2">
           <a href="https://www.facebook.com">

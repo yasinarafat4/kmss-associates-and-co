@@ -31,7 +31,7 @@ const FAQs = () => {
         {accordionsData.map((PerAccordion, idx) => (
           <div key={idx} className="border-b border-gray-500 last-of-type:border-none">
             <button onClick={() => toggle(idx)} className="flex h-full w-full items-center justify-between py-4 font-medium text-white">
-              <span className="text-base lg:text-xl text-start">{PerAccordion.title}</span>
+              <span className="text-base lg:text-xl xl:text-[22px] text-start">{PerAccordion.title}</span>
               <span className="rounded-full p-2 ">
                 <svg className="ml-8 mr-7 shrink-0 fill-[#fff]" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                   <rect y="7" width="16" height="2" rx="1" className={`origin-center transform transition duration-200 ease-out ${isOpen === idx && '!rotate-180'}`} />
@@ -40,7 +40,7 @@ const FAQs = () => {
               </span>
             </button>
             <div className={`grid overflow-hidden text-gray-400 transition-all duration-300 ease-in-out ${isOpen === idx ? 'grid-rows-[1fr] pb-3 opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
-              <div className="overflow-hidden text-white text-sm text-start">{PerAccordion.description}</div>
+              <div className="overflow-hidden text-white text-sm lg:text-[17px] text-start">{PerAccordion.description}</div>
             </div>
           </div>
         ))}
