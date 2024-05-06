@@ -85,6 +85,7 @@ const MoreAboutUs = () => {
           valuable resource and I would like to wish the best of the future to
           them and the company.
         </p>
+        
       </div>
     </Container>
   );
