@@ -84,7 +84,7 @@ const ServiceOne = () => {
             </div>
           </div>
         </div>
-        {/* Trade License */}
+        {/* Company Registration */}
         <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-5 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
@@ -93,10 +93,11 @@ const ServiceOne = () => {
             >
               <div className="space-y-3  text-start">
                 <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
-                  1. Trade License
+                  2. Company Registration
                 </h2>
                 <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
-                  Learn about our trade license.
+                  Understand the process and requirements for company
+                  registration.{" "}
                 </p>
               </div>
               <div className="rounded-full bg-white p-5">
@@ -137,23 +138,97 @@ const ServiceOne = () => {
               <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
-                  UNEX & ASSOCIATES provides services in regard of application
-                  for Trade License local government / Pouroshava / Union/City
-                  Corporation in Bangladesh. Trade License is mandatory for
-                  every form of business entity in Bangladesh.
+                  Incorporating a company in Bangladesh could be difficult for
+                  some, unless the right applicable procedure is known. For
+                  incorporation of a company, there are various applicable
+                  provisions from several acts in Bangladesh.{" "}
+                  <br className="md:hidden" /> <br className="md:hidden" /> A
+                  brief understanding on what is required for the requirements
+                  and procedure for incorporation of a company in Bangladesh may
+                  be illustrated from the following:
                 </p>
                 <p className="text-md lg:text-lg">
-                  It is issued by the local government of the respective areas.
-                  Every business entity must obtain Trade License from each
-                  local government where it operates. If a business entity has
-                  more than one place of business, it must obtain Trade License
-                  from each local government/Pouroshava/Union/City Corporation.
+                  Generally, there are three types of companies, as per the
+                  Companies Act 1994:1.
+                </p>
+                <ul className="text-md lg:text-lg">
+                  <li>1. Company limited by shares</li>
+                  <li>2. Company limited by guarantee</li>
+                  <li>3. Company with unlimited liability</li>
+                </ul>
+                <p className="text-md lg:text-lg">
+                  Amongst the three, a company limited by shares, is the most
+                  common form of incorporation of a company in Bangladesh.{" "}
+                  <br className="md:hidden" /> <br className="md:hidden" /> The
+                  Registrar of Joint Stock Companies and Firms (RJSC) is the
+                  sole authority which facilitates formation of companies etc.;
+                  and keeps track of all ownership related issues as prescribed
+                  by the laws in Bangladesh.
                 </p>
                 <p className="text-md lg:text-lg">
-                  It is issued for one year and have to be renewed annually.
-                  Trade License attracts some government fees, which usually
-                  depends on the types of business.
+                  The step by step procedure for the incorporation of a company
+                  is the Registrar of Joint Stock Companies and Firms (RJSC), as
+                  no set guidelines are provided in the Companies Act 1994.
                 </p>
+                <ul>
+                  <span className="text-md lg:text-lg">
+                    For incorporation of a Private Company limited by shares in
+                    Bangladesh the following steps must be ensued:
+                  </span>
+                  <li>
+                    <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-1">
+                      1. Name Clearance | Company Incorporation in Bangladesh:
+                    </h2>
+                    <p className="text-md lg:text-lg">
+                      It is an online process where the applicant has to make an
+                      application for name clearance. A nominal amount has to be
+                      deposited into the bank prescribed by the RJSC website.
+                      <br className="md:hidden" /> <br className="md:hidden" />
+                      The name clearance is valid for 180 days and it is
+                      recommended that the company incorporation in Bangladesh
+                      is formed within this time; otherwise a new name clearance
+                      will have to be conducted.
+                    </p>
+                  </li>
+                  <li>
+                    <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
+                      2. Documentation | Company Incorporation in Bangladesh:
+                    </h2>
+                    <p className="text-md lg:text-lg">
+                      The following documents would be required to be submitted
+                      to RJSC for their verification:
+                    </p>
+                    <ul className="list-disc ms-8 text-base">
+                      <li>
+                        Memorandum and Articles of Association of the company;
+                      </li>
+                      <li>
+                        Promoters' resolution to open a Company in Bangladesh;
+                      </li>
+                      <li>
+                        Obtaining and executing the following forms for
+                        registering the company with RJSC;
+                      </li>
+                      <li>
+                        Filled in Form I: Declaration on registration of
+                        Company;
+                      </li>
+                      <li>
+                        Filled in Form VI: Notice of situation of registered
+                        office;
+                      </li>
+                      <li>Filled in Form IX: Consent of director to act;</li>
+                      <li>
+                        Filled in Form X: List of persons consenting to be
+                        directors;
+                      </li>
+                      <li>
+                        Filled in Form XII: Particulars of the directors,
+                        manager and managing agents
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
