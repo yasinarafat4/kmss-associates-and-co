@@ -230,42 +230,82 @@ const ServiceOne = () => {
                   </li>
                   <li>
                     <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
-                      3. Post Registration | Company Incorporation in Bangladesh:
+                      3. Post Registration | Company Incorporation in
+                      Bangladesh:
                     </h2>
                     <ul className="list-disc ms-8 text-base">
                       <li>
-                      Promoter shall open a temporary bank account in the name of the proposed company with any scheduled bank with the condition that the account shall be regularized once the company is duly registered with RJSC;
+                        Promoter shall open a temporary bank account in the name
+                        of the proposed company with any scheduled bank with the
+                        condition that the account shall be regularized once the
+                        company is duly registered with RJSC;
                       </li>
+                      <li>Capital contribution into the bank account;</li>
                       <li>
-                      Capital contribution into the bank account;
+                        Obtain encashment certificate from the bank which states
+                        that the amount required for capital contribution has
+                        been duly remitted in the temporary bank account of the
+                        proposed company;
                       </li>
-                      <li>
-                      Obtain encashment certificate from the bank which states that the amount required for capital contribution has been duly remitted in the temporary bank account of the proposed company;
-                      </li>
-                  
                     </ul>
                   </li>
                   <li>
                     <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
-                      4. Banking Formalities | Company Incorporation in Bangladesh:
+                      4. Banking Formalities | Company Incorporation in
+                      Bangladesh:
                     </h2>
                     <p className="text-md lg:text-lg">
-                    Post registration formalities include obtaining the following certificates/ licenses:
+                      Post registration formalities include obtaining the
+                      following certificates/ licenses:
                     </p>
                     <ul className="list-disc ms-8 text-base">
-                      <li>
-                      Tax Identification Number;
-                      </li>
-                      <li>
-                      Value Added Tax (VAT) Certificate;
-                      </li>
-                      <li>
-                      Trade License;
-                      </li>
-                  
+                      <li>Tax Identification Number;</li>
+                      <li>Value Added Tax (VAT) Certificate;</li>
+                      <li>Trade License;</li>
                     </ul>
                   </li>
-                
+                  <li>
+                    <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
+                      5. Return Filing | Company Incorporation in Bangladesh:
+                    </h2>
+                    <p className="text-md lg:text-lg">
+                      Registered entities are under an obligation to file
+                      returns in prescribed forms and schedules, and the RJSC
+                      upon satisfaction approves and preserves such records.
+                      There are two types of returns:
+                    </p>
+                    <span className="text-md mt-2">
+                      <strong>a) Annual Return:</strong> Every year the company
+                      must submit the following documents to the RJSC-
+                    </span>
+                    <ul className="list-disc ms-8 text-base">
+                      <li>
+                        Schedule X: It is an annual summary of share capital and
+                        list of shareholders; S.36;
+                      </li>
+                      <li>
+                        Balance Sheet within 30 days from the date of Annual
+                        General Meeting (AGM);
+                      </li>
+                      <li>
+                        Profit and Loss Account within 30 days from the date of
+                        AGM;
+                      </li>
+                      <li>
+                        Form 23B: It is a letter of approval by the auditor to
+                        be submitted within 30 days since the date of
+                        appointment;
+                      </li>
+                    </ul>
+                    <span className="text-md mt-2">
+                      <strong>b) Return for any change in entity:</strong> In
+                      case of any change made in the company, a relevant return
+                      in prescribed form must be filed with the RJSC. If you
+                      need a company consultant to help register your company,
+                      get an appointment with our Company lawyer for further
+                      details.
+                    </span>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -409,7 +449,6 @@ const ServiceOne = () => {
         </div> */}
 
         <ul>
-          <li>ii) Company Registration</li>
           <li>iii) Tax ID (TIN)</li>
           <li>iv) Value Added Tax (BIN)</li>
           <li>v) ERC Registration</li>
