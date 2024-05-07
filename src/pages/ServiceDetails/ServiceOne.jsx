@@ -230,7 +230,7 @@ const ServiceOne = () => {
                   </li>
                   <li>
                     <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
-                      3. Banking Formalities | Company Incorporation in Bangladesh:
+                      3. Post Registration | Company Incorporation in Bangladesh:
                     </h2>
                     <ul className="list-disc ms-8 text-base">
                       <li>
@@ -245,6 +245,27 @@ const ServiceOne = () => {
                   
                     </ul>
                   </li>
+                  <li>
+                    <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
+                      4. Banking Formalities | Company Incorporation in Bangladesh:
+                    </h2>
+                    <p className="text-md lg:text-lg">
+                    Post registration formalities include obtaining the following certificates/ licenses:
+                    </p>
+                    <ul className="list-disc ms-8 text-base">
+                      <li>
+                      Tax Identification Number;
+                      </li>
+                      <li>
+                      Value Added Tax (VAT) Certificate;
+                      </li>
+                      <li>
+                      Trade License;
+                      </li>
+                  
+                    </ul>
+                  </li>
+                
                 </ul>
               </div>
             </div>
