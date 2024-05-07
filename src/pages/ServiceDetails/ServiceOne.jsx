@@ -228,6 +228,23 @@ const ServiceOne = () => {
                       </li>
                     </ul>
                   </li>
+                  <li>
+                    <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
+                      3. Banking Formalities | Company Incorporation in Bangladesh:
+                    </h2>
+                    <ul className="list-disc ms-8 text-base">
+                      <li>
+                      Promoter shall open a temporary bank account in the name of the proposed company with any scheduled bank with the condition that the account shall be regularized once the company is duly registered with RJSC;
+                      </li>
+                      <li>
+                      Capital contribution into the bank account;
+                      </li>
+                      <li>
+                      Obtain encashment certificate from the bank which states that the amount required for capital contribution has been duly remitted in the temporary bank account of the proposed company;
+                      </li>
+                  
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
