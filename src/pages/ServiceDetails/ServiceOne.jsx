@@ -416,8 +416,7 @@ const ServiceOne = () => {
                     <div className="text-sm lg:text-base ps-6 py-2">
                       The default turnaround time is 24 hours, but if you need
                       your edits faster, you can choose to pay a bit more and
-                      get them sooner. Likewise, if you don&apos;t mind waiting,
-                      you can save some money.
+                      get them sooner.
                     </div>
                   </li>
                   <li className="pb-4">
