@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import ServiceBanner from "../../components/ServiceBanner";
 
 const ServiceOne = () => {
@@ -368,10 +369,6 @@ const ServiceOne = () => {
                   Bangladesh:
                 </p>
                 <ul className="list-disc ms-8 text-base">
-                  <span className="text-md lg:text-lg">
-                    Documents Required for obtaining TIN for Company in
-                    Bangladesh:
-                  </span>
                   <li>Photocopy of Trade License</li>
                   <li>Personal Details (If Person)</li>
                   <li>
@@ -393,6 +390,55 @@ const ServiceOne = () => {
                   <li>Date of incorporation of the company</li>
                   <li>Name of authorized person</li>
                 </ul>
+                <div className="ms-7 lg:ms-10">
+                  <p className="flex items-center gap-1">
+                    <BsFillArrowRightCircleFill />{" "}
+                    <span>Official Time limit - 5 hours</span>
+                  </p>
+                  <p className="flex items-center gap-1">
+                    <BsFillArrowRightCircleFill />{" "}
+                    <span>Government fees - NILL</span>
+                  </p>
+                </div>
+                <div className="space-y-4 ms-2 lg:ms-4">
+                  <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
+                    Tax Identification Number (TIN)
+                  </h2>
+                  <p className="text-md lg:text-lg">
+                    TIN means Tax Identification Number (TIN). Where e-TIN means
+                    Electronic Tax Identification Number (e-TIN). In Bangladesh,
+                    The only authority to provide the Tax Identification Number
+                    (TIN) is National Board of Revenue (NBR).  <br className="md:hidden" /> <br className="md:hidden" /> To obtain Tax
+                    Identification Number, one can apply either in manually or
+                    electrically through National Board of Revenue (NBR).
+                  </p>
+                  <p className="text-md lg:text-lg">
+                    Tax is the main source of revenue for the government of any
+                    country. The current government, which is aimed to
+                    digitalization the nations have pursued the Electronic tax
+                    identification number (E-TIN) with the aim of enhancing the
+                    effectiveness and efficiency of tax collection procedure. <br className="md:hidden" /> <br className="md:hidden" />
+                    Under this scenario, Taxpayer's Identification Number (TIN)
+                    Certificate is very important documents for Bangladeshi
+                    personnel and companies.
+                  </p>
+                  <p className="text-md lg:text-lg">
+                    As per The Income Tax Ordinance, 1984, Under section 124A,
+                    without reasonable cause, if any person uses other persons
+                    Tax Identification number (TIN), or use fake tax
+                    identification number (TIN) during the time of submitting
+                    return of income then Deputy Commissioner of Taxes (DCT) may
+                    impose penalty upto BDT 20,000.
+                  </p>
+                  <p className="text-md lg:text-lg">
+                    Under section 124AA, without reasonable cause, if a person
+                    fails the verification of the authenticity of twelve-digit
+                    tax identification Number (TIN) then the Deputy Commissioner
+                    of Taxes (DCT) or any other income tax authority authorized
+                    by the Board for this purpose, may impose a penalty upto
+                    BDT. 50,000.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -532,7 +578,6 @@ const ServiceOne = () => {
         </div> */}
 
         <ul>
-          <li>iii) Tax ID (TIN)</li>
           <li>iv) Value Added Tax (BIN)</li>
           <li>v) ERC Registration</li>
           <li>vi) IRC Registration</li>
