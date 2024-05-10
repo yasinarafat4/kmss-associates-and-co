@@ -371,9 +371,7 @@ const ServiceOne = () => {
                 </h2>
                 <p className="text-sm lg:text-base">
                   When you start a new order, we&apos;ll ask a few questions and
-                  then analyze your images on the spot. You&apos;ll get an
-                  accurate quote right away, so you know exactly how much your
-                  order will cost before you finish your request.
+                  then analyze your images on the spot.
                 </p>
                 <p className="text-sm lg:text-base">
                   Here&apos;s a breakdown of what we&apos;re looking at when we
