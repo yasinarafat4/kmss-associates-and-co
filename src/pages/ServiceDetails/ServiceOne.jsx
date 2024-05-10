@@ -311,17 +311,103 @@ const ServiceOne = () => {
             </div>
           </div>
         </div>
+        {/* Tax ID (TIN)*/}
+        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-5 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+          <div>
+            <button
+              onClick={() => toggle(3)}
+              className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
+            >
+              <div className="space-y-3  text-start">
+                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                  3. Tax ID (TIN)
+                </h2>
+                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                  Understanding the basics of Tax Identification Numbers
+                </p>
+              </div>
+              <div className="rounded-full bg-white p-5">
+                <svg
+                  className="shrink-0 fill-[#00A2FF]"
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`origin-center transform transition duration-200 ease-out ${
+                      isOpen == 3 && "!rotate-180"
+                    }`}
+                  />
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`origin-center rotate-90 transform transition duration-200 ease-out ${
+                      isOpen == 3 && "!rotate-180"
+                    }`}
+                  />
+                </svg>
+              </div>
+            </button>
+            <div
+              className={`grid overflow-hidden text-gray-400 transition-all duration-300 ease-in-out rounded-b-lg ${
+                isOpen == 3
+                  ? "grid-rows-[1fr] opacity-100"
+                  : "grid-rows-[0fr] opacity-0"
+              }`}
+            >
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+                {" "}
+                <p className="text-md lg:text-lg">
+                  Documents Required for obtaining TIN for Company in
+                  Bangladesh:
+                </p>
+                <ul className="list-disc ms-8 text-base">
+                  <span className="text-md lg:text-lg">
+                    Documents Required for obtaining TIN for Company in
+                    Bangladesh:
+                  </span>
+                  <li>Photocopy of Trade License</li>
+                  <li>Personal Details (If Person)</li>
+                  <li>
+                    Copy of Memorandum and Articles of Association (If Company)
+                  </li>
+                  <li>
+                    Bank Solvency Certificate (If Company or Proprietorship)
+                  </li>
+                  <li>
+                    Three copies of photograph of Owner (If Proprietorship)
+                  </li>
+                  <li>
+                    Three copies of photograph of Managing Director (If Company)
+                  </li>
+                  <li>Three copies of photograph (If Person)</li>
+                  <li>National ID/ Passport copy of Entrepreneur</li>
+                  <li>Mobile phone number</li>
+                  <li>Incorporation number of the company</li>
+                  <li>Date of incorporation of the company</li>
+                  <li>Name of authorized person</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/*
-        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-10 lg:mb-14 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+         <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-10 lg:mb-14 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(0)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
-              
               <div className="space-y-3  text-start">
                 <h2 className="text-xl text-blue-600 dark:text-white font-semibold">
-                1. Trade License
+                  1. Trade License
                 </h2>
                 <p className="text-md text-blue-600 dark:text-white font-medium">
                   Take a look at what goes into your total cost
