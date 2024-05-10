@@ -498,7 +498,7 @@ const ServiceOne = () => {
                 {" "}
                 <h2 className="text-lg md:text-xl font-semibold">
                   Every order is different, and your total photo editing rates
-                  will be calculated based on your services, number of images,
+                  will be calculated based on your services,
                   overall complexity, and speed of your edits.
                 </h2>
                 <p className="text-sm lg:text-base">
