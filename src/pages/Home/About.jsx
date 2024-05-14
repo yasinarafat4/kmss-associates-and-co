@@ -15,7 +15,7 @@ const About = () => {
             <div className="order-last xl:order-first col-span-3 space-y-4 md:space-y-6">
               <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
                 <strong>KMSS & Associates</strong> is a
-                prestigious consultancy firm located in Dhaka, Bangladesh.
+                renowned consultancy firm located in Dhaka, Bangladesh.
               </p>
               <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
                 The firm offers a variety of legal and professional services,
