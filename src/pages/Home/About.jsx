@@ -14,7 +14,7 @@ const About = () => {
           <div className="grid grid-cols-1 xl:grid-cols-5 items-center xl:gap-10">
             <div className="order-last xl:order-first col-span-3 space-y-4 md:space-y-6">
               <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
-                <strong>KMSS & Associates</strong> KMSS & Associates is a
+                <strong>KMSS & Associates</strong> is a
                 prestigious consultancy firm located in Dhaka, Bangladesh.
               </p>
               <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
