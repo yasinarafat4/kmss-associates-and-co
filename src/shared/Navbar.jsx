@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../src/assets/unex_logo.png";
+import logo from "../../src/assets/kmss_logo.png";
 
 const Navbar = () => {
   // States
@@ -29,7 +29,6 @@ const Navbar = () => {
         <Link to="/">
           <div className="flex flex-col justify-center items-center">
             <img className="w-20 md:w-28" src={logo} alt="nav_logo" />
-            <p className="text-slate-400 dark:text-orange-600 text-xs md:text-base tracking-wide md:tracking-wider">Associates</p>
           </div>
         </Link>
       </div>
