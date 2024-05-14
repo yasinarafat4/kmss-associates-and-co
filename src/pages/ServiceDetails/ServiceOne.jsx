@@ -64,7 +64,7 @@ const ServiceOne = () => {
               <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
-                  UNEX & ASSOCIATES provides services in regard of application
+                  KMSS & ASSOCIATES provides services in regard of application
                   for Trade License local government / Pouroshava / Union/City
                   Corporation in Bangladesh. Trade License is mandatory for
                   every form of business entity in Bangladesh.

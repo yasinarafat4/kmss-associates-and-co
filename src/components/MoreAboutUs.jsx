@@ -10,7 +10,7 @@ const MoreAboutUs = () => {
       </h2>
       <div className="px-2 lg:px-10 py-4 space-y-3 text-base lg:text-lg">
         <p className="text-start text-slate-800 dark:text-slate-200">
-          UNEX & Associates, a renowned consultancy firm in Dhaka, Bangladesh,
+          KMSS & Associates, a renowned consultancy firm in Dhaka, Bangladesh,
           offers comprehensive legal and professional services covering various
           acts such as the Companies Act, Trade Organization Act, and Trust Act.
         </p>
@@ -54,7 +54,7 @@ const MoreAboutUs = () => {
                 </p>
 
                 <p className="text-start text-slate-800 dark:text-slate-200">
-                  UNEX & Associates, this family of chartered accountants,
+                  KMSS & Associates, this family of chartered accountants,
                   associates, and staff, has been motivated by a desire to see
                   our clients succeed, grow, and prosper. <br className="md:hidden"/> <br className="md:hidden"/> Our company is focused
                   on providing the highest level of client services, and our

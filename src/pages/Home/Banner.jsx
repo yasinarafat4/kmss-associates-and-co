@@ -13,7 +13,7 @@ const Banner = () => {
       <div className="hero-content flex items-center justify-start text-neutral-content">
         <div>
           <h1 className="mb-5 text-2xl md:text-4xl lg:text-5xl font-bold">
-            Welcome to UNEX Associates!
+            Welcome to KMSS Associates!
           </h1>
           <p className="mb-5 w-full md:w-3/5 lg:w-2/5 text-sm md:text-base lg:text-lg">
           Trusted legal and professional consultants specializing in corporate law, tax, accounting, VAT, and investment services. Get expert guidance and personalized support. Choose us for comprehensive solutions.
