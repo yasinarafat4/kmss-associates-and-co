@@ -408,16 +408,19 @@ const ServiceOne = () => {
                     TIN means Tax Identification Number (TIN). Where e-TIN means
                     Electronic Tax Identification Number (e-TIN). In Bangladesh,
                     The only authority to provide the Tax Identification Number
-                    (TIN) is National Board of Revenue (NBR).  <br className="md:hidden" /> <br className="md:hidden" /> To obtain Tax
-                    Identification Number, one can apply either in manually or
-                    electrically through National Board of Revenue (NBR).
+                    (TIN) is National Board of Revenue (NBR).{" "}
+                    <br className="md:hidden" /> <br className="md:hidden" /> To
+                    obtain Tax Identification Number, one can apply either in
+                    manually or electrically through National Board of Revenue
+                    (NBR).
                   </p>
                   <p className="text-md lg:text-lg">
                     Tax is the main source of revenue for the government of any
                     country. The current government, which is aimed to
                     digitalization the nations have pursued the Electronic tax
                     identification number (E-TIN) with the aim of enhancing the
-                    effectiveness and efficiency of tax collection procedure. <br className="md:hidden" /> <br className="md:hidden" />
+                    effectiveness and efficiency of tax collection procedure.{" "}
+                    <br className="md:hidden" /> <br className="md:hidden" />
                     Under this scenario, Taxpayer's Identification Number (TIN)
                     Certificate is very important documents for Bangladeshi
                     personnel and companies.
@@ -443,20 +446,19 @@ const ServiceOne = () => {
             </div>
           </div>
         </div>
-
-        {/*
-         <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-10 lg:mb-14 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        {/* Value Added Tax (BIN)*/}
+        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-5 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
-              onClick={() => toggle(0)}
+              onClick={() => toggle(4)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
               <div className="space-y-3  text-start">
-                <h2 className="text-xl text-blue-600 dark:text-white font-semibold">
-                  1. Trade License
+                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                  4. Value Added Tax (BIN)
                 </h2>
-                <p className="text-md text-blue-600 dark:text-white font-medium">
-                  Take a look at what goes into your total cost
+                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                  Understanding Value Added Tax (VAT)
                 </p>
               </div>
               <div className="rounded-full bg-white p-5">
@@ -472,7 +474,7 @@ const ServiceOne = () => {
                     height="2"
                     rx="1"
                     className={`origin-center transform transition duration-200 ease-out ${
-                      isOpen == 0 && "!rotate-180"
+                      isOpen == 4 && "!rotate-180"
                     }`}
                   />
                   <rect
@@ -481,7 +483,7 @@ const ServiceOne = () => {
                     height="2"
                     rx="1"
                     className={`origin-center rotate-90 transform transition duration-200 ease-out ${
-                      isOpen == 0 && "!rotate-180"
+                      isOpen == 4 && "!rotate-180"
                     }`}
                   />
                 </svg>
@@ -489,92 +491,53 @@ const ServiceOne = () => {
             </button>
             <div
               className={`grid overflow-hidden text-gray-400 transition-all duration-300 ease-in-out rounded-b-lg ${
-                isOpen == 0
+                isOpen == 4
                   ? "grid-rows-[1fr] opacity-100"
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
               <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
                 {" "}
-                <h2 className="text-lg md:text-xl font-semibold">
-                  Every order is different, and your total photo editing rates
-                  will be calculated based on your services,
-                  overall complexity, and speed of your edits.
-                </h2>
-                <p className="text-sm lg:text-base">
-                  When you start a new order, we&apos;ll ask a few questions and
-                  then analyze your images on the spot.
+                <p className="text-md lg:text-lg">
+                  KMSS & Associates has a very significant practice and
+                  experience in VAT related services in Bangladesh. UNEX &
+                  Associates provides the best VAT Consultant in Bangladesh who
+                  is the experts in VAT Law which are in generally divided to
+                  Value Added Tax.
                 </p>
-                <p className="text-sm lg:text-base">
-                  Here&apos;s a breakdown of what we&apos;re looking at when we
-                  assess your order and determine your photo editing rates:
+                <p className="text-md lg:text-lg font-semibold underline text-center">
+                  VAT Certificate require to submit following documents:
                 </p>
-                <ul>
-                  <li className="pb-4">
-                    <div className="flex items-center gap-2 text-sm lg:text-lg">
-                      <span className="text-blue-400 dark:text-white">1.</span>
-                      <h3 className="font-semibold">Service type</h3>
-                    </div>
-                    <div className="text-sm lg:text-base ps-6 py-2">
-                      Each service has a different starting price based on how
-                      complicated it is, and how long it will take your
-                      designer. You can also combine services—for example
-                      background removal + shadow—and when you do this,
-                      you&apos;ll get a combined total that accounts for all of
-                      the services you&apos;ve chosen.
-                    </div>
-                  </li>
-                  <li className="py-4">
-                    <div className="flex items-center gap-2 text-sm lg:text-lg">
-                      <span className="text-blue-400 dark:text-white">2.</span>
-                      <h3 className="font-semibold">Complexity</h3>
-                    </div>
-                    <div className="text-sm lg:text-base ps-6 py-2">
-                      Not all edits are created equal. If you only need a simple
-                      cutout against a plain background, that will cost less
-                      than something more complicated (for example, a cutout of
-                      a birdcage, or a curly-haired model standing against a
-                      wire fence). We&apos;ll analyze each image to see how
-                      complicated your edits are, then price them to match.
-                    </div>
-                  </li>
-                  <li className="py-4">
-                    <div className="flex items-center gap-2 text-sm lg:text-lg">
-                      <span className="text-blue-400 dark:text-white">3.</span>
-                      <h3 className="font-semibold">Turnaround time</h3>
-                    </div>
-                    <div className="text-sm lg:text-base ps-6 py-2">
-                      The default turnaround time is 24 hours, but if you need
-                      your edits faster.
-                    </div>
-                  </li>
-                  <li className="pb-4">
-                    <div className="flex items-center gap-2 text-sm lg:text-lg">
-                      <span className="text-blue-400 dark:text-white">4.</span>
-                      <h3 className="font-semibold">Number of copies</h3>
-                    </div>
-                    <div className="text-sm lg:text-base ps-6 py-2">
-                      Need multiple copies of the same image in different sizes
-                      or formats? These are priced per copy, at a rate of 20¢
-                      per file if you&apos;ve chosen the standard turnaround
-                      time.
-                    </div>
-                  </li>
-                </ul>
-                <div className="bg-blue-100 dark:bg-slate-700 py-8 px-8 rounded-lg space-y-6">
-                  <p className="text-lg text-center text-blue-600 dark:text-white">
-                    It&apos;s quick and easy to{" "}
-                    <span className="font-semibold">
-                      see exactly how much your photo editing rates will cost.
-                    </span>{" "}
-                    Just start a new order, upload your images, and see your
-                    total right there.
+                <div>
+                  <p className="text-md lg:text-lg">
+                    Requirement for VAT registration
                   </p>
+                  <ul className="ms-4 text-base">
+                    <li>1. eTIN Certificate</li>
+                    <li>2. Trade Licence</li>
+                    <li>3. Bank Solvency Certificate</li>
+                    <li>4. Old VAT (if Any)</li>
+                    <li>5. NID (For Declaration)</li>
+                    <li>6. eMail Address</li>
+                    <li>7. Mobile No</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-md lg:text-lg">
+                    For Company
+                  </p>
+                  <ul className="ms-4 text-base">
+                    <li>1. Incorporation Certificate</li>
+                    <li>2. MOA and AOA</li>
+                    <li>3. Form XII</li>
+                    <li>4. NID (All Directors)</li>
+                    <li>5. Yearly Turn Over (Effective Date)</li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <ul>
           <li>iv) Value Added Tax (BIN)</li>
