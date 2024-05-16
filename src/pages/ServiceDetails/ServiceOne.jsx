@@ -652,15 +652,15 @@ const ServiceOne = () => {
         <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-5 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
-              onClick={() => toggle(5)}
+              onClick={() => toggle(6)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
               <div className="space-y-3  text-start">
                 <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
-                  5. ERC Registration
+                  6. IRC Registration
                 </h2>
                 <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
-                  Understanding ERC Registration Process
+                  Understanding IRC Registration Process
                 </p>
               </div>
               <div className="rounded-full bg-white p-5">
@@ -676,7 +676,7 @@ const ServiceOne = () => {
                     height="2"
                     rx="1"
                     className={`origin-center transform transition duration-200 ease-out ${
-                      isOpen == 5 && "!rotate-180"
+                      isOpen == 6 && "!rotate-180"
                     }`}
                   />
                   <rect
@@ -685,7 +685,7 @@ const ServiceOne = () => {
                     height="2"
                     rx="1"
                     className={`origin-center rotate-90 transform transition duration-200 ease-out ${
-                      isOpen == 5 && "!rotate-180"
+                      isOpen == 6 && "!rotate-180"
                     }`}
                   />
                 </svg>
@@ -693,69 +693,12 @@ const ServiceOne = () => {
             </button>
             <div
               className={`grid overflow-hidden text-gray-400 transition-all duration-300 ease-in-out rounded-b-lg ${
-                isOpen == 5
+                isOpen == 6
                   ? "grid-rows-[1fr] opacity-100"
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
-                {" "}
-                <p className="text-md lg:text-lg">
-                  Export Registration Certificate is one of the most essential
-                  documents for starting international business.<br className="md:hidden" /> <br className="md:hidden" /> At present
-                  export business is the most profitable one of Bangladesh
-                  business sector. Bangladesh holds a prominent position in the global market as a leading exporter of ready-made garments, frozen food, and potatoes.<br/><br/> Additionally, it maintains a strong presence in sectors such as vegetable goods, handicrafts, seafood, jute products, and agro-based items.  Without having export registration certificate (ERC)
-                  nobody can export Bangladesh goods to foreign country.
-                </p>
-                <p className="text-md lg:text-lg">
-                  Bangladesh Govt. cordially encourages to enthusiastic foreign
-                  and local entrepreneur who wants to set up-export oriented
-                  business to invest a lot of lucrative business sector into the
-                  country.<br/><br/> The government has established export processing zones to enhance Bangladesh's export industry globally.<br className="md:hidden" /> <br className="md:hidden" />  To initiate an export business, one must obtain a trade license followed by an export registration certificate; without these, conducting export operations is not feasible.<br className="md:hidden" /> <br className="md:hidden" />  Typically, foreign investors begin their export ventures by registering a limited company with the RJSC (Registrar of Joint Stock Companies and Firms).
-                </p>
-                <p className="text-md lg:text-lg font-semibold underline text-center">
-                  Required Supporting Documents:
-                </p>
-                <div>
-                  <p className="text-md lg:text-lg">Requirement:</p>
-                  <ul className="ms-4 text-base">
-                    <li>1. Owner/MD ID Card PhotoCopy</li>
-                    <li>2. Owner/MD Photo - 5 Copies</li>
-                    <li>3. Company eTIN</li>
-                    <li>4. Trade License</li>
-                    <li>5. Bank A/C (Financial Solvency Certificate)</li>
-                    <li>
-                      6. Membership (Business-related Association membership)
-                    </li>
-                    <li>7. Treasury Challan</li>
-                  </ul>
-                </div>
-                <div>
-                  <p className="text-md lg:text-lg">Add for Company</p>
-                  <ul className="ms-4 text-base">
-                    <li>1. M & A of Association</li>
-                    <li>2. Incorporation</li>
-                    <li>3. Form XII</li>
-                  </ul>
-                </div>
-                <div>
-                  <p className="text-md lg:text-lg font-semibold underline text-start">
-                    PROCESS STEPS
-                  </p>
-                  <ul className="ms-4 text-base space-y-2">
-                    <li>
-                      <strong>Step 1:</strong> Collect ERC form from office of Controller Import
-                      and Export.
-                    </li>
-                    <li>
-                      <strong>Step 2:</strong> Deposit schedule fees at Bangladesh Bank or any
-                      banking channel Fees should be deposits under the head
-                      bKash, Nagad, Online Banking Collect and complete 3 copies
-                      of A Challan Form and pay the Schedule fee.
-                    </li>
-                  </ul>
-                </div>
-              </div>
+           {/* TODO */}
             </div>
           </div>
         </div>
