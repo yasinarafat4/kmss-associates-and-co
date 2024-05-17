@@ -704,7 +704,6 @@ const ServiceOne = () => {
         </div>
 
         <ul>
-          <li>vi) IRC Registration</li>
           <li>vii) Factory / Establishment Registration</li>
           <li>viii) Fire Licenses </li>
           <li>ix) Environment Clearance Certificate</li>
