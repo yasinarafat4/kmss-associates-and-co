@@ -703,6 +703,7 @@ const ServiceOne = () => {
           </div>
         </div>
 
+{/* Rest list */}
         <ul>
           <li>vii) Factory / Establishment Registration</li>
           <li>viii) Fire Licenses </li>
