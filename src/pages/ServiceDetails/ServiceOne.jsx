@@ -705,9 +705,9 @@ const ServiceOne = () => {
 
 {/* Rest list */}
         <ul>
-          <li>vii) Factory / Establishment Registration</li>
-          <li>viii) Fire Licenses </li>
-          <li>ix) Environment Clearance Certificate</li>
+          <li>i) Factory / Establishment Registration</li>
+          <li>ii) Fire Licenses </li>
+          <li>iii) Environment Clearance Certificate</li>
         </ul>
       </div>
     </>
