@@ -893,12 +893,13 @@ const ServiceOne = () => {
                     <br className="md:hidden" /> FSDC authority visits the
                     establishment and issues the demand note. The applicant is
                     required to pay the amount prescribed in the Demand note to
-                    the bank. <br /><br/> On submitting the bank receipt slip to the
-                    FSDC office, the inspector shall re-inspect the
-                    establishment. <br className="md:hidden" />{" "}
-                    <br className="md:hidden" /> If he is satisfied that the
-                    establishment fulfils the standard requirement of fire
-                    safety, FSDC shall issue a fire certificate.
+                    the bank. <br />
+                    <br /> On submitting the bank receipt slip to the FSDC
+                    office, the inspector shall re-inspect the establishment.{" "}
+                    <br className="md:hidden" /> <br className="md:hidden" /> If
+                    he is satisfied that the establishment fulfils the standard
+                    requirement of fire safety, FSDC shall issue a fire
+                    certificate.
                   </p>
                 </div>
                 <div>
@@ -919,10 +920,104 @@ const ServiceOne = () => {
             </div>
           </div>
         </div>
+        {/* Factory / Establishment Registration*/}
+        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-5 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+          <div>
+            <button
+              onClick={() => toggle(8)}
+              className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
+            >
+              <div className="space-y-3  text-start">
+                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                  8. Factory / Establishment Registration
+                </h2>
+                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                  Necessary Documentation for Factory Registration
+                </p>
+              </div>
+              <div className="rounded-full bg-white p-5">
+                <svg
+                  className="shrink-0 fill-[#00A2FF]"
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`origin-center transform transition duration-200 ease-out ${
+                      isOpen == 8 && "!rotate-180"
+                    }`}
+                  />
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`origin-center rotate-90 transform transition duration-200 ease-out ${
+                      isOpen == 8 && "!rotate-180"
+                    }`}
+                  />
+                </svg>
+              </div>
+            </button>
+            <div
+              className={`grid overflow-hidden text-gray-400 transition-all duration-300 ease-in-out rounded-b-lg ${
+                isOpen == 8
+                  ? "grid-rows-[1fr] opacity-100"
+                  : "grid-rows-[0fr] opacity-0"
+              }`}
+            >
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+                {" "}
+                <p className="text-md lg:text-lg">
+                  {" "}
+                  An authority of the factory shall apply to the District
+                  offices of the Department of Inspection for factories and
+                  Establishments for its construction, establishment or
+                  expansion, obtaining license or renewing it.
+                </p>
+                <div>
+                  <p className="text-md lg:text-lg font-semibold">
+                    Documents Required
+                  </p>
+                  <ul className="ms-6 text-base list-disc">
+                    <li>Construction design of the factory</li>
+                    <li>Photocopy of the trade license</li>
+                    <li>Duly filled in Form 1 and Form 2</li>
+                    <li>Memorandum of Association (Limited Company only)</li>
+                    <li>
+                      Original copy of license fee or renewal fee or Treasury
+                      Challan
+                    </li>
+                    <li>
+                      Receipt of License and Renewal Fee payment according to
+                      the number of workers
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-sm lg:text-md">
+                    {" "}
+                    Please note that factory license is required to be renewed
+                    by 31st December of each year by paying the scheduled
+                    renewal fee.
+                    <br className="md:hidden" /> <br className="md:hidden" /> If
+                    the application for factory construction, expansion,
+                    registration or license is refused for any reason, the
+                    applicant has the right to appeal to the government within
+                    30 (thirty) days of the refusal.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Rest list */}
         <ul>
-          <li>i) Factory / Establishment Registration</li>
           <li>ii) Environment Clearance Certificate</li>
         </ul>
       </div>
