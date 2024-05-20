@@ -786,12 +786,136 @@ const ServiceOne = () => {
             </div>
           </div>
         </div>
+        {/* Fire Licenses*/}
+        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-5 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+          <div>
+            <button
+              onClick={() => toggle(7)}
+              className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
+            >
+              <div className="space-y-3  text-start">
+                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                  7. Fire Licenses
+                </h2>
+                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                  Requirements for Obtaining a Fire License
+                </p>
+              </div>
+              <div className="rounded-full bg-white p-5">
+                <svg
+                  className="shrink-0 fill-[#00A2FF]"
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`origin-center transform transition duration-200 ease-out ${
+                      isOpen == 7 && "!rotate-180"
+                    }`}
+                  />
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`origin-center rotate-90 transform transition duration-200 ease-out ${
+                      isOpen == 7 && "!rotate-180"
+                    }`}
+                  />
+                </svg>
+              </div>
+            </button>
+            <div
+              className={`grid overflow-hidden text-gray-400 transition-all duration-300 ease-in-out rounded-b-lg ${
+                isOpen == 7
+                  ? "grid-rows-[1fr] opacity-100"
+                  : "grid-rows-[0fr] opacity-0"
+              }`}
+            >
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+                {" "}
+                <p className="text-md lg:text-lg">
+                  {" "}
+                  Fire License is an obligatory permit which is required by all
+                  factories in Bangladesh as set out by the Fire Prevention and
+                  Fire Fighting Act, 2003. <br className="md:hidden" />{" "}
+                  <br className="md:hidden" /> This Act sets out regulatory
+                  enactments in regards to the prevention, successful
+                  extinguishing of fire and also reduction of damages and
+                  consequences of fire. <br className="md:hidden" />{" "}
+                  <br className="md:hidden" /> The Fire License in Bangladesh is
+                  issued by Fire Service and Civil Defence (FSCD).
+                </p>
+                <div>
+                  <p className="text-md lg:text-lg font-semibold">
+                    The following documents are required for obtaining Fire
+                    License:
+                  </p>
+                  <ul className="ms-6 text-base list-disc">
+                    <li>Duly filled-in prescribed application form</li>
+                    <li>Trade license</li>
+                    <li>
+                      Yearly Valuation Certificate from the relevant City
+                      Corporation or Municipality's zonal office
+                    </li>
+                    <li>Deed of Agreement and receipt of rent</li>
+                    <li>
+                      Layout of the establishment authorized by RAJUK or City
+                      Corporation or relevant municipality's zonal office
+                    </li>
+                    <li>
+                      Certificate of Incorporation and Memorandum of Association
+                    </li>
+                    <li>
+                      No-Objection-Certificate (NOC) from local representative
+                    </li>
+                    <li>Clearance certificate from the FSCD office</li>
+                    <li>
+                      Duly filled in additional form (in case of garment's
+                      factories)
+                    </li>
+                    <li>Treasury Challan or Demand note</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-md lg:text-lg">
+                    (To facilitate verification of the submitted documents,
+                    applicants are requested to submit the original documents as
+                    well. The original copies of the documents will be returned
+                    at the completion of the process).
+                  </p>
+                </div>
+                <div>
+                  <p className="text-md lg:text-lg font-semibold underline text-start">
+                    PROCESS STEPS
+                  </p>
+                  <ul className="ms-4 text-base space-y-2">
+                    <li>
+                      <strong>Step 1:</strong> Collect IRC form from office of
+                      Controller Import and Export.
+                    </li>
+                    <li>
+                      <strong>Step 2:</strong> Deposit the scheduled fees at
+                      Bangladesh Bank or through any banking channel. Fees can
+                      be deposited via bKash, Nagad, or Online Banking. Collect
+                      and complete three copies of the A Challan Form and pay
+                      the scheduled fee.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Rest list */}
         <ul>
           <li>i) Factory / Establishment Registration</li>
-          <li>ii) Fire Licenses </li>
-          <li>iii) Environment Clearance Certificate</li>
+          <li>ii) Environment Clearance Certificate</li>
         </ul>
       </div>
     </>
