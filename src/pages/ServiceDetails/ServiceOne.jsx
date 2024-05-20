@@ -591,22 +591,40 @@ const ServiceOne = () => {
                 {" "}
                 <p className="text-md lg:text-lg">
                   Export Registration Certificate is one of the most essential
-                  documents for starting international business.<br className="md:hidden" /> <br className="md:hidden" /> At present
-                  export business is the most profitable one of Bangladesh
-                  business sector. Bangladesh holds a prominent position in the global market as a leading exporter of ready-made garments, frozen food, and potatoes.<br/><br/> Additionally, it maintains a strong presence in sectors such as vegetable goods, handicrafts, seafood, jute products, and agro-based items.  Without having export registration certificate (ERC)
-                  nobody can export Bangladesh goods to foreign country.
+                  documents for starting international business.
+                  <br className="md:hidden" /> <br className="md:hidden" /> At
+                  present export business is the most profitable one of
+                  Bangladesh business sector. Bangladesh holds a prominent
+                  position in the global market as a leading exporter of
+                  ready-made garments, frozen food, and potatoes.
+                  <br />
+                  <br /> Additionally, it maintains a strong presence in sectors
+                  such as vegetable goods, handicrafts, seafood, jute products,
+                  and agro-based items. Without having export registration
+                  certificate (ERC) nobody can export Bangladesh goods to
+                  foreign country.
                 </p>
                 <p className="text-md lg:text-lg">
                   Bangladesh Govt. cordially encourages to enthusiastic foreign
                   and local entrepreneur who wants to set up-export oriented
                   business to invest a lot of lucrative business sector into the
-                  country.<br/><br/> The government has established export processing zones to enhance Bangladesh's export industry globally.<br className="md:hidden" /> <br className="md:hidden" />  To initiate an export business, one must obtain a trade license followed by an export registration certificate; without these, conducting export operations is not feasible.<br className="md:hidden" /> <br className="md:hidden" />  Typically, foreign investors begin their export ventures by registering a limited company with the RJSC (Registrar of Joint Stock Companies and Firms).
-                </p>
-                <p className="text-md lg:text-lg font-semibold underline text-center">
-                  Required Supporting Documents:
+                  country.
+                  <br />
+                  <br /> The government has established export processing zones
+                  to enhance Bangladesh's export industry globally.
+                  <br className="md:hidden" /> <br className="md:hidden" /> To
+                  initiate an export business, one must obtain a trade license
+                  followed by an export registration certificate; without these,
+                  conducting export operations is not feasible.
+                  <br className="md:hidden" /> <br className="md:hidden" />{" "}
+                  Typically, foreign investors begin their export ventures by
+                  registering a limited company with the RJSC (Registrar of
+                  Joint Stock Companies and Firms).
                 </p>
                 <div>
-                  <p className="text-md lg:text-lg">Requirement:</p>
+                  <p className="text-md lg:text-lg font-semibold underline">
+                    Required Supporting Documents:
+                  </p>
                   <ul className="ms-4 text-base">
                     <li>1. Owner/MD ID Card PhotoCopy</li>
                     <li>2. Owner/MD Photo - 5 Copies</li>
@@ -633,14 +651,15 @@ const ServiceOne = () => {
                   </p>
                   <ul className="ms-4 text-base space-y-2">
                     <li>
-                      <strong>Step 1:</strong> Collect ERC form from office of Controller Import
-                      and Export.
+                      <strong>Step 1:</strong> Collect ERC form from office of
+                      Controller Import and Export.
                     </li>
                     <li>
-                      <strong>Step 2:</strong> Deposit schedule fees at Bangladesh Bank or any
-                      banking channel Fees should be deposits under the head
-                      bKash, Nagad, Online Banking Collect and complete 3 copies
-                      of A Challan Form and pay the Schedule fee.
+                      <strong>Step 2:</strong> Deposit schedule fees at
+                      Bangladesh Bank or any banking channel Fees should be
+                      deposits under the head bKash, Nagad, Online Banking
+                      Collect and complete 3 copies of A Challan Form and pay
+                      the Schedule fee.
                     </li>
                   </ul>
                 </div>
@@ -660,7 +679,7 @@ const ServiceOne = () => {
                   6. IRC Registration
                 </h2>
                 <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
-                  Understanding IRC Registration Process
+                  Grasping the Import Registration Certificate (IRC)
                 </p>
               </div>
               <div className="rounded-full bg-white p-5">
@@ -698,12 +717,77 @@ const ServiceOne = () => {
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-           {/* TODO */}
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+                {" "}
+                <p className="text-md lg:text-lg">
+                  {" "}
+                  Import Registration Certificate (IRC) is a mandatory document
+                  for business entities who are desirous of importing raw
+                  material or other special items to Bangladesh.
+                  <br className="md:hidden" /> <br className="md:hidden" /> In
+                  order to obtain Import Registration Certificate it is
+                  expedient to know that The Office of the Chief Controller of
+                  Imports & Exports (CCI&E) issues this certificate and the
+                  legal basis for this permission is found in Import Policy
+                  Order 2015-2018.
+                </p>
+                <div>
+                  <p className="text-md lg:text-lg font-semibold underline">
+                    Required Supporting Documents:
+                  </p>
+                  <ul className="ms-4 text-base">
+                    <li>1. Attested photocopy of valid Trade License</li>
+                    <li>2. Tax Identification Number (TIN)</li>
+                    <li>
+                      3. Attested photocopy of membership certificate from local
+                      Chamber of Commerce and Industry or relevant Trade
+                      Association
+                    </li>
+                    <li>4. Original copy of A Challan</li>
+                    <li>
+                      5. If a partnership business: Partnership Deed (certified
+                      attested copy)
+                    </li>
+                    <li>
+                      6. If a limited company: (certified attested copies)
+                    </li>
+                    <li>7. Certificate of Incorporation</li>
+                    <li>8. Articles of Association</li>
+                    <li>9. Memorandum of Association</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-md lg:text-lg">
+                    (To facilitate verification of the submitted documents,
+                    applicants are requested to submit the original documents as
+                    well. The original copies of the documents will be returned
+                    at the completion of the process).
+                  </p>
+                </div>
+                <div>
+                  <p className="text-md lg:text-lg font-semibold underline text-start">
+                    PROCESS STEPS
+                  </p>
+                  <ul className="ms-4 text-base space-y-2">
+                    <li>
+                      <strong>Step 1:</strong> Collect IRC form from office of
+                      Controller Import and Export.
+                    </li>
+                    <li>
+                      <strong>Step 2:</strong> Deposit the scheduled fees at
+                      Bangladesh Bank or through any banking channel. Fees can
+                      be deposited via bKash, Nagad, or Online Banking. Collect
+                      and complete three copies of the A Challan Form and pay
+                      the scheduled fee.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-{/* Rest list */}
+        {/* Rest list */}
         <ul>
           <li>i) Factory / Establishment Registration</li>
           <li>ii) Fire Licenses </li>
