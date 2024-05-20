@@ -1015,11 +1015,152 @@ const ServiceOne = () => {
             </div>
           </div>
         </div>
-
-        {/* Rest list */}
-        <ul>
-          <li>ii) Environment Clearance Certificate</li>
-        </ul>
+        {/* Environment Clearance Certificate*/}
+        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-5 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+          <div>
+            <button
+              onClick={() => toggle(9)}
+              className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
+            >
+              <div className="space-y-3  text-start">
+                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                  9. Environment Clearance Certificate (ECC)
+                </h2>
+                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                  Requirements for Obtaining an Environment Clearance
+                  Certificate{" "}
+                </p>
+              </div>
+              <div className="rounded-full bg-white p-5">
+                <svg
+                  className="shrink-0 fill-[#00A2FF]"
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`origin-center transform transition duration-200 ease-out ${
+                      isOpen == 9 && "!rotate-180"
+                    }`}
+                  />
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`origin-center rotate-90 transform transition duration-200 ease-out ${
+                      isOpen == 9 && "!rotate-180"
+                    }`}
+                  />
+                </svg>
+              </div>
+            </button>
+            <div
+              className={`grid overflow-hidden text-gray-400 transition-all duration-300 ease-in-out rounded-b-lg ${
+                isOpen == 9
+                  ? "grid-rows-[1fr] opacity-100"
+                  : "grid-rows-[0fr] opacity-0"
+              }`}
+            >
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+                {" "}
+                <p className="text-md lg:text-lg">
+                  {" "}
+                  Industrialization is an important step towards sustainable
+                  economic development. However, industrialization may also
+                  inflict environmental degradation like air, water and soil
+                  pollution.
+                  <br className="lg:hidden" /> <br className="lg:hidden" />{" "}
+                  Therefore, the government of Bangladesh advocates for
+                  environmental management to reduce the harsh impacts of
+                  industrialization. It enacted the Bangladesh Environmental
+                  Conservation Act 1995 and Environment Conservation Rules 1997
+                  for protection of the environment and reduce pollution. <br />
+                  <br /> Article 18A of the Constitution of Bangladesh mandates
+                  the state to protect and improve the environment, while also
+                  preserving natural resources, biodiversity, wetlands, forests,
+                  and wildlife.
+                  <br className="md:hidden" /> <br className="md:hidden" /> This
+                  commitment is aimed at ensuring their sustainability for
+                  present and future citizens.
+                </p>
+                <div>
+                  <p className="text-md lg:text-lg font-semibold">
+                    All industrial sites are categorized into one of the
+                    following with respect to their project and impact on the
+                    environment:
+                  </p>
+                  <ul className="ms-6 text-base list-disc">
+                    <li>Green</li>
+                    <li>Orange A</li>
+                    <li>Orange B</li>
+                    <li>Red</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-sm lg:text-md">
+                    {" "}
+                    The frequency of license renewal varies based on the
+                    industry category: those in the green category renew every
+                    three years, while others renew annually.
+                    <br className="md:hidden" /> <br className="md:hidden" />
+                    The Environment Clearance Certificate, necessary for
+                    renewal, is issued by the Ministry of Environment and
+                    Forests.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-md lg:text-lg font-semibold">
+                    Documents Required
+                  </p>
+                  <ul className="ms-6 text-base list-disc">
+                    <li>Original NOC from local Authority</li>
+                    <li>Project profile containing project details</li>
+                    <li>Layout plan</li>
+                    <li>Cadastral/Cadastre map with Daag and Khotiyan</li>
+                    <li>BIDA registration</li>
+                    <li>
+                      Rent Agreement or Document of Land ownership (whichever
+                      applies)
+                    </li>
+                    <li>Treasury Challan for fee payment</li>
+                    <li>Time Required</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-md lg:text-lg">
+                    {" "}
+                   Estimated processing time for issuance of Environment Clearance certificate is 1-5 months.
+                  </p>
+                  <div className="ms-2">
+                  <p className="text-md lg:text-lg font-semibold text-start">
+                    Government Fees
+                  </p>
+                  <ul className="text-base space-y-2">
+                    <li>
+                      If the total investment of the project is between BDT 1 (one) to BDT 50 (fifty) crore the fee shall be between BDT 1500 (fifteen hundred) to BDT 50000 (fifty thousand). If the total investment is above 50 (fifty) crore the fee shall be BDT 100000 (one Lac).
+                    </li>
+                  </ul>
+                </div>
+                  <div className="ms-2">
+                  <p className="text-md lg:text-lg font-semibold text-start">
+                    Renewal Fee
+                  </p>
+                  <ul className="text-base space-y-2">
+                    <li>
+                      If the total investment of the project is between BDT 1 (one) to BDT 50 (fifty) crore the fee shall be between BDT 375 (three hundred & seventy five) to BDT 12500 (twelve thousand five hundred). If the total investment is above 50 (fifty) crore the fee shall be BDT 25000 (twenty five thousand).
+                    </li>
+                  </ul>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
