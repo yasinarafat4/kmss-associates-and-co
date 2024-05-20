@@ -1,4 +1,7 @@
 import React from "react";
+import callImg from "../assets/call.png";
+import emailImg from "../assets/email.png";
+import locaionImg from "../assets/location.png";
 
 const Footer = () => {
   const currentDate = new Date();
@@ -16,7 +19,7 @@ const Footer = () => {
           <div className="md:flex justify-start items-center gap-4">
             <div class="flex items-center pt-3">
               <img
-                src="https://i.ibb.co/r2RKv6X/letter.png"
+                src={emailImg}
                 alt=""
                 class="w-6 h-auto mr-2"
               />
@@ -24,7 +27,7 @@ const Footer = () => {
             </div>
             <div class="flex items-center pt-3">
               <img
-                src="https://i.ibb.co/8zV10hK/phone-call.png"
+                src={callImg}
                 alt=""
                 class="w-6 h-auto mr-2"
               />
@@ -33,7 +36,7 @@ const Footer = () => {
           </div>
           <div class="flex items-center pt-3">
             <img
-              src="https://i.ibb.co/8g8JDNS/circle.png"
+              src={locaionImg}
               alt=""
               class="w-6 h-auto mr-2"
             />
