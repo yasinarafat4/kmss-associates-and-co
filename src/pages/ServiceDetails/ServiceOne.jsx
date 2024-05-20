@@ -882,30 +882,38 @@ const ServiceOne = () => {
                   </ul>
                 </div>
                 <div>
-                  <p className="text-md lg:text-lg">
-                    (To facilitate verification of the submitted documents,
-                    applicants are requested to submit the original documents as
-                    well. The original copies of the documents will be returned
-                    at the completion of the process).
+                  <p className="text-md lg:text-lg font-semibold text-start">
+                    Procedure
+                  </p>
+                  <p className="text-sm lg:text-md">
+                    {" "}
+                    Applicant is required to submit the duly filled-in
+                    prescribed application form to FSCD office along with
+                    supporting documents. <br className="md:hidden" />{" "}
+                    <br className="md:hidden" /> FSDC authority visits the
+                    establishment and issues the demand note. The applicant is
+                    required to pay the amount prescribed in the Demand note to
+                    the bank. <br /><br/> On submitting the bank receipt slip to the
+                    FSDC office, the inspector shall re-inspect the
+                    establishment. <br className="md:hidden" />{" "}
+                    <br className="md:hidden" /> If he is satisfied that the
+                    establishment fulfils the standard requirement of fire
+                    safety, FSDC shall issue a fire certificate.
                   </p>
                 </div>
                 <div>
-                  <p className="text-md lg:text-lg font-semibold underline text-start">
-                    PROCESS STEPS
+                  <p className="text-md lg:text-lg font-semibold text-start">
+                    Government Free Schedule and Time
                   </p>
-                  <ul className="ms-4 text-base space-y-2">
-                    <li>
-                      <strong>Step 1:</strong> Collect IRC form from office of
-                      Controller Import and Export.
-                    </li>
-                    <li>
-                      <strong>Step 2:</strong> Deposit the scheduled fees at
-                      Bangladesh Bank or through any banking channel. Fees can
-                      be deposited via bKash, Nagad, or Online Banking. Collect
-                      and complete three copies of the A Challan Form and pay
-                      the scheduled fee.
-                    </li>
-                  </ul>
+                  <p className="text-sm lg:text-md">
+                    {" "}
+                    Fee varies according to the type of factory establishment
+                    and assessment by the officer of FSCD.
+                    <br className="md:hidden" /> <br className="md:hidden" />
+                    The fire license is required to be renewed every year from
+                    FSCD office. Estimated processing time for issuance of Fire
+                    license is usually 90-120 working days.
+                  </p>
                 </div>
               </div>
             </div>
