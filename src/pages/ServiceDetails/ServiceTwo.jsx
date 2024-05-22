@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ServiceBanner from '../../components/ServiceBanner';
 
 const ServiceTwo = () => {
+     // States
+  const [isOpen, setIsOpen] = useState(null);
+  const toggle = (idx) => setIsOpen((prevIdx) => (prevIdx == idx ? null : idx));
+
     return (
         <div>
              <ServiceBanner heading={'Our Entity Formation Service'} />

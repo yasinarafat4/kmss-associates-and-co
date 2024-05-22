@@ -31,7 +31,7 @@ const Footer = () => {
                 alt=""
                 class="w-6 h-auto mr-2"
               />
-              <p>+8801627338828</p>
+              <p>+880 18 93 97 25 09</p>
             </div>
           </div>
           <div class="flex items-center pt-3">
