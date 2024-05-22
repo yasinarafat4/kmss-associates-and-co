@@ -41,8 +41,7 @@ const Footer = () => {
               class="w-6 h-auto mr-2"
             />
             <p>
-              Block: k, Road: 1, House: 19 Eastern Housing, Pallabi 2nd Phase,
-              Mirpur 1216
+            19/1, BL-K, Eastern Housing, Mirpur-12, Dhaka-1216
             </p>
           </div>
         </div>
