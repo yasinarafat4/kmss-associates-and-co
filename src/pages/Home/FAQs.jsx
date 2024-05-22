@@ -18,7 +18,7 @@ const FAQs = () => {
   };
   
   return (
-    <section
+    <section id="faqs"
       className="bg-cover md:bg-fixed h-full md:h-[450px] lg:h-[500px] py-6 px-3 md:px-4 lg:px-10 flex justify-center items-center"
       style={{
         backgroundImage:

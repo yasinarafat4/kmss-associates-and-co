@@ -19,29 +19,48 @@ const Footer = () => {
           <p>
             {" "}
             Providing exceptional legal and professional services
-            <br className="hidden lg:block" /> with integrity and excellence. Tailored solutions to meet
-            your <br className="hidden lg:block" /> unique needs. Contact us for expert advice and
-            personalized support.
+            <br className="hidden lg:block" /> with integrity and excellence.
+            Tailored solutions to meet your <br className="hidden lg:block" />{" "}
+            unique needs. Contact us for expert advice and personalized support.
           </p>
         </aside>
         <nav>
           <h6 className="footer-title">Services</h6>
-          <a className="link link-hover"><Link to={"/licencing-service"}>Licencing</Link></a>
-          <a className="link link-hover"><Link to={"/entity-formation-service"}>Entity Formation</Link></a>
-          <a className="link link-hover"><Link to={"/accounting-service"}>Accounting</Link></a>
-          <a className="link link-hover"><Link to={"/tax-advisory-service"}>Tax Advisory</Link></a>
-          <a className="link link-hover"><Link to={"/audit-and-assurance-service"}>Audit & Assurance</Link></a>
-          <a className="link link-hover"><Link to={"/ipo-capital-market-service"}>IPO & Capital Market</Link></a>
+          <a className="link link-hover">
+            <Link to={"/licencing-service"}>Licencing</Link>
+          </a>
+          <a className="link link-hover">
+            <Link to={"/entity-formation-service"}>Entity Formation</Link>
+          </a>
+          <a className="link link-hover">
+            <Link to={"/accounting-service"}>Accounting</Link>
+          </a>
+          <a className="link link-hover">
+            <Link to={"/tax-advisory-service"}>Tax Advisory</Link>
+          </a>
+          <a className="link link-hover">
+            <Link to={"/audit-and-assurance-service"}>Audit & Assurance</Link>
+          </a>
+          <a className="link link-hover">
+            <Link to={"/ipo-capital-market-service"}>IPO & Capital Market</Link>
+          </a>
         </nav>
         <nav>
           <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <a href="#faqs" className="link link-hover">
+            FAQs
+          </a>
+          <a href="#about" className="link link-hover">
+            About us
+          </a>
+          <a href="#contact" className="link link-hover">
+            Contact
+          </a>
+          <a className="link link-hover"><Link to={"/privacy-policy"}>Privacy Policy</Link></a>
+          <a className="link link-hover"><Link to={"/terms-and-conditions"}>Terms & Conditions</Link></a>
         </nav>
         <nav>
-          <div className="lg:flex justify-start items-center gap-4">
+          <div className="xl:flex justify-start items-center gap-4">
             <div class="flex items-center pt-3">
               <img src={emailImg} alt="email icon" class="w-6 h-auto mr-2" />
               <p>kmssassociates52@gmail.com</p>
