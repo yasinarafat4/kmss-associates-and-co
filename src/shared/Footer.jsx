@@ -23,7 +23,7 @@ const Footer = () => {
                 alt=""
                 class="w-6 h-auto mr-2"
               />
-              <p>kmss@gmail.com</p>
+              <p>kmssassociates52@gmail.com</p>
             </div>
             <div class="flex items-center pt-3">
               <img
