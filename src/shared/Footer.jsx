@@ -20,7 +20,7 @@ const Footer = () => {
             <div class="flex items-center pt-3">
               <img
                 src={emailImg}
-                alt=""
+                alt="email icon"
                 class="w-6 h-auto mr-2"
               />
               <p>kmssassociates52@gmail.com</p>
@@ -28,7 +28,7 @@ const Footer = () => {
             <div class="flex items-center pt-3">
               <img
                 src={callImg}
-                alt=""
+                alt="call icon"
                 class="w-6 h-auto mr-2"
               />
               <p>+880 18 93 97 25 09</p>
@@ -37,7 +37,7 @@ const Footer = () => {
           <div class="flex items-center pt-3">
             <img
               src={locaionImg}
-              alt=""
+              alt="location icon"
               class="w-6 h-auto mr-2"
             />
             <p>
