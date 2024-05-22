@@ -8,6 +8,7 @@ const Contact = () => {
         <p className="text-start lg:text-end mb-6 lg:mb-0 xl:text-lg">
         If you need any support with Bangladesh Investment Development Authority Affairs (BIDA), ERC, IRC, project profiles, or both local and international accounting outsourcing, please reach out to us.
         </p>
+        <p className="text-center text-red-600 text-lg mt-4">TODO: Changeable</p>
       </div>
       <div className="col-span-2">
         <form className="md:grid grid-cols-2 gap-4">
@@ -21,7 +22,7 @@ const Contact = () => {
                 id="name"
                 name="name"
                 placeholder="Your Name"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800 dark:bg-slate-900 dark:text-slate-200"
                 required
               />
             </div>
@@ -34,7 +35,7 @@ const Contact = () => {
                 id="email"
                 name="email"
                 placeholder="Your Email"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800 dark:bg-slate-900 dark:text-slate-200"
                 required
               />
             </div>
@@ -47,7 +48,7 @@ const Contact = () => {
                 id="phone"
                 name="phone"
                 placeholder="Your Number"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800 dark:bg-slate-900 dark:text-slate-200"
                 required
               />
             </div>
@@ -62,13 +63,13 @@ const Contact = () => {
                 name="message"
                 rows="5"
                 placeholder="Your Message"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800 dark:bg-slate-900 dark:text-slate-200"
                 required
               ></textarea>
             </div>
             <button
               type="submit"
-              className="w-1/3 bg-blue-500 text-white py-2 px-4 rounded-sm hover:bg-blue-600 transition-colors duration-300 font-medium"
+              className="w-1/3 bg-blue-500 text-white py-2 px-4 rounded-sm hover:bg-blue-600 dark:bg-slate-800 shadow transition-colors duration-300 font-medium"
             >
               Submit
             </button>
