@@ -161,7 +161,6 @@ const ServiceTwo = () => {
 
       {/*
 ii)	Partnership
-iii)	Private Limited
 iv)	Public Limited
 v)	Society / Trust / Foundation
 vi)	Trade Organization
