@@ -221,7 +221,7 @@ const ServiceTwo = () => {
       </div>
 
       {/*
-ii)	Partnership=> TODO
+ii)	Partnership=>TODO
 v)	Society / Trust / Foundation
 vi)	Trade Organization
 vii)	Foreign Company
