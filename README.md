@@ -2,4 +2,4 @@
 
 ### Live Link
 
-- Hosted in Vercel -> [KMS](https://kmsaiful.vercel.app/)
+- Hosted in Vercel -> [KMSS Associates](https://kmssassociates.vercel.app)
