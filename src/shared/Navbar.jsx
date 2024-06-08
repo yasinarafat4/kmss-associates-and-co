@@ -63,6 +63,7 @@ const Navbar = () => {
               </p>
             </Link>
           </div>
+          {/* Services */}
           {isHomePage ? (
             <a onClick={() => setNavToggle(false)} href="#services">
               <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
@@ -86,6 +87,7 @@ const Navbar = () => {
             </a>
           )}
 
+          {/* About */}
           {isHomePage ? (
             <a onClick={() => setNavToggle(false)} href="#about">
               <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
@@ -107,6 +109,7 @@ const Navbar = () => {
               </p>
             </a>
           )}
+          {/* Contact */}
           {isHomePage ? (
             <a onClick={() => setNavToggle(false)} href="#contact">
               <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
