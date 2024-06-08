@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import logo from "../../src/assets/kmss_logo.png";
 
 const Navbar = () => {
@@ -7,6 +7,12 @@ const Navbar = () => {
   const [navToggle, setNavToggle] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [theme, setTheme] = useState("light");
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+   // Check if the current path is home
+   const isHomePage = location.pathname === "/";
 
   // Dark and Light Mood effect
   useEffect(() => {
@@ -35,7 +41,7 @@ const Navbar = () => {
       <div
         className={`absolute ${
           navToggle ? "left-0" : "left-[-120%]"
-        } top-[4rem] md:top-[5rem] flex w-full flex-col bg-white pb-3 pt-2 transition-all duration-300 dark:bg-slate-900 lg:static lg:w-[unset] lg:flex-row lg:bg-transparent lg:pb-0 lg:pt-0 dark:lg:bg-transparent`}
+        } top-[4rem] md:top-[5rem] flex w-full flex-col bg-white pb-3 pt-2 transition-all duration-300 dark:bg-slate-900 lg:static lg:w-[unset] lg:flex-row lg:items-center lg:bg-transparent lg:pb-0 lg:pt-0 dark:lg:bg-transparent`}
       >
         <div className="menu menu-horizontal flex-col space-y-3 lg:space-y-0 px-1 lg:flex-row lg:gap-4 xl:gap-6">
           <div>
@@ -45,11 +51,28 @@ const Navbar = () => {
               </p>
             </Link>
           </div>
-          <a onClick={() => setNavToggle(false)} href="#services">
-            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
-              Services
-            </p>
-          </a>
+          {isHomePage ? (
+            <a onClick={() => setNavToggle(false)} href="#services">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+                Services
+              </p>
+            </a>
+          ) : (
+            <a
+              onClick={(e) => {
+                e.preventDefault();
+                setNavToggle(false);
+                setTimeout(() => {
+                  navigate("/#services");
+                }, 100); 
+              }}
+              href="#services"
+            >
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+                Services
+              </p>
+            </a>
+          )}
           <a onClick={() => setNavToggle(false)} href="#about">
             <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
               About
