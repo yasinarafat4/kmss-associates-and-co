@@ -11,8 +11,8 @@ const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-   // Check if the current path is home
-   const isHomePage = location.pathname === "/";
+  // Check if the current path is home
+  const isHomePage = location.pathname === "/";
 
   // Dark and Light Mood effect
   useEffect(() => {
@@ -64,7 +64,7 @@ const Navbar = () => {
                 setNavToggle(false);
                 setTimeout(() => {
                   navigate("/#services");
-                }, 100); 
+                }, 100);
               }}
               href="#services"
             >
@@ -73,11 +73,28 @@ const Navbar = () => {
               </p>
             </a>
           )}
-          <a onClick={() => setNavToggle(false)} href="#about">
-            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
-              About
-            </p>
-          </a>
+          {isHomePage ? (
+            <a onClick={() => setNavToggle(false)} href="#about">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+                About
+              </p>
+            </a>
+          ) : (
+            <a
+              onClick={(e) => {
+                e.preventDefault();
+                setNavToggle(false);
+                setTimeout(() => {
+                  navigate("/#about");
+                }, 100);
+              }}
+              href="#about"
+            >
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+                About
+              </p>
+            </a>
+          )}
           <a onClick={() => setNavToggle(false)} href="#contact">
             <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
               Contact
