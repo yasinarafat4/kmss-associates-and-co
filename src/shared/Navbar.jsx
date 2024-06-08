@@ -4,9 +4,10 @@ import logo from "../../src/assets/kmss_logo.png";
 
 const Navbar = () => {
   // States
+  const [theme, setTheme] = useState("light");
   const [navToggle, setNavToggle] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [theme, setTheme] = useState("light");
+  const [targetSection, setTargetSection] = useState(null);
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -28,6 +29,17 @@ const Navbar = () => {
     setTheme(theme === "dark" ? "light" : "dark");
     setIsDarkMode(!isDarkMode);
   };
+
+  // Scroll to target section after navigation
+  useEffect(() => {
+    if (targetSection) {
+      const section = document.querySelector(targetSection);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+      setTargetSection(null);
+    }
+  }, [targetSection]);
 
   return (
     <nav className="navbar sticky top-0 z-50 bg-white shadow-lg dark:bg-slate-800  dark:text-slate-200 lg:px-20">
@@ -73,6 +85,7 @@ const Navbar = () => {
               </p>
             </a>
           )}
+
           {isHomePage ? (
             <a onClick={() => setNavToggle(false)} href="#about">
               <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
@@ -88,18 +101,33 @@ const Navbar = () => {
                   navigate("/#about");
                 }, 100);
               }}
-              href="#about"
             >
               <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
                 About
               </p>
             </a>
           )}
-          <a onClick={() => setNavToggle(false)} href="#contact">
-            <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
-              Contact
-            </p>
-          </a>
+          {isHomePage ? (
+            <a onClick={() => setNavToggle(false)} href="#contact">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+                Contact
+              </p>
+            </a>
+          ) : (
+            <a
+              onClick={(e) => {
+                e.preventDefault();
+                setNavToggle(false);
+                setTimeout(() => {
+                  navigate("/#contact");
+                }, 100);
+              }}
+            >
+              <p className="cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+                Contact
+              </p>
+            </a>
+          )}
         </div>
 
         {/* Dark & Light mode */}
