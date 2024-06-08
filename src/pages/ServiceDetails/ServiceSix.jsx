@@ -4,7 +4,7 @@ import ServiceBanner from "../../components/ServiceBanner";
 const ServiceSix = () => {
   return (
     <div>
-      <ServiceBanner heading={"Our IPO & Capital Market Service"} />
+      <ServiceBanner heading={"Our Stock Capital Market Service"} />
     </div>
   );
 };

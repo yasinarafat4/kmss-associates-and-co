@@ -225,7 +225,8 @@ v)	Society / Trust / Foundation
 vi)	Trade Organization
 vii)	Foreign Company
 viii)	Joint Venture Company
-ix)	Liaison Or Branch Office */}
+ix)	Liaison Or Branch Office
+*/}
     </>
   );
 };
