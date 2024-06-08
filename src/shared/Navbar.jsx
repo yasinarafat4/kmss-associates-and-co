@@ -102,7 +102,7 @@ const Navbar = () => {
                 }, 100);
               }}
             >
-              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+              <p className="cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
                 About
               </p>
             </a>
