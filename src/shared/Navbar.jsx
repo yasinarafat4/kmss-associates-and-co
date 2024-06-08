@@ -9,6 +9,7 @@ const Navbar = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [targetSection, setTargetSection] = useState(null);
 
+  // Navigate & Location
   const navigate = useNavigate();
   const location = useLocation();
 
