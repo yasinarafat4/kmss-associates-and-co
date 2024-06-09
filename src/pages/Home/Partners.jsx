@@ -12,7 +12,6 @@ const Partners = () => {
     },
     { name: "Real Estate", logo: logo2, link: "https://www.realestate.com.au" },
     { name: "UNEX", logo: logo3, link: "https://www.unex.com" },
-    // Add more companies here
   ];
 
   return (
