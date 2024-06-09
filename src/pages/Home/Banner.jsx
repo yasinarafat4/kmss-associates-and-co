@@ -27,7 +27,7 @@ const Banner = () => {
 
             <a href="#services">
               {" "}
-              <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-orange-700 dark:bg-slate-900 hover:bg-slate-950 duration-300 text-white rounded-sm">
+              <button className="py-2 px-3 lg:px-4 text-xs md:text-base bg-[#FE322E] dark:bg-slate-900 hover:bg-slate-950 duration-300 text-white rounded-sm">
                 Get in Touch
               </button>
             </a>

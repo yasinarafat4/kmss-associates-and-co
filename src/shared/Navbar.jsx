@@ -59,7 +59,7 @@ const Navbar = () => {
         <div className="menu menu-horizontal flex-col space-y-3 lg:space-y-0 px-1 lg:flex-row lg:gap-4 xl:gap-6">
           <div>
             <Link onClick={() => setNavToggle(false)} to="/">
-              <p className="text-lg 2xl:text-xl font-medium hover:text-blue-500 hover:duration-500">
+              <p className="text-lg 2xl:text-xl font-medium hover:text-[#2563EB] hover:duration-500">
                 Home
               </p>
             </Link>
@@ -67,7 +67,7 @@ const Navbar = () => {
           {/* Services */}
           {isHomePage ? (
             <a onClick={() => setNavToggle(false)} href="#services">
-              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
                 Services
               </p>
             </a>
@@ -82,7 +82,7 @@ const Navbar = () => {
               }}
               href="#services"
             >
-              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
                 Services
               </p>
             </a>
@@ -91,7 +91,7 @@ const Navbar = () => {
           {/* About */}
           {isHomePage ? (
             <a onClick={() => setNavToggle(false)} href="#about">
-              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
                 About
               </p>
             </a>
@@ -105,7 +105,7 @@ const Navbar = () => {
                 }, 100);
               }}
             >
-              <p className="cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+              <p className="cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
                 About
               </p>
             </a>
@@ -113,7 +113,7 @@ const Navbar = () => {
           {/* Contact */}
           {isHomePage ? (
             <a onClick={() => setNavToggle(false)} href="#contact">
-              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
                 Contact
               </p>
             </a>
@@ -127,7 +127,7 @@ const Navbar = () => {
                 }, 100);
               }}
             >
-              <p className="cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:text-blue-500 hover:duration-500">
+              <p className="cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
                 Contact
               </p>
             </a>

@@ -60,7 +60,7 @@ const serviceData =[
             className="group flex items-center gap-2 border border-slate-500 hover:shadow-2xl rounded-md px-2 py-4 xl:px-4 xl:py-8 dark:hover:bg-slate-800 dark:text-slate-200 hover:duration-500"
           >
             <div>
-              <IoMdCheckmarkCircle className="text-7xl text-blue-500 group-hover:text-slate-800 dark:group-hover:text-slate-400 group-hover:duration-500 " />
+              <IoMdCheckmarkCircle className="text-7xl text-[#2563EB] group-hover:text-slate-800 dark:group-hover:text-slate-400 group-hover:duration-500 " />
             </div>
             <div>
               <h2 className="font-semibold text-base xl:text-xl">
