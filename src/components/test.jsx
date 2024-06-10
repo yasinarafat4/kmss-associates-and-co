@@ -12,14 +12,14 @@ export default function PricingAccordion() {
     return (
         <section className="px-[15px] md:px-[60px] xl:px-[120px] 2xl:px-[350px] py-[70px] lg:py-[100px] dark:bg-slate-900">
             {/* First Accordion */}
-            <div className=" rounded-lg hover:border-2 border-blue-600 dark:border-white mb-10 lg:mb-14 bg-blue-50 dark:bg-slate-700 dark:text-white">
+            <div className=" rounded-lg hover:border-2 border-[#014AA8] dark:border-white mb-10 lg:mb-14 bg-blue-50 dark:bg-slate-700 dark:text-white">
 
                 <div>
                     <button onClick={() => toggle(0)} className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-4 md:py-0 px-5 text-black dark:text-white font-medium">
                         <img className="w-24 h-24 lg:w-28 lg:h-28 md:mb-4" src={img1} alt="accordion image" />
                         <div className="space-y-3  text-start">
-                            <h2 className="text-xl text-blue-600 dark:text-white font-semibold">See how photo editing pricing works</h2>
-                            <p className="text-sm text-blue-600 dark:text-white font-medium">Take a look at what goes into your total cost</p>
+                            <h2 className="text-xl text-[#014AA8] dark:text-white font-semibold">See how photo editing pricing works</h2>
+                            <p className="text-sm text-[#014AA8] dark:text-white font-medium">Take a look at what goes into your total cost</p>
                         </div>
                         <div className="rounded-full bg-white p-5">
                             <svg className="shrink-0 fill-[#00A2FF]" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +29,7 @@ export default function PricingAccordion() {
                         </div>
                     </button>
                     <div className={`grid overflow-hidden text-gray-400 transition-all duration-300 ease-in-out rounded-b-lg ${isOpen == 0 ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
-                        <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6"> <h2 className="text-lg md:text-xl font-semibold">Every order is different, and your total photo editing rates will be calculated based on your services, number of images, overall complexity, and speed of your edits.</h2>
+                        <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6"> <h2 className="text-lg md:text-xl font-semibold">Every order is different, and your total photo editing rates will be calculated based on your services, number of images, overall complexity, and speed of your edits.</h2>
                             <p className="text-sm lg:text-base">When you start a new order, we&apos;ll ask a few questions and then analyze your images on the spot. You&apos;ll get an accurate quote right away, so you know exactly how much your order will cost before you finish your request.</p>
                             <p className="text-sm lg:text-base">Here&apos;s a breakdown of what we&apos;re looking at when we assess your order and determine your photo editing rates:</p>
                             <ul>
@@ -59,7 +59,7 @@ export default function PricingAccordion() {
                                 </li>
                             </ul>
                             <div className="bg-blue-100 dark:bg-slate-700 py-8 px-8 rounded-lg space-y-6">
-                                <p className="text-lg text-center text-blue-600 dark:text-white">It&apos;s quick and easy to <span className="font-semibold">see exactly how much your photo editing rates will cost.</span> Just start a new order, upload your images, and see your total right there.</p>
+                                <p className="text-lg text-center text-[#014AA8] dark:text-white">It&apos;s quick and easy to <span className="font-semibold">see exactly how much your photo editing rates will cost.</span> Just start a new order, upload your images, and see your total right there.</p>
                                 <div className="flex items-center justify-center">
                                     <PrimaryButton name={"Start Your Free Trial"} />
                                 </div>
@@ -71,14 +71,14 @@ export default function PricingAccordion() {
                 </div>
             </div>
             {/* Second Accordion */}
-            <div className=" rounded-lg hover:border-2 border-blue-600 dark:border-white bg-blue-50 dark:bg-slate-700 dark:text-white lg:pt-6 md:pt-4">
+            <div className=" rounded-lg hover:border-2 border-[#014AA8] dark:border-white bg-blue-50 dark:bg-slate-700 dark:text-white lg:pt-6 md:pt-4">
 
                 <div>
                     <button onClick={() => toggle(3)} className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-4 md:py-0 px-5 text-black dark:text-white font-medium">
                         <img className="w-24 h-24 lg:w-28 lg:h-28 md:mb-4" src={img3} alt="accordion image" />
                         <div className="space-y-3  text-start">
-                            <h2 className="text-xl text-blue-600 dark:text-white font-semibold">Pricing for large orders</h2>
-                            <p className="text-sm text-blue-600 dark:text-white font-medium">Get custom support and pricing for high-volume photo edits</p>
+                            <h2 className="text-xl text-[#014AA8] dark:text-white font-semibold">Pricing for large orders</h2>
+                            <p className="text-sm text-[#014AA8] dark:text-white font-medium">Get custom support and pricing for high-volume photo edits</p>
                         </div>
                         <div className="rounded-full bg-white p-5">
                             <svg className="shrink-0 fill-[#00A2FF]" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +88,7 @@ export default function PricingAccordion() {
                         </div>
                     </button>
                     <div className={`grid overflow-hidden text-gray-400 transition-all duration-300 ease-in-out rounded-b-lg ${isOpen == 3 ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
-                        <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6"><p className="text-sm lg:text-base">If you need more than 100 images edited at a time, or are ordering 1000+ images per month, we can set you up with custom support and pricing.</p>
+                        <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6"><p className="text-sm lg:text-base">If you need more than 100 images edited at a time, or are ordering 1000+ images per month, we can set you up with custom support and pricing.</p>
                             <p className="text-sm lg:text-base"><Link className="text-sky-400 dark:text-white font-medium dark:font-semibold" href="/contact">Contact us</Link> and we&apos;ll look after you.</p></div>
                     </div>
                 </div>

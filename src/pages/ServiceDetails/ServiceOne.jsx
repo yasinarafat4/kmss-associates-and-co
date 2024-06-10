@@ -12,17 +12,17 @@ const ServiceOne = () => {
       <ServiceBanner heading={"Our Licensing Service"} />
       <div className="px-[15px] md:px-[60px] xl:px-[120px] 2xl:px-[350px] py-[16px] lg:py-[40px] dark:bg-slate-900">
         {/* Trade License */}
-        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(1)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
               <div className="space-y-3  text-start">
-                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                <h2 className="text-xl lg:text-2xl text-[#014AA8] dark:text-white font-semibold">
                   1. Trade License
                 </h2>
-                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
                   Learn about our trade license.
                 </p>
               </div>
@@ -61,7 +61,7 @@ const ServiceOne = () => {
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
                   KMSS & ASSOCIATES provides services in regard of application
@@ -86,17 +86,17 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Company Registration */}
-        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(2)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
               <div className="space-y-3  text-start">
-                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                <h2 className="text-xl lg:text-2xl text-[#014AA8] dark:text-white font-semibold">
                   2. Company Registration
                 </h2>
-                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
                   Understand the process and requirements for company
                   registration.{" "}
                 </p>
@@ -136,7 +136,7 @@ const ServiceOne = () => {
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
                   Incorporating a company in Bangladesh could be difficult for
@@ -177,7 +177,7 @@ const ServiceOne = () => {
                     Bangladesh the following steps must be ensued:
                   </span>
                   <li>
-                    <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-1">
+                    <h2 className="text-lg md:text-xl text-[#014AA8] dark:text-white font-semibold mt-1">
                       1. Name Clearance | Company Incorporation in Bangladesh:
                     </h2>
                     <p className="text-md lg:text-lg">
@@ -192,7 +192,7 @@ const ServiceOne = () => {
                     </p>
                   </li>
                   <li>
-                    <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
+                    <h2 className="text-lg md:text-xl text-[#014AA8] dark:text-white font-semibold mt-2">
                       2. Documentation | Company Incorporation in Bangladesh:
                     </h2>
                     <p className="text-md lg:text-lg">
@@ -230,7 +230,7 @@ const ServiceOne = () => {
                     </ul>
                   </li>
                   <li>
-                    <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
+                    <h2 className="text-lg md:text-xl text-[#014AA8] dark:text-white font-semibold mt-2">
                       3. Post Registration | Company Incorporation in
                       Bangladesh:
                     </h2>
@@ -251,7 +251,7 @@ const ServiceOne = () => {
                     </ul>
                   </li>
                   <li>
-                    <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
+                    <h2 className="text-lg md:text-xl text-[#014AA8] dark:text-white font-semibold mt-2">
                       4. Banking Formalities | Company Incorporation in
                       Bangladesh:
                     </h2>
@@ -266,7 +266,7 @@ const ServiceOne = () => {
                     </ul>
                   </li>
                   <li>
-                    <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
+                    <h2 className="text-lg md:text-xl text-[#014AA8] dark:text-white font-semibold mt-2">
                       5. Return Filing | Company Incorporation in Bangladesh:
                     </h2>
                     <p className="text-md lg:text-lg">
@@ -313,17 +313,17 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Tax ID (TIN)*/}
-        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(3)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
               <div className="space-y-3  text-start">
-                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                <h2 className="text-xl lg:text-2xl text-[#014AA8] dark:text-white font-semibold">
                   3. Tax ID (TIN)
                 </h2>
-                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
                   Understanding the basics of Tax Identification Numbers
                 </p>
               </div>
@@ -362,7 +362,7 @@ const ServiceOne = () => {
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
                   Documents Required for obtaining TIN for Company in
@@ -401,7 +401,7 @@ const ServiceOne = () => {
                   </p>
                 </div>
                 <div className="space-y-4 ms-2 lg:ms-4">
-                  <h2 className="text-lg md:text-xl text-blue-600 dark:text-white font-semibold mt-2">
+                  <h2 className="text-lg md:text-xl text-[#014AA8] dark:text-white font-semibold mt-2">
                     Tax Identification Number (TIN)
                   </h2>
                   <p className="text-md lg:text-lg">
@@ -447,17 +447,17 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Value Added Tax (BIN)*/}
-        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(4)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
               <div className="space-y-3  text-start">
-                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                <h2 className="text-xl lg:text-2xl text-[#014AA8] dark:text-white font-semibold">
                   4. Value Added Tax (BIN)
                 </h2>
-                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
                   Understanding Value Added Tax (VAT)
                 </p>
               </div>
@@ -496,7 +496,7 @@ const ServiceOne = () => {
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
                   KMSS & Associates has a very significant practice and
@@ -537,17 +537,17 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* ERC Registration*/}
-        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(5)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
               <div className="space-y-3  text-start">
-                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                <h2 className="text-xl lg:text-2xl text-[#014AA8] dark:text-white font-semibold">
                   5. ERC Registration
                 </h2>
-                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
                   Understanding ERC Registration Process
                 </p>
               </div>
@@ -586,7 +586,7 @@ const ServiceOne = () => {
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
                   Export Registration Certificate is one of the most essential
@@ -667,17 +667,17 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* IRC Registration*/}
-        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(6)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
               <div className="space-y-3  text-start">
-                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                <h2 className="text-xl lg:text-2xl text-[#014AA8] dark:text-white font-semibold">
                   6. IRC Registration
                 </h2>
-                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
                   Grasping the Import Registration Certificate (IRC)
                 </p>
               </div>
@@ -716,7 +716,7 @@ const ServiceOne = () => {
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
                   {" "}
@@ -786,17 +786,17 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Fire Licenses*/}
-        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(7)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
               <div className="space-y-3  text-start">
-                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                <h2 className="text-xl lg:text-2xl text-[#014AA8] dark:text-white font-semibold">
                   7. Fire Licenses
                 </h2>
-                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
                   Requirements for Obtaining a Fire License
                 </p>
               </div>
@@ -835,7 +835,7 @@ const ServiceOne = () => {
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
                   {" "}
@@ -920,17 +920,17 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Factory / Establishment Registration*/}
-        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(8)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
               <div className="space-y-3  text-start">
-                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                <h2 className="text-xl lg:text-2xl text-[#014AA8] dark:text-white font-semibold">
                   8. Factory / Establishment Registration
                 </h2>
-                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
                   Necessary Documentation for Factory Registration
                 </p>
               </div>
@@ -969,7 +969,7 @@ const ServiceOne = () => {
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
                   {" "}
@@ -1015,17 +1015,17 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Environment Clearance Certificate*/}
-        <div className=" rounded-lg border-2 border-blue-600 dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(9)}
               className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
             >
               <div className="space-y-3  text-start">
-                <h2 className="text-xl lg:text-2xl text-blue-600 dark:text-white font-semibold">
+                <h2 className="text-xl lg:text-2xl text-[#014AA8] dark:text-white font-semibold">
                   9. Environment Clearance Certificate (ECC)
                 </h2>
-                <p className="text-md lg:text-lg text-blue-600 dark:text-white font-medium">
+                <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
                   Requirements for Obtaining an Environment Clearance
                   Certificate{" "}
                 </p>
@@ -1065,7 +1065,7 @@ const ServiceOne = () => {
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-blue-600 dark:text-white space-y-6">
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
                   {" "}

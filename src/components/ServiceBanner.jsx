@@ -9,8 +9,8 @@ const ServiceBanner = ({heading}) => {
             }}
         >
             <div className="text-center z-10">
-                <h2 className="text-4xl font-semibold">{heading}</h2>
-                <p className="mt-2 text-[18px]">Providing excellence in legal and professional consultancy.</p>
+                <h2 className="text-2xl md:text-4xl font-semibold">{heading}</h2>
+                <p className="mt-2 w-10/12 md:w-full mx-auto text-sm md:text-[18px]">Providing excellence in legal and professional consultancy.</p>
             </div>
             <div className="absolute inset-0 bg-[#020508] opacity-50 dark:opacity-30"></div>
         </div>
