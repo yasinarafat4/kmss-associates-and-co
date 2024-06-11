@@ -20,9 +20,18 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      // Pages
       {
         path: "/more-about-us",
-        element: <MoreAboutUs/>,
+        element: <MoreAboutUs />,
+      },
+      {
+        path: "/terms-and-conditions",
+        element: <TermsAndConditions />,
+      },
+      {
+        path: "/privacy-policy",
+        element: <PrivacyPolicy />,
       },
       //   Service details
       {
@@ -48,15 +57,6 @@ export const router = createBrowserRouter([
       {
         path: "/ipo-capital-market-service",
         element: <ServiceSix />,
-      },
-      // Pages
-      {
-        path: "/terms-and-conditions",
-        element: <TermsAndConditions />,
-      },
-      {
-        path: "/privacy-policy",
-        element: <PrivacyPolicy />,
       },
     ],
   },
