@@ -23,7 +23,7 @@ const Navbar = () => {
     "/audit-and-assurance-service",
     "/ipo-capital-market-service",
   ].includes(location.pathname);
-  
+  const isAboutPage = location.pathname === "/more-about-us";
 
   // Dark and Light Mood effect
   useEffect(() => {
@@ -66,7 +66,7 @@ const Navbar = () => {
         } top-[4rem] md:top-[5rem] flex w-full flex-col bg-white pb-3 pt-2 transition-all duration-300 dark:bg-slate-900 lg:static lg:w-[unset] lg:flex-row lg:items-center lg:bg-transparent lg:pb-0 lg:pt-0 dark:lg:bg-transparent`}
       >
         <div className="menu menu-horizontal flex-col space-y-3 lg:space-y-0 px-1 lg:flex-row lg:gap-4 xl:gap-6">
-        {isHomePage ? (
+          {isHomePage ? (
             <div>
               <Link onClick={() => setNavToggle(false)} to="/">
                 <p className="text-lg 2xl:text-xl font-medium text-[#2563EB] hover:duration-500">
@@ -101,9 +101,11 @@ const Navbar = () => {
               }}
               href="#services"
             >
-              <p className={`text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
+              <p
+                className={`text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
                   isServicePages ? "text-[#2563EB]" : "hover:text-[#2563EB]"
-                }`}>
+                }`}
+              >
                 Services
               </p>
             </a>
@@ -126,7 +128,11 @@ const Navbar = () => {
                 }, 100);
               }}
             >
-              <p className="cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
+              <p
+                className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
+                  isAboutPage ? "text-[#2563EB]" : "hover:text-[#2563EB]"
+                }`}
+              >
                 About
               </p>
             </a>
