@@ -13,8 +13,15 @@ const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Check if the current path is home
+  // Check the current path
   const isHomePage = location.pathname === "/";
+  const isServicePages =
+    location.pathname === "/licencing-service" ||
+    "/entity-formation-service" ||
+    "/accounting-service" ||
+    "/tax-advisory-service" ||
+    "/audit-and-assurance-service" ||
+    "/ipo-capital-market-service";
 
   // Dark and Light Mood effect
   useEffect(() => {
@@ -57,13 +64,23 @@ const Navbar = () => {
         } top-[4rem] md:top-[5rem] flex w-full flex-col bg-white pb-3 pt-2 transition-all duration-300 dark:bg-slate-900 lg:static lg:w-[unset] lg:flex-row lg:items-center lg:bg-transparent lg:pb-0 lg:pt-0 dark:lg:bg-transparent`}
       >
         <div className="menu menu-horizontal flex-col space-y-3 lg:space-y-0 px-1 lg:flex-row lg:gap-4 xl:gap-6">
-          <div>
-            <Link onClick={() => setNavToggle(false)} to="/">
-              <p className="text-lg 2xl:text-xl font-medium hover:text-[#2563EB] hover:duration-500">
-                Home
-              </p>
-            </Link>
-          </div>
+          {isHomePage ? (
+            <div>
+              <Link onClick={() => setNavToggle(false)} to="/">
+                <p className="text-lg 2xl:text-xl font-medium text-[#2563EB] hover:duration-500">
+                  Home
+                </p>
+              </Link>
+            </div>
+          ) : (
+            <div>
+              <Link onClick={() => setNavToggle(false)} to="/">
+                <p className="text-lg 2xl:text-xl font-medium hover:text-[#2563EB] hover:duration-500">
+                  Home
+                </p>
+              </Link>
+            </div>
+          )}
           {/* Services */}
           {isHomePage ? (
             <a onClick={() => setNavToggle(false)} href="#services">
@@ -82,7 +99,7 @@ const Navbar = () => {
               }}
               href="#services"
             >
-              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
+              <p className={isServicePages ? "text-lg lg:text-base 2xl:text-lg font-medium text-[#2563EB] hover:duration-500": "text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500"}>
                 Services
               </p>
             </a>
