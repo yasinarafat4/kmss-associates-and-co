@@ -500,7 +500,7 @@ const ServiceOne = () => {
                 {" "}
                 <p className="text-md lg:text-lg">
                   KMSS & Associates has a very significant practice and
-                  experience in VAT related services in Bangladesh. UNEX &
+                  experience in VAT related services in Bangladesh. KMSS &
                   Associates provides the best VAT Consultant in Bangladesh who
                   is the experts in VAT Law which are in generally divided to
                   Value Added Tax.

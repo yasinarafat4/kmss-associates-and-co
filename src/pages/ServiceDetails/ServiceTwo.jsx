@@ -355,10 +355,87 @@ const ServiceTwo = () => {
             </div>
           </div>
         </div>
+        {/* Society / Trust / Foundation */}
+        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+          <div>
+            <button
+              onClick={() => toggle(6)}
+              className="flex flex-col md:flex-row h-full w-full items-center justify-between space-y-4 md:space-y-0 lg:pt-6 md:pt-4 md:px-8 py-3 md:py-6 px-5 text-black dark:text-white font-medium"
+            >
+              <div className="space-y-3  text-start">
+                <h2 className="text-xl lg:text-2xl text-[#014AA8] dark:text-white font-semibold">
+                  6. Society / Trust / Foundation
+                </h2>
+                <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
+                  Trust Registration Process and Requirements
+                </p>
+              </div>
+              <div className="rounded-full bg-white p-5">
+                <svg
+                  className="shrink-0 fill-[#00A2FF]"
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`origin-center transform transition duration-200 ease-out ${
+                      isOpen == 6 && "!rotate-180"
+                    }`}
+                  />
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`origin-center rotate-90 transform transition duration-200 ease-out ${
+                      isOpen == 6 && "!rotate-180"
+                    }`}
+                  />
+                </svg>
+              </div>
+            </button>
+            <div
+              className={`grid overflow-hidden text-gray-400 transition-all duration-300 ease-in-out rounded-b-lg ${
+                isOpen == 6
+                  ? "grid-rows-[1fr] opacity-100"
+                  : "grid-rows-[0fr] opacity-0"
+              }`}
+            >
+              <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
+                {" "}
+                <p className="text-md lg:text-lg">
+                  Here at KMSS & Associates, we can help you register and set
+                  up your trust. The details and procedure for opening a trust
+                  in Bangladesh are set below:
+                  <br />
+                  <br />
+                  Trust can be preferred as an entity to do either social
+                  business or charity since it affords relatively greater
+                  flexibility in terms of status, registration, and management.
+                  <br className="lg:hidden" /> <br className="lg:hidden" />
+                  If there exists any legal clear purpose, then any person
+                  (natural/legal) can form trust through incorporating a trust
+                  deed. <br />
+                  <br /> It can be created by any person competent to form a
+                  contract. The governing law is the Trust Act 1882 and the
+                  responsible authority is the relevant sub-registry office.
+                  <br className="lg:hidden" /> <br className="lg:hidden" /> The
+                  main document required to do a Trust is a trust deed - duly
+                  stamped including the author's intention, purpose,
+                  beneficiary, trust property, and transfer of trust property to
+                  the trustee.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       {/*
 ii)	Partnership=> TODO
-v)	Society / Trust / Foundation
 vi)	Trade Organization
 vii)	Foreign Company
 ix)	Liaison Or Branch Office
