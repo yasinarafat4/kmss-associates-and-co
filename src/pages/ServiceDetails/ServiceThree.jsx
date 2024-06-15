@@ -40,7 +40,7 @@ const ServiceThree = () => {
   return (
     <div>
       <ServiceBanner heading={"Our Accounting Service"} />
-      <div className="px-[20px] py-[10px] md:px-[100px] md:py-[30px]">
+      <div className="px-[20px] py-[10px] md:px-[100px] md:py-[30px] dark:bg-slate-700 dark:text-slate-200">
         <p className="text-md lg:text-lg">
           <strong>KMSS & Associates</strong> provides a wide range of accounting
           services to individuals and businesses in a variety of companies. Here
@@ -73,13 +73,13 @@ const ServiceThree = () => {
                 className="flex items-center"
               >
                 {/* Index div  */}
-                <div className="flex h-16 w-16 select-none items-center justify-center rounded-md bg-[#0149AB] font-sans text-xl md:text-2xl font-semibold text-white">
+                <div className="flex h-16 w-16 select-none items-center justify-center rounded-md bg-[#0149AB] dark:bg-slate-900 dark:text-slate-200 font-sans text-xl md:text-2xl font-semibold text-white">
                   <span>0{idx + 1}</span>
                 </div>
 
-                <div className="relative h-[2px] w-5 md:w-10 bg-[#0149AB]">
+                <div className="relative h-[2px] w-5 md:w-10 bg-[#0149AB] dark:bg-slate-900 dark:text-slate-200">
                   <span className="absolute -left-2 -top-[5px] z-40 h-3 w-3 rounded-full border-2 border-[#0149AB] bg-white"></span>
-                  <span className="h-1 w-5 md:w-10 bg-[#0149AB]"></span>
+                  <span className="h-1 w-5 md:w-10 bg-[#0149AB] dark:bg-slate-900 dark:text-slate-200"></span>
                   <span
                     className={`absolute -right-2 -top-[5px] z-40 h-3 w-3 rounded-full border-2 ${
                       isOpen === idx
@@ -91,9 +91,9 @@ const ServiceThree = () => {
 
                 {/* Main accordion div  */}
                 <div className="text-center">
-                  <div className="relative md:max-w-[750px] lg:max-w-[850px] border-t-[12px] border-[#0149AB] bg-sky-50 p-3 shadow-md">
-                    <span className="absolute right-0 top-0 h-0 w-0 border-b-[40px] border-r-[40px] border-b-transparent border-r-[#0149AB]"></span>
-                    <h1 className="select-none text-lg text-[#0149AB]">
+                  <div className="relative md:max-w-[750px] lg:max-w-[850px] border-t-[12px] border-[#0149AB] dark:border-slate-900 bg-sky-100 dark:bg-slate-600 p-3 shadow-md">
+                    <span className="absolute right-0 top-0 h-0 w-0 border-b-[40px] border-r-[40px] border-b-transparent border-r-[#0149AB] dark:border-r-slate-900"></span>
+                    <h1 className="select-none text-lg text-[#0149AB] dark:text-slate-200">
                       {data.title}
                     </h1>
                   </div>
@@ -105,7 +105,7 @@ const ServiceThree = () => {
                     }`}
                   >
                     <div className="overflow-hidden">
-                      <div className="max-w-[280px] md:max-w-[550px] lg:max-w-[950px] bg-[#0149AB] p-6 text-sm text-white">
+                      <div className="max-w-[280px] md:max-w-[550px] lg:max-w-[950px] bg-[#0149AB] dark:bg-slate-900 dark:text-slate-200 p-6 text-sm text-white">
                         {data.description}
                       </div>
                     </div>
