@@ -22,7 +22,7 @@ const ServiceThree = () => {
     {
       title: "Cash Flow Budgeting",
       description:
-        "Our service involves creating a cash flow budget to plan and manage your cash inflows and outflows, ensuring financial stability.",
+        "Our comprehensive service involves creating a detailed cash flow budget to plan and manage your cash inflows and outflows, ensuring financial stability.",
     },
     {
       title: "Profit-Sharing Plans",
@@ -73,7 +73,7 @@ const ServiceThree = () => {
                 className="flex items-center"
               >
                 {/* Index div  */}
-                <div className="flex size-16 select-none items-center justify-center rounded-md bg-[#0149AB] font-sans text-xl md:text-2xl font-semibold text-white">
+                <div className="flex h-16 w-16 select-none items-center justify-center rounded-md bg-[#0149AB] font-sans text-xl md:text-2xl font-semibold text-white">
                   <span>0{idx + 1}</span>
                 </div>
 
