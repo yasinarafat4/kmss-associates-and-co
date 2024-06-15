@@ -3,31 +3,31 @@ import ServiceBanner from "../../components/ServiceBanner";
 
 const ServiceThree = () => {
   // Accordion data
-  const dataArr = [
+  const accountingServiceData = [
     {
       title: "General Ledger & Financial Statement Preparation",
       description:
-        'To create an account, click on the "Sign Up" button and fill out the required information. Once done, you can enjoy the benefits of being a registered member.',
+        "We record all financial transactions in the general ledger and prepare financial statements to reflect your business's performance accurately.",
     },
     {
       title: "Personal Financial Statement Preparation",
       description:
-        "Our return policy allows you to return items within 30 days of purchase. Please visit our returns page for detailed instructions and to initiate a return.",
+        "Our team prepares detailed personal financial statements, summarizing your assets, liabilities, income, and expenses for financial assessments.",
     },
     {
       title: "Bookkeeping (Monthly, Quarterly, Annually)",
       description:
-        "Yes, you can change your shipping address before your order is shipped. Go to your account settings and update the shipping information accordingly.",
+        "We handle your bookkeeping by recording financial transactions periodically, ensuring accurate and organized financial records throughout the year.",
     },
     {
       title: "Cash Flow Budgeting",
       description:
-        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+        "Our service involves creating a cash flow budget to plan and manage your cash inflows and outflows, ensuring financial stability.",
     },
     {
       title: "Profit-Sharing Plans",
       description:
-        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+        "We design and administer profit-sharing plans to distribute a portion of company profits to employees, enhancing their motivation and engagement.",
     },
   ];
 
@@ -66,7 +66,7 @@ const ServiceThree = () => {
         <div className="flex w-full justify-center">
           <div className=" md:max-w-[750px] lg:max-w-[850px] cursor-pointer space-y-6 pt-10 pb-20">
             {/* mapping each accordion  */}
-            {dataArr.map((data, idx) => (
+            {accountingServiceData.map((data, idx) => (
               <div
                 key={idx}
                 onClick={() => handleToggle(idx)}
