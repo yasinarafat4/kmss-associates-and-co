@@ -231,7 +231,7 @@ const ServiceFive = () => {
                   2. Internal Audit
                 </h2>
                 <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
-                  {/* subheading here */}
+                  Scope and Services of Internal Auditing
                 </p>
               </div>
               <div className="rounded-full bg-white p-5">
@@ -274,21 +274,23 @@ const ServiceFive = () => {
                 <p className="text-md lg:text-lg">
                   The word "audit" comes from the Latin word “audire,” which
                   means "to listen." Originally, it implied the practice of
-                  listening and informing others. <br className="lg:hidden" /> <br className="lg:hidden" />An auditor evaluates
-                  accounting policies and work procedures, following criteria
-                  such as national accounting rules, internal procedure manuals,
-                  and tax regulations.
+                  listening and informing others. <br className="lg:hidden" />{" "}
+                  <br className="lg:hidden" />
+                  An auditor evaluates accounting policies and work procedures,
+                  following criteria such as national accounting rules, internal
+                  procedure manuals, and tax regulations.
                 </p>
                 <p className="text-md lg:text-lg">
                   The role of an internal auditor evolved in the early 1990s to
                   cover various organizational areas based on specific needs.
                   These areas primarily include compliance audits, overall
                   transaction audits, investigations of fraudulent activities,
-                  and detecting miscalculations. <br className="lg:hidden" /> <br className="lg:hidden" />Additionally, the scope of an
-                  internal auditor's work encompasses evaluating organizational
-                  operational efficiency and conducting analyses. They also
-                  measure organization-wide risks and perform other assurance or
-                  consulting activities.
+                  and detecting miscalculations. <br className="lg:hidden" />{" "}
+                  <br className="lg:hidden" />
+                  Additionally, the scope of an internal auditor's work
+                  encompasses evaluating organizational operational efficiency
+                  and conducting analyses. They also measure organization-wide
+                  risks and perform other assurance or consulting activities.
                 </p>
                 <p className="text-md lg:text-lg">
                   Internal auditing is recognized globally for its flexible
