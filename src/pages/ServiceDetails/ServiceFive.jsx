@@ -148,7 +148,7 @@ const ServiceFive = () => {
                 <p className="text-md lg:text-lg">
                   Moreover, there are certain public company audits which test
                   the effectiveness of internal to control over financial
-                  reporting. The external audit process begins with
+                  reporting.<br className="lg:hidden" /> <br className="lg:hidden" /> The external audit process begins with
                   understanding the business and assessing financial reporting
                   risks, followed by designing and executing an integrated audit
                   plan.
