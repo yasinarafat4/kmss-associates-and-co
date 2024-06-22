@@ -304,8 +304,7 @@ const ServiceFive = () => {
                   </p>
                 </div>
                 <div>
-                  <h2 className="text-lg md:text-xl font-semibold mb-1">Internal Audit Services in Bangladesh:
-</h2>
+                  <h2 className="text-lg md:text-xl font-semibold mb-1">Internal Audit Services in Bangladesh:</h2>
                   <p className="text-md lg:text-lg">
                     Internal auditors perform risk assessment, control
                     assurance, and compliance work, which map into corporate
@@ -316,7 +315,7 @@ const ServiceFive = () => {
                     independent and aim to add value and improve organizational
                     operations.
                   </p>
-                    <br />
+                  <br />
 
                   <p className="text-md lg:text-lg">
                     Internal auditors enhance operations by establishing
@@ -328,7 +327,7 @@ const ServiceFive = () => {
                     They act independently from internal management systems with
                     integrity to prepare unbiased reports.
                   </p>
-                    <br />
+                  <br />
 
                   <p className="text-md lg:text-lg">
                     This demonstrates their excellence in internal audits.
@@ -340,7 +339,7 @@ const ServiceFive = () => {
                     team works independently, understanding and achieving
                     fundamental organizational goals.
                   </p>
-                    <br />
+                  <br />
 
                   <p className="text-md lg:text-lg">
                     Internal auditors address compliance audits, transaction
@@ -351,7 +350,7 @@ const ServiceFive = () => {
                     assessing specific area risks and developing written
                     programs when needed. 
                   </p>
-                    <br />
+                  <br />
 
                   <p className="text-md lg:text-lg">
                     They follow effective methods to track the overall situation
@@ -363,7 +362,7 @@ const ServiceFive = () => {
                     work scope includes evaluating organizational efficiency and
                     analysis.
                   </p>
-                    <br />
+                  <br />
 
                   <p className="text-md lg:text-lg">
                     Additionally, they measure organization-wide risks and
@@ -375,7 +374,7 @@ const ServiceFive = () => {
                     organizational success, providing assurance and insights
                     during risk-based audits.
                   </p>
-                    <br />
+                  <br />
 
                   <p className="text-md lg:text-lg">
                     As risks grow complex, internal auditors address culture,
