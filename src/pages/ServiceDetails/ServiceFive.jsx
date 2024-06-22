@@ -148,10 +148,11 @@ const ServiceFive = () => {
                 <p className="text-md lg:text-lg">
                   Moreover, there are certain public company audits which test
                   the effectiveness of internal to control over financial
-                  reporting.<br className="lg:hidden" /> <br className="lg:hidden" /> The external audit process begins with
-                  understanding the business and assessing financial reporting
-                  risks, followed by designing and executing an integrated audit
-                  plan.
+                  reporting.
+                  <br className="lg:hidden" /> <br className="lg:hidden" /> The
+                  external audit process begins with understanding the business
+                  and assessing financial reporting risks, followed by designing
+                  and executing an integrated audit plan.
                   <br className="lg:hidden" /> <br className="lg:hidden" /> The
                   process concludes with reporting the audit results, including
                   audit opinions and internal control findings. Despite all an
@@ -280,7 +281,8 @@ const ServiceFive = () => {
                     An auditor evaluates accounting policies and work
                     procedures, following criteria such as national accounting
                     rules, internal procedure manuals, and tax regulations.
-                  </p><br />
+                  </p>
+                  <br />
                   <p className="text-md lg:text-lg">
                     The role of an internal auditor evolved in the early 1990s
                     to cover various organizational areas based on specific
@@ -292,13 +294,100 @@ const ServiceFive = () => {
                     encompasses evaluating organizational operational efficiency
                     and conducting analyses. They also measure organization-wide
                     risks and perform other assurance or consulting activities.
-                  </p><br />
+                  </p>
+                  <br />
                   <p className="text-md lg:text-lg">
                     Internal auditing is recognized globally for its flexible
                     framework. It aligns with the regulatory framework of each
                     country, ensuring compliance with specific rules governing
                     different sectors.
                   </p>
+                </div>
+                <div>
+                  <p className="text-md lg:text-lg">
+                    Internal auditors perform risk assessment, control
+                    assurance, and compliance work, which map into corporate
+                    governance. They work independently, understanding
+                    organizational goals and working to achieve those goals.
+                    KMSS & Associates' internal audit team is expert in the
+                    audit process. Internal auditing activities are completely
+                    independent and aim to add value and improve organizational
+                    operations.
+                    <br />
+                  </p>
+
+                  <p className="text-md lg:text-lg">
+                    Internal auditors enhance operations by establishing
+                    systematic, disciplined approaches for evaluating risk
+                    management, control, and governance. Their work starts with
+                    considering risks, following up on past audits, and taking
+                    corrective measures. KMSS & Associates' internal audit team
+                    ensures that errors don't recur and takes necessary steps.
+                    They act independently from internal management systems with
+                    integrity to prepare unbiased reports.
+                  </p>
+                    <br />
+
+                  <p className="text-md lg:text-lg">
+                    This demonstrates their excellence in internal audits.
+                    Internal audit procedures vary by department; manufacturing
+                    needs daily audits, while human resources need annual
+                    audits. KMSS & Associates' procedures include transaction
+                    matching, physical inventory counts, and audit
+                    reconciliation, adhering to governmental regulations. The
+                    team works independently, understanding and achieving
+                    fundamental organizational goals.
+                  </p>
+                    <br />
+
+                  <p className="text-md lg:text-lg">
+                    Internal auditors address compliance audits, transaction
+                    audits, and investigate fraud or miscalculations in several
+                    organizational areas. KMSS & Associates evaluates processes
+                    and control designs through proper inquiry, observation, and
+                    examination methods. The team plans appropriately by
+                    assessing specific area risks and developing written
+                    programs when needed. They gather outside information,
+                    consider self-assessments, and develop effective reports.
+                  </p>
+                    <br />
+
+                  <p className="text-md lg:text-lg">
+                    They follow effective methods to track the overall situation
+                    and keep follow-ups on recommendations. Internal audit
+                    functions include risk assessment, control assurance, and
+                    compliance work, mapping directly into corporate governance.
+                    Internal auditors work independently, understanding
+                    organizational goals and working to achieve those goals. The
+                    work scope includes evaluating organizational efficiency and
+                    analysis.
+                  </p>
+                    <br />
+
+                  <p className="text-md lg:text-lg">
+                    Additionally, they measure organization-wide risks and
+                    perform assurance or consulting activities. Internal audit
+                    is recognized globally for its flexible framework, adhering
+                    to country regulations. This framework helps stay
+                    up-to-date, ensuring compliance meets directly and
+                    indirectly. Internal audit structures and processes drive
+                    organizational success, providing assurance and insights
+                    during risk-based audits.
+                  </p>
+                    <br />
+
+                  <p className="text-md lg:text-lg">
+                    As risks grow complex, internal auditors address culture,
+                    sustainability, risk governance, and financial and
+                    non-financial reporting measures. New technology,
+                    geopolitics, and innovations, or cybersecurity issues are
+                    managed through timely internal audits. To maintain standard
+                    internal audits, departments need IT skills like risk
+                    assessment, governance, privacy, and security. Effective
+                    strategies to maintain and record information are essential,
+                    including a detailed internal audit report.
+                  </p>
+                    <br />
                 </div>
               </div>
             </div>
