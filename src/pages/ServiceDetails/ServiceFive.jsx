@@ -310,20 +310,20 @@ const ServiceFive = () => {
                     Internal auditors perform risk assessment, control
                     assurance, and compliance work, which map into corporate
                     governance. They work independently, understanding
-                    organizational goals and working to achieve those goals.
+                    organizational goals and working to achieve those goals.<br className="lg:hidden" /> <br className="lg:hidden" />
                     KMSS & Associates' internal audit team is expert in the
                     audit process. Internal auditing activities are completely
                     independent and aim to add value and improve organizational
                     operations.
-                    <br />
                   </p>
+                    <br />
 
                   <p className="text-md lg:text-lg">
                     Internal auditors enhance operations by establishing
                     systematic, disciplined approaches for evaluating risk
                     management, control, and governance. Their work starts with
                     considering risks, following up on past audits, and taking
-                    corrective measures. KMSS & Associates' internal audit team
+                    corrective measures.<br className="lg:hidden" /> <br className="lg:hidden" /> KMSS & Associates' internal audit team
                     ensures that errors don't recur and takes necessary steps.
                     They act independently from internal management systems with
                     integrity to prepare unbiased reports.
