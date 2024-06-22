@@ -334,7 +334,7 @@ const ServiceFive = () => {
                     This demonstrates their excellence in internal audits.
                     Internal audit procedures vary by department; manufacturing
                     needs daily audits, while human resources need annual
-                    audits. KMSS & Associates' procedures include transaction
+                    audits. <br className="lg:hidden" /> <br className="lg:hidden" />KMSS & Associates' procedures include transaction
                     matching, physical inventory counts, and audit
                     reconciliation, adhering to governmental regulations. The
                     team works independently, understanding and achieving
@@ -345,12 +345,11 @@ const ServiceFive = () => {
                   <p className="text-md lg:text-lg">
                     Internal auditors address compliance audits, transaction
                     audits, and investigate fraud or miscalculations in several
-                    organizational areas. KMSS & Associates evaluates processes
+                    organizational areas.<br className="lg:hidden" /> <br className="lg:hidden" /> KMSS & Associates evaluates processes
                     and control designs through proper inquiry, observation, and
                     examination methods. The team plans appropriately by
                     assessing specific area risks and developing written
-                    programs when needed. They gather outside information,
-                    consider self-assessments, and develop effective reports.
+                    programs when needed. 
                   </p>
                     <br />
 
@@ -358,7 +357,7 @@ const ServiceFive = () => {
                     They follow effective methods to track the overall situation
                     and keep follow-ups on recommendations. Internal audit
                     functions include risk assessment, control assurance, and
-                    compliance work, mapping directly into corporate governance.
+                    compliance work, mapping directly into corporate governance.<br className="lg:hidden" /> <br className="lg:hidden" />
                     Internal auditors work independently, understanding
                     organizational goals and working to achieve those goals. The
                     work scope includes evaluating organizational efficiency and
@@ -370,7 +369,7 @@ const ServiceFive = () => {
                     Additionally, they measure organization-wide risks and
                     perform assurance or consulting activities. Internal audit
                     is recognized globally for its flexible framework, adhering
-                    to country regulations. This framework helps stay
+                    to country regulations.<br className="lg:hidden" /> <br className="lg:hidden" /> This framework helps stay
                     up-to-date, ensuring compliance meets directly and
                     indirectly. Internal audit structures and processes drive
                     organizational success, providing assurance and insights
@@ -381,11 +380,11 @@ const ServiceFive = () => {
                   <p className="text-md lg:text-lg">
                     As risks grow complex, internal auditors address culture,
                     sustainability, risk governance, and financial and
-                    non-financial reporting measures. New technology,
+                    non-financial reporting measures.<br className="lg:hidden" /> <br className="lg:hidden" /> New technology,
                     geopolitics, and innovations, or cybersecurity issues are
                     managed through timely internal audits. To maintain standard
                     internal audits, departments need IT skills like risk
-                    assessment, governance, privacy, and security. Effective
+                    assessment, governance, privacy, and security. <br className="lg:hidden" /> <br className="lg:hidden" />Effective
                     strategies to maintain and record information are essential,
                     including a detailed internal audit report.
                   </p>
