@@ -304,6 +304,8 @@ const ServiceFive = () => {
                   </p>
                 </div>
                 <div>
+                  <h2 className="text-lg md:text-xl font-semibold mb-1">Internal Audit Services in Bangladesh:
+</h2>
                   <p className="text-md lg:text-lg">
                     Internal auditors perform risk assessment, control
                     assurance, and compliance work, which map into corporate
