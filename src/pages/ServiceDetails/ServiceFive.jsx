@@ -229,10 +229,10 @@ const ServiceFive = () => {
             >
               <div className="space-y-3  text-start">
                 <h2 className="text-xl lg:text-2xl text-[#014AA8] dark:text-white font-semibold">
-                  2. External or Statuary Audit
+                  2. Internal Audit
                 </h2>
                 <p className="text-md lg:text-lg text-[#014AA8] dark:text-white font-medium">
-                  Scope and Services of Internal Auditing Internal Auditing
+                  Scope and Services of Internal Auditing
                 </p>
               </div>
               <div className="rounded-full bg-white p-5">
