@@ -398,7 +398,7 @@ const ServiceFive = () => {
                   Additionally, an internal auditor must possess qualities and knowledge such as honesty, integrity, a strong work ethic, attention to detail, and a robust financial/accounting background as required by the company. The KMSS & Associates internal audit team maintains a healthy level of professional skepticism to evaluate information and make judgments.
                   </p><br/>
                   <p className="text-md lg:text-lg">
-
+                  They are proficient in negotiating and reasoning with various departments and groups and maintain exceptional written and verbal communication skills when needed. The KMSS & Associates internal audit team consistently demonstrates commitment and competence in internal auditing.
                   </p><br/>
                   </div>
               </div>
