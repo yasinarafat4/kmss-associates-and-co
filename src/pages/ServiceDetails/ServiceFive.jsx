@@ -395,7 +395,7 @@ const ServiceFive = () => {
                   KMSS & Associates maintains internal audit reports with objectives, background, scope, findings, recommendations, and follow-up tracking. The internal audit team controls and prevents fraud by assessing and evaluating clients' internal control systems. They monitor situations, communicate with clients, and provide training to prevent fraud.
                   </p><br/>
                   <p className="text-md lg:text-lg">
-
+                  Additionally, an internal auditor must possess qualities and knowledge such as honesty, integrity, a strong work ethic, attention to detail, and a robust financial/accounting background as required by the company. The KMSS & Associates internal audit team maintains a healthy level of professional skepticism to evaluate information and make judgments.
                   </p><br/>
                   <p className="text-md lg:text-lg">
 
