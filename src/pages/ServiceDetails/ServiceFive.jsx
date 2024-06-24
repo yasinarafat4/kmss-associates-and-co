@@ -392,6 +392,12 @@ const ServiceFive = () => {
                 <div>
                   <h2 className="text-lg md:text-xl font-semibold mb-1">Our Internal Audit Services in Bangladesh:</h2>
                   <p className="text-md lg:text-lg">
+                  KMSS & Associates maintains internal audit reports with objectives, background, scope, findings, recommendations, and follow-up tracking. The internal audit team controls and prevents fraud by assessing and evaluating clients' internal control systems. They monitor situations, communicate with clients, and provide training to prevent fraud.
+                  </p><br/>
+                  <p className="text-md lg:text-lg">
+
+                  </p><br/>
+                  <p className="text-md lg:text-lg">
 
                   </p><br/>
                   </div>
