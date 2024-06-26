@@ -5,7 +5,7 @@ const ServiceSix = () => {
   return (
     <div>
       <ServiceBanner heading={"Our Stock Capital Market Service"} />
-      {/* Added soon */}
+      
     </div>
   );
 };
