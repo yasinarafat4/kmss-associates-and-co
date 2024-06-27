@@ -42,7 +42,7 @@ const ServiceSix = () => {
           The capital market involves collecting assets from various entities
           and making them available to those needing funds. Its core function is
           to enhance transaction efficiency, so individual entities do not need
-          to conduct extensive searches and analyses. The capital market acts as
+          to conduct extensive searches and analyses.<br className="lg:hidden" /> <br className="lg:hidden" />  The capital market acts as
           an intermediary, gathering funds from different sources and making
           them available to entities that need them most.
           <br /> <br />
