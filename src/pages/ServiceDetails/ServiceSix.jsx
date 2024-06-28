@@ -16,10 +16,10 @@ const ServiceSix = () => {
           for the existence of the stock market is to facilitate the issuance of
           shares through IPOs. This process allows a company to raise capital
           for various purposes.
-          <br /> <br /> Initiating
-          an IPO involves several steps, starting with the formation of an IPO
-          team that includes experts in securities and exchange regulations
-          (such as those from the Securities and Exchange Commission, or SEC).
+          <br /> <br /> Initiating an IPO involves several steps, starting with
+          the formation of an IPO team that includes experts in securities and
+          exchange regulations (such as those from the Securities and Exchange
+          Commission, or SEC).
           <br className="lg:hidden" /> <br className="lg:hidden" />
           Additionally, the company must prepare a prospectus, which details its
           financial performance and provides comprehensive information about the
@@ -35,23 +35,46 @@ const ServiceSix = () => {
           <br className="lg:hidden" /> <br className="lg:hidden" />
           However, there are disadvantages to offering an IPO. As a public
           company, it must disclose information that could be advantageous to
-          competitors when filing various reports with the SEC.<br className="lg:hidden" /> <br className="lg:hidden" /> To conduct an
-          IPO, an organization must work with investment banks or multiple
+          competitors when filing various reports with the SEC.
+          <br className="lg:hidden" /> <br className="lg:hidden" /> To conduct
+          an IPO, an organization must work with investment banks or multiple
           banks. The company conducting the IPO is called the issuer.
           <br /> <br />
           The capital market involves collecting assets from various entities
           and making them available to those needing funds. Its core function is
           to enhance transaction efficiency, so individual entities do not need
-          to conduct extensive searches and analyses.<br className="lg:hidden" /> <br className="lg:hidden" />  The capital market acts as
-          an intermediary, gathering funds from different sources and making
-          them available to entities that need them most.
+          to conduct extensive searches and analyses.
+          <br className="lg:hidden" /> <br className="lg:hidden" /> The capital
+          market acts as an intermediary, gathering funds from different sources
+          and making them available to entities that need them most.
           <br /> <br />
           The capital market has two main types: the primary market and the
           secondary market. In the primary market, underwriting occurs, where
           new securities are sold for the first time. In the secondary market,
           existing securities are traded, either over-the-counter (OTC) or
           through other platforms.
+          <br /> <br />
+          At KMSS & Associates Consulting International, our experienced team
+          provides comprehensive services for the entire IPO (Initial Public
+          Offering) process. We start with the appraisal and assessment of the
+          benefits of an IPO and explore all possible options. Our professional
+          team allows company management to focus on the crucial aspects of the
+          IPO process, where their input is essential.
         </p>
+
+        {/* <div>
+
+Having navigated this process many times before, we can assist at every stage of the IPO journey. Our approach is truly multi-disciplinary, encompassing corporate finance advisory, audit, transaction services, taxation, and various specialists from across the firm. This enables us to offer high-quality advice not only on technical issues and procedural matters but also on broader strategic and business considerations expected from an independent financial advisor. Our IPO services include:
+
+IPO Assistance: We work as an integrated part of the team to provide the right level of support to complement your existing skills and resources.
+Assessment and Legal Restructuring: We prepare for the IPO by assessing and restructuring the company as necessary.
+IFRS Reporting: We ensure compliance with International Financial Reporting Standards and quick close to meet exchange requirements.
+Corporate Governance Advice: We offer relevant advice on corporate governance and transparency in risk management.
+The Bangladesh capital market, while one of the smallest in Asia, is the third largest in South Asia. It includes the Dhaka Stock Exchange (DSE) and the Chittagong Stock Exchange (CSE). The Securities and Exchange Commission (SEC) acts as a dedicated regulator, enforcing rules and regulations, monitoring compliance, and developing the capital market.
+
+The experts at KMSS & Associates Consulting International are well-versed in IPOs and restructuring for listing on both local and global securities exchanges. We work as reporting accountants, conducting audits of listing-related financial statements, and advising on accounting treatments and regulator comments. Our pre-IPO services include assisting companies with listing preparations, encompassing operational, financial, and managerial aspects.
+
+Our expert team supports listed companies by providing guidance on withholding tax exemptions, managing capital reductions, buybacks, and ensuring compliance with corporate governance. We also assist in documenting, drafting, and negotiating contracts as part of our comprehensive service offering.</div> */}
       </div>
     </div>
   );
