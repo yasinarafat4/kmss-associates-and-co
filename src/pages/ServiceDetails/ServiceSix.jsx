@@ -57,14 +57,23 @@ const ServiceSix = () => {
           At KMSS & Associates Consulting International, our experienced team
           provides comprehensive services for the entire IPO (Initial Public
           Offering) process. We start with the appraisal and assessment of the
-          benefits of an IPO and explore all possible options. Our professional
+          benefits of an IPO and explore all possible options.<br className="lg:hidden" /> <br className="lg:hidden" />  Our professional
           team allows company management to focus on the crucial aspects of the
           IPO process, where their input is essential.
         </p>
-
+        <br />
+        <br />
+        Having navigated this process many times before, we can assist at every
+        stage of the IPO journey. Our approach is truly multi-disciplinary,
+        encompassing corporate finance advisory, audit, transaction services,
+        taxation, and various specialists from across the firm.<br className="lg:hidden" /> <br className="lg:hidden" />  This enables us
+        to offer high-quality advice not only on technical issues and procedural
+        matters but also on broader strategic and business considerations
+        expected from an independent financial advisor. Our IPO services
+        include:
         {/* <div>
 
-Having navigated this process many times before, we can assist at every stage of the IPO journey. Our approach is truly multi-disciplinary, encompassing corporate finance advisory, audit, transaction services, taxation, and various specialists from across the firm. This enables us to offer high-quality advice not only on technical issues and procedural matters but also on broader strategic and business considerations expected from an independent financial advisor. Our IPO services include:
+
 
 IPO Assistance: We work as an integrated part of the team to provide the right level of support to complement your existing skills and resources.
 Assessment and Legal Restructuring: We prepare for the IPO by assessing and restructuring the company as necessary.
