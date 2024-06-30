@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
       {/* Page Banner */}
       <PageBanner
         heading="Privacy Policy"
-        subHeading="Your privacy is important to us."
+        subHeading="Your privacy is important to us!"
       />
 
       {/* Main Content */}
