@@ -15,9 +15,9 @@ const Partners = () => {
   ];
 
   return (
-    <section className="bg-white dark:bg-slate-200 py-10 px-5">
+    <section className="bg-white dark:bg-slate-700  py-10 px-5">
       <div className="max-w-7xl mx-auto text-center">
-        <h1 className="text-3xl font-bold text-gray-800 mb-6">
+        <h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
           Our Partners & Supporters
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -30,9 +30,9 @@ const Partners = () => {
                 <img
                   src={partner.logo}
                   alt={partner.name}
-                  className="h-20 w-auto mb-2 dark:border-2 border-slate-800 dark:p-2"
+                  className="h-20 w-auto mb-2 dark:border-2 border-slate-300 dark:p-2"
                 />
-                <span className="group-hover:text-[#FE322E] duration-300 text-base text-slate-800 dark:text-slate-700">
+                <span className="group-hover:text-[#0B539B] dark:group-hover:text-[#3cf0e7] duration-300 text-base text-slate-800 dark:text-slate-200">
                   {partner.name}
                 </span>
               </div>
