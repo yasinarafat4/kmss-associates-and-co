@@ -2,10 +2,10 @@ import React from 'react';
 
 const PageBanner = ({heading, subHeading}) => {
     return (
-        <div className="flex items-center justify-center h-[200px] bg-blue-700 dark:bg-slate-700 text-white">
+        <div style={{ borderBottomLeftRadius: '50%', borderBottomRightRadius: '50%', padding: '60px 20px 60px 20px', textAlign: 'center', fontWeight: 'bold' }} className="mb-4 bg-[#024BAA] dark:bg-slate-700 text-white">
             <div className="text-center">
                 <h2 className="text-3xl font-bold">{heading}</h2>
-                <p className="mt-2">{subHeading}</p>
+                <p className="mt-2 text-lg font-normal">{subHeading}</p>
             </div>
         </div>
     );
