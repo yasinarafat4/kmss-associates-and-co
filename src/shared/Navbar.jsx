@@ -52,7 +52,7 @@ const Navbar = () => {
   }, [targetSection]);
 
   return (
-    <nav className="navbar sticky top-0 z-50 bg-white shadow-lg dark:bg-slate-800  dark:text-slate-200 lg:px-20">
+    <nav className="navbar sticky top-0 z-50 bg-white shadow-lg dark:bg-slate-900  dark:text-slate-200 lg:px-20">
       <div className="flex-1">
         <Link to="/">
           <div className="flex flex-col justify-center items-center">
@@ -188,7 +188,7 @@ const Navbar = () => {
           )}
         </label>
       </div>
-      <label className="swap-rotate swap btn-ghost btn-circle btn ml-2 bg-white dark:bg-slate-800 lg:hidden">
+      <label className="swap-rotate swap btn-ghost btn-circle btn ml-2 bg-white dark:bg-slate-900 lg:hidden">
         <input
           checked={navToggle}
           onChange={() => setNavToggle((pre) => !pre)}
