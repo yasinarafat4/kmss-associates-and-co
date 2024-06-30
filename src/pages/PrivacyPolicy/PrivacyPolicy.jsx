@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
         {/* Introduction */}
         <div className="mb-6">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Introduction</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             At KMSS & Associates, we value your privacy and are committed to
             protecting your personal information. This Privacy Policy outlines
             how we collect, use, and safeguard your data when you use our
@@ -26,7 +26,7 @@ const PrivacyPolicy = () => {
         {/* Information Collection */}
         <div className="mb-6">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Information Collection</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             We may collect personal information including your name, email
             address, phone number, and other details relevant to our services.
             This information is collected through forms on our website,
@@ -37,7 +37,7 @@ const PrivacyPolicy = () => {
         {/* Use of Information */}
         <div className="mb-6">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Use of Information</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             The information we collect is used to provide and improve our
             services, respond to inquiries, and maintain our business records.
             We may also use your information to communicate with you about
@@ -48,7 +48,7 @@ const PrivacyPolicy = () => {
         {/* Data Protection */}
         <div className="mb-6">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Data Protection</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             We implement appropriate technical and organizational measures to
             protect your personal data from unauthorized access, alteration,
             disclosure, or destruction. However, no method of transmission over
@@ -59,7 +59,7 @@ const PrivacyPolicy = () => {
         {/* Cookies */}
         <div className="mb-6">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Cookies</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             Our website may use cookies to enhance your browsing experience.
             Cookies are small data files stored on your device that help us
             understand your preferences and improve our services. You can choose
@@ -70,7 +70,7 @@ const PrivacyPolicy = () => {
         {/* Third-Party Links */}
         <div className="mb-6">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Third-Party Links</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             Our website may contain links to third-party sites. We are not
             responsible for the privacy practices or content of these external
             sites. We encourage you to review their privacy policies before
@@ -81,7 +81,7 @@ const PrivacyPolicy = () => {
         {/* Changes to Privacy Policy */}
         <div className="mb-6">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Changes to Privacy Policy</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             We may update this Privacy Policy from time to time to reflect
             changes in our practices or legal requirements. We will notify you
             of any significant changes by posting the updated policy on our
@@ -92,7 +92,7 @@ const PrivacyPolicy = () => {
         {/* Contact Us */}
         <div>
           <h2 className="text-xl md:text-2xl font-bold mb-4">Contact Us</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             If you have any questions or concerns about our Privacy Policy or
             how we handle your personal information, please contact us at:
           </p>

@@ -12,7 +12,7 @@ const TermsAndConditions = () => {
         {/* Introduction */}
         <div className="mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Introduction</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             Welcome to KMSS & Associates. By accessing or using our services, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
           </p>
         </div>
@@ -20,7 +20,7 @@ const TermsAndConditions = () => {
         {/* Use of Services */}
         <div className="mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Use of Services</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             Our services are provided for lawful purposes only. You agree not to use our services for any unlawful or prohibited activities, including but not limited to fraud, intellectual property infringement, or any form of harassment.
           </p>
         </div>
@@ -28,7 +28,7 @@ const TermsAndConditions = () => {
         {/* Intellectual Property */}
         <div className="mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Intellectual Property</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             All content and materials on our website, including text, graphics, logos, and images, are the intellectual property of KMSS & Associates or its licensors and are protected by applicable copyright and trademark laws.
           </p>
         </div>
@@ -36,7 +36,7 @@ const TermsAndConditions = () => {
         {/* Limitation of Liability */}
         <div className="mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Limitation of Liability</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             KMSS & Associates shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to or use of our services. This limitation applies to all claims, whether based on warranty, contract, tort, or any other legal theory.
           </p>
         </div>
@@ -44,7 +44,7 @@ const TermsAndConditions = () => {
         {/* Termination */}
         <div className="mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Termination</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             We reserve the right to terminate or suspend your access to our services at any time, without notice, for conduct that we believe violates these terms, is harmful to other users, or is otherwise illegal.
           </p>
         </div>
@@ -52,7 +52,7 @@ const TermsAndConditions = () => {
         {/* Governing Law */}
         <div className="mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Governing Law</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             These terms and conditions are governed by and construed in accordance with the laws of Bangladesh. Any disputes arising under or in connection with these terms shall be subject to the exclusive jurisdiction of the courts of Bangladesh.
           </p>
         </div>
@@ -60,7 +60,7 @@ const TermsAndConditions = () => {
         {/* Changes to Terms */}
         <div className="mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Changes to Terms</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed font-normal">
             We may update these terms and conditions from time to time. Any changes will be posted on this page, and your continued use of our services constitutes your acceptance of the updated terms.
           </p>
         </div>
