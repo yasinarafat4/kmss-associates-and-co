@@ -57,33 +57,59 @@ const ServiceSix = () => {
           At KMSS & Associates Consulting International, our experienced team
           provides comprehensive services for the entire IPO (Initial Public
           Offering) process. We start with the appraisal and assessment of the
-          benefits of an IPO and explore all possible options.<br className="lg:hidden" /> <br className="lg:hidden" />  Our professional
-          team allows company management to focus on the crucial aspects of the
-          IPO process, where their input is essential.
+          benefits of an IPO and explore all possible options.
+          <br className="lg:hidden" /> <br className="lg:hidden" /> Our
+          professional team allows company management to focus on the crucial
+          aspects of the IPO process, where their input is essential.
         </p>
-        <br />
         <br />
         Having navigated this process many times before, we can assist at every
         stage of the IPO journey. Our approach is truly multi-disciplinary,
         encompassing corporate finance advisory, audit, transaction services,
-        taxation, and various specialists from across the firm.<br className="lg:hidden" /> <br className="lg:hidden" />  This enables us
-        to offer high-quality advice not only on technical issues and procedural
-        matters but also on broader strategic and business considerations
-        expected from an independent financial advisor. Our IPO services
-        include:
-        {/* <div>
-
-
-
-IPO Assistance: We work as an integrated part of the team to provide the right level of support to complement your existing skills and resources.
-Assessment and Legal Restructuring: We prepare for the IPO by assessing and restructuring the company as necessary.
-IFRS Reporting: We ensure compliance with International Financial Reporting Standards and quick close to meet exchange requirements.
-Corporate Governance Advice: We offer relevant advice on corporate governance and transparency in risk management.
-The Bangladesh capital market, while one of the smallest in Asia, is the third largest in South Asia. It includes the Dhaka Stock Exchange (DSE) and the Chittagong Stock Exchange (CSE). The Securities and Exchange Commission (SEC) acts as a dedicated regulator, enforcing rules and regulations, monitoring compliance, and developing the capital market.
-
-The experts at KMSS & Associates Consulting International are well-versed in IPOs and restructuring for listing on both local and global securities exchanges. We work as reporting accountants, conducting audits of listing-related financial statements, and advising on accounting treatments and regulator comments. Our pre-IPO services include assisting companies with listing preparations, encompassing operational, financial, and managerial aspects.
-
-Our expert team supports listed companies by providing guidance on withholding tax exemptions, managing capital reductions, buybacks, and ensuring compliance with corporate governance. We also assist in documenting, drafting, and negotiating contracts as part of our comprehensive service offering.</div> */}
+        taxation, and various specialists from across the firm.
+        <br className="lg:hidden" /> <br className="lg:hidden" /> This enables
+        us to offer high-quality advice not only on technical issues and
+        procedural matters but also on broader strategic and business
+        considerations expected from an independent financial advisor. Our IPO
+        services include:
+        
+        <ul className="my-2 ms-5 list-disc ">
+          <li>
+            <strong>IPO Assistance:</strong> We work as an integrated part of
+            the team to provide the right level of support to complement your
+            existing skills and resources.
+          </li>
+          <li>
+            <strong>Assessment and Legal Restructuring:</strong> We prepare for
+            the IPO by assessing and restructuring the company as necessary.
+            IFRS Reporting: We ensure compliance with International Financial
+            Reporting Standards and quick close to meet exchange requirements.
+          </li>
+          <li>
+            <strong>Corporate Governance Advice: </strong> We offer relevant
+            advice on corporate governance and transparency in risk management.
+          </li>
+        </ul>
+        <br />
+        <div>
+          The Bangladesh capital market, while one of the smallest in Asia, is
+          the third largest in South Asia. It includes the Dhaka Stock Exchange
+          (DSE) and the Chittagong Stock Exchange (CSE). The Securities and
+          Exchange Commission (SEC) acts as a dedicated regulator, enforcing
+          rules and regulations, monitoring compliance, and developing the
+          capital market. The experts at KMSS & Associates Consulting
+          International are well-versed in IPOs and restructuring for listing on
+          both local and global securities exchanges. We work as reporting
+          accountants, conducting audits of listing-related financial
+          statements, and advising on accounting treatments and regulator
+          comments. Our pre-IPO services include assisting companies with
+          listing preparations, encompassing operational, financial, and
+          managerial aspects. Our expert team supports listed companies by
+          providing guidance on withholding tax exemptions, managing capital
+          reductions, buybacks, and ensuring compliance with corporate
+          governance. We also assist in documenting, drafting, and negotiating
+          contracts as part of our comprehensive service offering.
+        </div>
       </div>
     </div>
   );
