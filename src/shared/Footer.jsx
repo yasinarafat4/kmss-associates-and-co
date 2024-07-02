@@ -83,7 +83,7 @@ const Footer = () => {
         </p>
         {/* Social Icons */}
         <div className="flex justify-center items-center pt-3 gap-2">
-          <a href="https://www.facebook.com">
+          <a target="_blank" href="https://www.facebook.com/jewel.finix">
             <img
               src="https://i.ibb.co/3d2ygD0/facebook-4.png"
               alt="Facebook"
