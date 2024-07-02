@@ -90,7 +90,7 @@ const Footer = () => {
               className="w-6 h-auto mr-2"
             />
           </a>
-          <a href="https://www.linkedin.com">
+          <a target="_blank" href="https://www.linkedin.com/in/k-m-saiful-islam">
             <img
               src="https://i.ibb.co/pRp6105/linkedin-2.png
                 "
