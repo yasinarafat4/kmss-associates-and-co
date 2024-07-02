@@ -22,7 +22,7 @@ const Contact = () => {
                 id="name"
                 name="name"
                 placeholder="Your Name"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800 dark:bg-slate-900 dark:text-slate-200"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-slate-700 dark:bg-slate-900 text-slate-200 font-normal text-base"
                 required
               />
             </div>
@@ -35,7 +35,7 @@ const Contact = () => {
                 id="email"
                 name="email"
                 placeholder="Your Email"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800 dark:bg-slate-900 dark:text-slate-200"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-slate-700 dark:bg-slate-900 text-slate-200 font-normal text-base"
                 required
               />
             </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                 id="phone"
                 name="phone"
                 placeholder="Your Number"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800 dark:bg-slate-900 dark:text-slate-200"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-slate-700 dark:bg-slate-900 text-slate-200 font-normal text-base"
                 required
               />
             </div>
@@ -63,7 +63,7 @@ const Contact = () => {
                 name="message"
                 rows="5"
                 placeholder="Your Message"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 text-slate-800 dark:bg-slate-900 dark:text-slate-200"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-slate-700 dark:bg-slate-900 text-slate-200 font-normal text-base"
                 required
               ></textarea>
             </div>
