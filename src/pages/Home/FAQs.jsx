@@ -30,7 +30,7 @@ const FAQs = () => {
       <h2 className='text-2xl md:text-3xl lg:text-4xl font-semibold text-center text-white mb-4'>Frequently Asked Questions</h2>
         {accordionsData.map((PerAccordion, idx) => (
           <div key={idx} className="border-b border-gray-500 last-of-type:border-none">
-            <button onClick={() => toggle(idx)} className="flex h-full w-full items-center justify-between py-4 font-medium text-white">
+            <button onClick={() => toggle(idx)} className="flex h-full w-full items-center justify-between py-4 font-normal text-white">
               <span className="text-base lg:text-xl xl:text-[22px] text-start">{PerAccordion.title}</span>
               <span className="rounded-full p-2 ">
                 <svg className="ml-8 mr-7 shrink-0 fill-[#fff]" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
