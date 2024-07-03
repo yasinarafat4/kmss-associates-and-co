@@ -57,7 +57,7 @@ const Footer = () => {
             Contact
           </a>
           <a className="link link-hover"><Link to={"/privacy-policy"}>Privacy Policy</Link></a>
-          <a className="link link-hover"><Link to={"/terms-and-conditions"}>Terms & Conditions</Link></a>
+          <a className="link link-hover"><Link to={"/terms-and-conditions"}>Term & Conditions</Link></a>
         </nav>
         <nav>
           <div className="xl:flex justify-start items-center gap-4">
