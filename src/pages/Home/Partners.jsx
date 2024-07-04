@@ -38,7 +38,7 @@ const Partners = () => {
     <section className="bg-white dark:bg-slate-700  py-10 px-5">
       <div className="max-w-7xl mx-auto text-center">
         <h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
-          Our Partners & Supporter
+          Our Partners & Supporters
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           {partners.map((partner, index) => (
