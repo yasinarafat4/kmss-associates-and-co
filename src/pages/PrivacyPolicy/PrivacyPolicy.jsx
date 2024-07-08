@@ -60,7 +60,7 @@ const PrivacyPolicy = () => {
         <div className="mb-6">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Cookies</h2>
           <p className="text-lg leading-relaxed font-normal">
-            Our website may use cookies to enhance your browsing.
+            Our website may use cookies to enhance your browsing experience.
             Cookies are small data files stored on your device that help us
             understand your preferences and improve our services. You can choose
             to disable cookies through your browser settings.
