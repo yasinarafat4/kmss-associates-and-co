@@ -6,7 +6,7 @@ const Contact = () => {
           GET A CALL BACK
         </h2>
         <p className="text-start lg:text-end mb-6 lg:mb-0 xl:text-lg">
-        If you need any support with Bangladesh Investment Development Authority Affairs (BIDA), ERC, IRC, project profiles, or both local and international accounting outsourcing, please reach out to us. We will always there for you.
+        If you need any support with Bangladesh Investment Development Authority Affairs (BIDA), ERC, IRC, project profiles, or both local and international accounting outsourcing, please reach out to us.
         </p>
         <p className="text-center text-red-600 text-lg mt-4">TODO: Changeable!</p>
       </div>
