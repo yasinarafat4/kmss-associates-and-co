@@ -52,7 +52,7 @@ const PrivacyPolicy = () => {
             We implement appropriate technical and organizational measures to
             protect your personal data from unauthorized access, alteration,
             disclosure, or destruction. However, no method of transmission over
-            the internet or electronic storage is 100%.
+            the internet or electronic storage is 100% secure.
           </p>
         </div>
 
