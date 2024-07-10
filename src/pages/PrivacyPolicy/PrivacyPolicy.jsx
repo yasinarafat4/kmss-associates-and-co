@@ -62,7 +62,8 @@ const PrivacyPolicy = () => {
           <p className="text-lg leading-relaxed font-normal">
             Our website may use cookies to enhance your browsing experience.
             Cookies are small data files stored on your device that help us
-            understand your preferences and improve our services.
+            understand your preferences and improve our services. You can choose
+            to disable cookies through your browser settings.
           </p>
         </div>
 
