@@ -8,7 +8,7 @@ const Contact = () => {
         <p className="text-start lg:text-end mb-6 lg:mb-0 xl:text-lg">
         If you need any support with Bangladesh Investment Development Authority Affairs (BIDA), ERC, IRC, project profiles, or both local and international accounting outsourcing, please reach out to us. We will always there for you.
         </p>
-        {/* TODO */}
+        {/* TODO Here */}
       </div>
       <div className="col-span-2">
         <form className="md:grid grid-cols-2 gap-4">
