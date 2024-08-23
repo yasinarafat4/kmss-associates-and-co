@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import BackToTop from "../components/BackToTop";
+import PhoneButton from "../components/PhoneButton";
 import Footer from "../shared/Footer";
 import Navbar from "../shared/Navbar";
 import Spinner from "../shared/Spinner";
@@ -27,6 +28,7 @@ const Main = () => {
       </div>
       <Footer />
       <BackToTop />
+      <PhoneButton/>
     </>
   );
 };
