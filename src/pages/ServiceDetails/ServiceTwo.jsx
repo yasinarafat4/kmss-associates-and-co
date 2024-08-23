@@ -11,7 +11,7 @@ const ServiceTwo = () => {
       <ServiceBanner heading={"Our Entity Formation Service"} />
       <div className="px-[15px] md:px-[60px] xl:px-[120px] 2xl:px-[350px] py-[16px] lg:py-[40px] dark:bg-slate-900">
         {/* Proprietorship */}
-        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(1)}
@@ -93,7 +93,7 @@ const ServiceTwo = () => {
           </div>
         </div>
         {/* Private Limited Company */}
-        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(2)}
@@ -159,7 +159,7 @@ const ServiceTwo = () => {
         </div>
 
         {/* Public Limited Company */}
-        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(3)}
@@ -224,7 +224,7 @@ const ServiceTwo = () => {
           </div>
         </div>
         {/* Liaison Or Branch Office */}
-        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(4)}
@@ -291,7 +291,7 @@ const ServiceTwo = () => {
           </div>
         </div>
         {/* Joint Venture Company */}
-        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(5)}
@@ -356,7 +356,7 @@ const ServiceTwo = () => {
           </div>
         </div>
         {/* Society / Trust / Foundation */}
-        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(6)}
@@ -434,7 +434,7 @@ const ServiceTwo = () => {
           </div>
         </div>
         {/* Trade Organization */}
-        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(7)}

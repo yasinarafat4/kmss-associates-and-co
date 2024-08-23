@@ -58,7 +58,7 @@ export default function PricingAccordion() {
                                     </div>
                                 </li>
                             </ul>
-                            <div className="bg-blue-100 dark:bg-slate-700 py-8 px-8 rounded-lg space-y-6">
+                            <div className="bg-white dark:bg-slate-700 py-8 px-8 rounded-lg space-y-6">
                                 <p className="text-lg text-center text-[#014AA8] dark:text-white">It&apos;s quick and easy to <span className="font-semibold">see exactly how much your photo editing rates will cost.</span> Just start a new order, upload your images, and see your total right there.</p>
                                 <div className="flex items-center justify-center">
                                     <PrimaryButton name={"Start Your Free Trial"} />

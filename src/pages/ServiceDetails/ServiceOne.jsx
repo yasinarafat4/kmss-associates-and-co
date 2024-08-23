@@ -12,7 +12,7 @@ const ServiceOne = () => {
       <ServiceBanner heading={"Our Licensing Service"} />
       <div className="px-[15px] md:px-[60px] xl:px-[120px] 2xl:px-[350px] py-[16px] lg:py-[40px] dark:bg-slate-900">
         {/* Trade License */}
-        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(1)}
@@ -86,7 +86,7 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Company Registration */}
-        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(2)}
@@ -313,7 +313,7 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Tax ID (TIN)*/}
-        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(3)}
@@ -447,7 +447,7 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Value Added Tax (BIN)*/}
-        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(4)}
@@ -537,7 +537,7 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* ERC Registration*/}
-        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(5)}
@@ -667,7 +667,7 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* IRC Registration*/}
-        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(6)}
@@ -786,7 +786,7 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Fire Licenses*/}
-        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(7)}
@@ -920,7 +920,7 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Factory / Establishment Registration*/}
-        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(8)}
@@ -1015,7 +1015,7 @@ const ServiceOne = () => {
           </div>
         </div>
         {/* Environment Clearance Certificate*/}
-        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className=" rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(9)}

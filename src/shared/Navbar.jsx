@@ -69,7 +69,7 @@ const Navbar = () => {
           {isHomePage ? (
             <div>
               <Link onClick={() => setNavToggle(false)} to="/">
-                <p className="text-lg 2xl:text-xl font-medium text-[#2563EB] hover:duration-500">
+                <p className="text-lg 2xl:text-xl font-medium text-[#C2410C] hover:duration-500">
                   Home
                 </p>
               </Link>
@@ -77,7 +77,7 @@ const Navbar = () => {
           ) : (
             <div>
               <Link onClick={() => setNavToggle(false)} to="/">
-                <p className="text-lg 2xl:text-xl font-medium hover:text-[#2563EB] hover:duration-500">
+                <p className="text-lg 2xl:text-xl font-medium hover:text-[#C2410C] hover:duration-500">
                   Home
                 </p>
               </Link>
@@ -86,7 +86,7 @@ const Navbar = () => {
           {/* Services */}
           {isHomePage ? (
             <a onClick={() => setNavToggle(false)} href="#services">
-              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#C2410C] hover:duration-500">
                 Services
               </p>
             </a>
@@ -103,7 +103,7 @@ const Navbar = () => {
             >
               <p
                 className={`text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
-                  isServicePages ? "text-[#2563EB]" : "hover:text-[#2563EB]"
+                  isServicePages ? "text-[#C2410C]" : "hover:text-[#C2410C]"
                 }`}
               >
                 Services
@@ -114,7 +114,7 @@ const Navbar = () => {
           {/* About */}
           {isHomePage ? (
             <a onClick={() => setNavToggle(false)} href="#about">
-              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#C2410C] hover:duration-500">
                 About
               </p>
             </a>
@@ -130,7 +130,7 @@ const Navbar = () => {
             >
               <p
                 className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
-                  isAboutPage ? "text-[#2563EB]" : "hover:text-[#2563EB]"
+                  isAboutPage ? "text-[#C2410C]" : "hover:text-[#C2410C]"
                 }`}
               >
                 About
@@ -140,7 +140,7 @@ const Navbar = () => {
           {/* Contact */}
           {isHomePage ? (
             <a onClick={() => setNavToggle(false)} href="#contact">
-              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
+              <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#C2410C] hover:duration-500">
                 Contact
               </p>
             </a>
@@ -154,7 +154,7 @@ const Navbar = () => {
                 }, 100);
               }}
             >
-              <p className="cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#2563EB] hover:duration-500">
+              <p className="cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#C2410C] hover:duration-500">
                 Contact
               </p>
             </a>

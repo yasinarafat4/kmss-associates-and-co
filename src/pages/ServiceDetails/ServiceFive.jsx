@@ -35,7 +35,7 @@ const ServiceFive = () => {
       {/* Accordions */}
       <div className="px-[15px] md:px-[60px] xl:px-[120px] 2xl:px-[350px] py-[16px] lg:py-[40px] dark:bg-slate-900">
         {/* External or Statuary Audit */}
-        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(1)}
@@ -221,7 +221,7 @@ const ServiceFive = () => {
           </div>
         </div>
         {/*	Internal Audit  */}
-        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-blue-100 dark:bg-slate-700 dark:text-slate-200">
+        <div className="rounded-lg border-2 border-[#014AA8] dark:border-white mb-4 lg:mb-8 bg-white dark:bg-slate-700 dark:text-slate-200">
           <div>
             <button
               onClick={() => toggle(2)}
