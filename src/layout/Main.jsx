@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
+import BackToTop from "../components/BackToTop";
 import Footer from "../shared/Footer";
 import Navbar from "../shared/Navbar";
 import Spinner from "../shared/Spinner";
@@ -25,6 +26,7 @@ const Main = () => {
         <Outlet />
       </div>
       <Footer />
+      <BackToTop />
     </>
   );
 };
