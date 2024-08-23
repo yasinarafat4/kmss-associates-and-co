@@ -61,24 +61,24 @@ const Footer = () => {
         </nav>
         <nav>
           <div className="xl:flex justify-start items-center gap-4">
-            <div class="flex items-center pt-3">
-              <img src={emailImg} alt="email icon" class="w-6 h-auto mr-2" />
+            <div className="flex items-center pt-3">
+              <img src={emailImg} alt="email icon" className="w-6 h-auto mr-2" />
               <p>kmssassociates52@gmail.com</p>
             </div>
-            <div class="flex items-center pt-3">
-              <img src={callImg} alt="call icon" class="w-6 h-auto mr-2" />
+            <div className="flex items-center pt-3">
+              <img src={callImg} alt="call icon" className="w-6 h-auto mr-2" />
               <p>+880 18 93 97 25 09</p>
             </div>
           </div>
-          <div class="flex items-center pt-3">
-            <img src={locaionImg} alt="location icon" class="w-6 h-auto mr-2" />
+          <div className="flex items-center pt-3">
+            <img src={locaionImg} alt="location icon" className="w-6 h-auto mr-2" />
             <p>19/1, BL-K, Eastern Housing, Mirpur-12, Dhaka-1216</p>
           </div>
         </nav>
       </footer>
       <hr />
       <div className="text-center md:flex items-center justify-between py-4 md:px-10 xl:px-3">
-        <p class="mt-4 text-base lg:text-lg">
+        <p className="mt-4 text-base lg:text-lg">
           © {currentYear} All rights reserved by KMSS Associates.
         </p>
         {/* Social Icons */}
