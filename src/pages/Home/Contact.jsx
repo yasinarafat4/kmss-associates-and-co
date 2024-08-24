@@ -1,22 +1,22 @@
-import 'react-toastify/dist/ReactToastify.css';
+import { Link } from "react-router-dom";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
-  
-
   return (
-    <section
-      id="contact"
-      className="bg-slate-950 dark:bg-slate-950 text-white px-10 py-20"
-    >
-        <h2 className="text-start text-2xl md:text-3xl xl:text-4xl font-semibold mb-4">
-          GET A CALL BACK
-        </h2>
-        <p className="text-start mb-6 lg:mb-0 xl:text-lg">
-          If you need any support with Bangladesh Investment Development
-          Authority Affairs (BIDA), ERC, IRC, project profiles, or both local
-          and international accounting outsourcing, please reach out to us. We
-          will there for you.
+    <section className="bg-gradient-to-r from-indigo-800 to-indigo-600 dark:from-indigo-900 dark:to-indigo-800 py-10 md:py-16">
+      <div className="text-center">
+        <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">Get a Call Back</h2>
+        <p className="text-base md:text-lg text-white mb-8 w-11/12 md:w-9/12 xl:w-8/12 mx-auto">
+        If you need any support, please reach out to us. We would love to hear from you. Whether you have a question, feedback, or
+          just want to say hello, our team is here for you.
         </p>
+        <Link
+          to="/contact-us"
+          className="inline-block px-8 py-3 bg-white text-blue-600 font-semibold rounded-full shadow-lg transition-transform transform hover:scale-105"
+        >
+          Contact Us
+        </Link>
+      </div>
     </section>
   );
 };

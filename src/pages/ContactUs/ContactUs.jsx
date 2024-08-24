@@ -29,11 +29,12 @@ const ContactUs = () => {
   };
 
   return (
-    <section
-      id="contact"
-      className="px-5 md:px-10 lg:px-20 py-20"
-    >
-      <div className="bg-slate-950 dark:bg-slate-950 text-white gap-10">
+    <section>
+      {/* Contact Form */}
+      <div className="bg-gradient-to-r from-indigo-800 to-indigo-500 dark:from-slate-950 dark:to-slate-900 text-white px-5 md:px-10 lg:px-20 py-20 gap-10">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center text-white mb-10">
+        Get In Touch
+      </h2>
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -50,7 +51,7 @@ const ContactUs = () => {
                 id="name"
                 name="name"
                 placeholder="Your Name"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-slate-900 text-slate-200 font-normal text-base"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
                 required
               />
             </div>
@@ -64,7 +65,7 @@ const ContactUs = () => {
                 id="email"
                 name="email"
                 placeholder="Your Email"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-slate-900 text-slate-200 font-normal text-base"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
                 required
               />
             </div>
@@ -78,7 +79,7 @@ const ContactUs = () => {
                 id="phone"
                 name="phone"
                 placeholder="Your Number"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-slate-900 text-slate-200 font-normal text-base"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
                 required
               />
             </div>
@@ -95,7 +96,7 @@ const ContactUs = () => {
                 id="subject"
                 name="subject"
                 placeholder="Your Subject"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-slate-900 text-slate-200 font-normal text-base"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
                 required
               />
             </div>
@@ -109,18 +110,22 @@ const ContactUs = () => {
                 name="message"
                 rows="5"
                 placeholder="Your Message"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-slate-900 text-slate-200 font-normal text-base"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
                 required
               ></textarea>
             </div>
             <button
               type="submit"
-              className="w-full bg-[#014AA9] text-white py-2 px-4 rounded-sm hover:bg-blue-500 dark:bg-slate-800 shadow transition-colors duration-300 font-medium"
+              className="w-full bg-indigo-700 hover:bg-indigo-800 text-white dark:bg-[#014AA9] dark:text-white py-2 px-4 rounded-md dark:hover:bg-indigo-700 transition-colors duration-300 font-medium border border-white"
             >
               Submit
             </button>
           </div>
         </form>
+      </div>
+      {/* Todo */}
+      <div className="h-20 bg-white px-5 md:px-10 lg:px-20 py-20 gap-10">
+
       </div>
     </section>
   );

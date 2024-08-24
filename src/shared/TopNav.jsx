@@ -19,11 +19,11 @@ const TopNav = () => {
       <div className="hidden md:flex items-center space-x-4">
         <div className="flex items-center space-x-2">
           <FaPhoneAlt className="text-white" />
-          <span className="text-sm">01893972509 | 01730586145</span>
+          <span className="text-sm tracking-[2px]">01893972509 | 01761573171</span>
         </div>
         <div className="flex items-center space-x-2">
           <FaEnvelope className="text-white" />
-          <span className="text-sm">kmssassociates52@gmail.com</span>
+          <span className="text-sm tracking-[1px]">kmssassociates52@gmail.com</span>
         </div>
       </div>
       <div>
