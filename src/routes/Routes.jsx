@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import MoreAboutUs from "../components/MoreAboutUs";
 import Main from "../layout/Main";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import Home from "../pages/Home/Home";
+import MoreAboutUs from "../pages/MoreAboutUs/MoreAboutUs";
 import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
 import ServiceFive from "../pages/ServiceDetails/ServiceFive";
 import ServiceFour from "../pages/ServiceDetails/ServiceFour";
