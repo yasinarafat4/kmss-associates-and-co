@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import MoreAboutUs from "../components/MoreAboutUs";
 import Main from "../layout/Main";
+import ContactUs from "../pages/ContactUs/ContactUs";
 import Home from "../pages/Home/Home";
 import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
 import ServiceFive from "../pages/ServiceDetails/ServiceFive";
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
       {
         path: "/more-about-us",
         element: <MoreAboutUs />,
+      },
+      {
+        path: "/contact-us",
+        element: <ContactUs />,
       },
       {
         path: "/terms-and-conditions",

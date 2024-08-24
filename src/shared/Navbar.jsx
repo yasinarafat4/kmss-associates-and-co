@@ -25,6 +25,7 @@ const Navbar = () => {
     "/ipo-capital-market-service",
   ].includes(location.pathname);
   const isAboutPage = location.pathname === "/more-about-us";
+  const isContactPage = location.pathname === "/contact-us";
 
   // Dark and Light Mood effect
   useEffect(() => {
@@ -66,7 +67,7 @@ const Navbar = () => {
         <div
           className={`absolute ${
             navToggle ? "left-0" : "left-[-120%]"
-          } top-[4rem] md:top-[5rem] flex w-full flex-col bg-white pb-3 pt-2 transition-all duration-300 dark:bg-slate-900 lg:static lg:w-[unset] lg:flex-row lg:items-center lg:bg-transparent lg:pb-0 lg:pt-0 dark:lg:bg-transparent`}
+          } top-[6rem] md:top-[7rem] flex w-full flex-col bg-white pb-3 pt-2 transition-all duration-300 dark:bg-slate-900 lg:static lg:w-[unset] lg:flex-row lg:items-center lg:bg-transparent lg:pb-0 lg:pt-0 dark:lg:bg-transparent`}
         >
           <div className="menu menu-horizontal flex-col space-y-3 lg:space-y-0 px-1 lg:flex-row lg:gap-4 xl:gap-6">
             {isHomePage ? (
@@ -141,27 +142,13 @@ const Navbar = () => {
               </a>
             )}
             {/* Contact */}
-            {isHomePage ? (
-              <a onClick={() => setNavToggle(false)} href="#contact">
-                <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#C2410C] hover:duration-500">
+              <Link to="/contact-us" onClick={() => setNavToggle(false)}>
+                <p className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
+                    isContactPage ? "text-[#C2410C]" : "hover:text-[#C2410C]"
+                  }`}>
                   Contact
                 </p>
-              </a>
-            ) : (
-              <a
-                onClick={(e) => {
-                  e.preventDefault();
-                  setNavToggle(false);
-                  setTimeout(() => {
-                    navigate("/#contact");
-                  }, 100);
-                }}
-              >
-                <p className="cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#C2410C] hover:duration-500">
-                  Contact
-                </p>
-              </a>
-            )}
+              </Link>
           </div>
 
           {/* Dark & Light mode */}
