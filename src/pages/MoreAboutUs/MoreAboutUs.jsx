@@ -36,7 +36,7 @@ const MoreAboutUs = () => {
         Massage from Founder & CEO
       </h2>
       <div className="px-2 lg:px-10 py-4 space-y-3">
-        <div className="grid grid-cols-12 justify-between items-end gap-28">
+        <div className="xl:grid grid-cols-12 justify-between items-end gap-28">
           <div className="xl:col-span-7">
             <div className="lg:flex items-center gap-10 space-y-4">
               <img
