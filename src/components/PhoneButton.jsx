@@ -3,7 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const PhoneButton = () => {
   return (
-    <div className="fixed bottom-12 left-2 md:bottom-12 md:left-5 lg:bottom-14 lg:left-8 z-50">
+    <div className="fixed bottom-12 left-4 md:bottom-12 md:left-5 lg:bottom-14 lg:left-8 z-50">
       <div className="relaive flex justify-center items-center cursor-pointer z-50 bg-[#e92c39] ps-[28px] md:ps-[40px] pe-[10px] py-[8px] rounded-full gap-2">
         <div className="absolute top-2 left-2">
           <div className="relative">
