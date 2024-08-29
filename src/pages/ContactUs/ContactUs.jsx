@@ -1,10 +1,13 @@
 import emailjs from "@emailjs/browser";
+import "leaflet/dist/leaflet.css";
 import { useRef } from "react";
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactUs = () => {
   const form = useRef();
+  const position = [23.8103, 90.4125];
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -15,11 +18,14 @@ const ContactUs = () => {
       })
       .then(
         () => {
-          toast.success("Thanks for your message! We will get back to you soon.", {
-            position: "top-right",
-            className: 'foo-bar',
-            theme: "colored"
-          });
+          toast.success(
+            "Thanks for your message! We will get back to you soon.",
+            {
+              position: "top-right",
+              className: "foo-bar",
+              theme: "colored",
+            }
+          );
           form.current.reset();
         },
         (error) => {
@@ -32,9 +38,9 @@ const ContactUs = () => {
     <section>
       {/* Contact Form */}
       <div className="bg-gradient-to-r from-indigo-800 to-indigo-500 dark:from-slate-950 dark:to-slate-900 text-white px-5 md:px-10 lg:px-20 py-20 gap-10">
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center text-white mb-10">
-        Get In Touch
-      </h2>
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center text-white mb-10">
+          Get In Touch
+        </h2>
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -123,10 +129,23 @@ const ContactUs = () => {
           </div>
         </form>
       </div>
-      {/* Todo */}
-      <div className="h-20 bg-white px-5 md:px-10 lg:px-20 py-20 gap-10">
+      {/* Map Section */}
 
-      </div>
+      <MapContainer
+        center={position}
+        zoom={13}
+        style={{ height: "10%", width: "100%" }}
+      >
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        />
+        <Marker position={position}>
+          <Popup>
+            A pretty CSS3 popup. <br /> Easily customizable.
+          </Popup>
+        </Marker>
+      </MapContainer>
     </section>
   );
 };
