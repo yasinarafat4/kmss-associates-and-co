@@ -87,26 +87,20 @@ const Footer = () => {
           <a href="https://nbr.gov.bd" target="_blank" className="link link-hover">
             National Board Of Revenue
           </a>
-          <a href="https://bida.gov.bd" className="link link-hover">
+          <a href="https://bida.gov.bd" target="_blank" className="link link-hover">
             BIDA
           </a>
-          <a href="#contact" className="link link-hover">
+          <a href="https://www.bepza.gov.bd" target="_blank" className="link link-hover">
             BEPZA
           </a>
-          <a href="#contact" className="link link-hover">
+          <a href="https://dsebd.org" target="_blank" className="link link-hover">
             Dhaka Stock Exchange(DSE)
           </a>
-          <a href="#contact" className="link link-hover">
+          <a href="https://roc.gov.bd" target="_blank" className="link link-hover">
             RJSC
           </a>
-          <a href="#contact" className="link link-hover">
+          <a href="https://mincom.gov.bd" target="_blank" className="link link-hover">
             Ministry of Commerce
-          </a>
-          <a href="#contact" className="link link-hover">
-            RevenueAid
-          </a>
-          <a href="#contact" className="link link-hover">
-            Webmail
           </a>
         </nav>
       </footer>
