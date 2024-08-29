@@ -54,9 +54,9 @@ const Navbar = () => {
   }, [targetSection]);
 
   return (
-    <div className="sticky top-0 z-50">
+    <div className="sticky top-0">
       <TopNav />
-      <nav className="navbar bg-white shadow-lg dark:bg-slate-900  dark:text-slate-200 lg:px-20">
+      <nav className="navbar bg-white shadow-lg dark:bg-slate-900  dark:text-slate-200 lg:px-20 z-50">
         <div className="flex-1">
           <Link to="/">
             <div className="flex flex-col justify-center items-center">
@@ -67,7 +67,7 @@ const Navbar = () => {
         <div
           className={`absolute ${
             navToggle ? "left-0" : "left-[-120%]"
-          } top-[6rem] md:top-[7rem] flex w-full flex-col bg-white pb-3 pt-2 transition-all duration-300 dark:bg-slate-900 lg:static lg:w-[unset] lg:flex-row lg:items-center lg:bg-transparent lg:pb-0 lg:pt-0 dark:lg:bg-transparent`}
+          } top-[6rem] md:top-[7rem] flex w-full flex-col bg-white pb-3 pt-2 transition-all duration-300 dark:bg-slate-900 lg:static lg:w-[unset] lg:flex-row lg:items-center lg:bg-transparent lg:pb-0 lg:pt-0 dark:lg:bg-transparent z-50`}
         >
           <div className="menu menu-horizontal flex-col space-y-3 lg:space-y-0 px-1 lg:flex-row lg:items-center lg:gap-4 xl:gap-6">
             {isHomePage ? (
