@@ -5,9 +5,10 @@ import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+
 const ContactUs = () => {
   const form = useRef();
-  const position = [23.8103, 90.4125];
+  const position = [23.8365, 90.3695];
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -143,7 +144,7 @@ const ContactUs = () => {
           />
           <Marker position={position}>
             <Popup>
-              Visit us at 120 Mirpur, Dhaka, Bangladesh. We look forward to
+              Visit us at Mirpur DOHS, Dhaka, Bangladesh. We look forward to
               connecting with you!
             </Popup>
           </Marker>
