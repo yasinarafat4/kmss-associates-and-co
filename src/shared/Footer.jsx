@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../src/assets/kmss_logo.png";
-import callImg from "../assets/call.png";
 import emailImg from "../assets/email.png";
 import locaionImg from "../assets/location.png";
 
@@ -23,6 +22,26 @@ const Footer = () => {
             Tailored solutions to meet your <br className="hidden lg:block" />{" "}
             unique needs. Contact us for expert advice and personalized support.
           </p>
+          <div>
+            <div className="xl:flex justify-start items-center gap-4">
+              <div className="flex items-center pt-3">
+                <img
+                  src={emailImg}
+                  alt="email icon"
+                  className="w-6 h-auto mr-2"
+                />
+                <p>kmssassociates52@gmail.com</p>
+              </div>
+            </div>
+            <div className="flex items-center pt-3">
+              <img
+                src={locaionImg}
+                alt="location icon"
+                className="w-6 h-auto mr-2"
+              />
+              <p>19/1, BL-K, Eastern Housing, Mirpur-12, Dhaka-1216</p>
+            </div>
+          </div>
         </aside>
         <nav>
           <h6 className="footer-title">Services</h6>
@@ -56,24 +75,39 @@ const Footer = () => {
           <a href="#contact" className="link link-hover">
             Contact
           </a>
-          <a className="link link-hover"><Link to={"/privacy-policy"}>Privacy Policy</Link></a>
-          <a className="link link-hover"><Link to={"/terms-and-conditions"}>Terms & Conditions</Link></a>
+          <a className="link link-hover">
+            <Link to={"/privacy-policy"}>Privacy Policy</Link>
+          </a>
+          <a className="link link-hover">
+            <Link to={"/terms-and-conditions"}>Terms & Conditions</Link>
+          </a>
         </nav>
         <nav>
-          <div className="xl:flex justify-start items-center gap-4">
-            <div className="flex items-center pt-3">
-              <img src={emailImg} alt="email icon" className="w-6 h-auto mr-2" />
-              <p>kmssassociates52@gmail.com</p>
-            </div>
-            <div className="flex items-center pt-3">
-              <img src={callImg} alt="call icon" className="w-6 h-auto mr-2" />
-              <p>+880 18 93 97 25 09</p>
-            </div>
-          </div>
-          <div className="flex items-center pt-3">
-            <img src={locaionImg} alt="location icon" className="w-6 h-auto mr-2" />
-            <p>19/1, BL-K, Eastern Housing, Mirpur-12, Dhaka-1216</p>
-          </div>
+          <h6 className="footer-title">Important Links</h6>
+          <a href="https://nbr.gov.bd" target="_blank" className="link link-hover">
+            National Board Of Revenue
+          </a>
+          <a href="https://bida.gov.bd" className="link link-hover">
+            BIDA
+          </a>
+          <a href="#contact" className="link link-hover">
+            BEPZA
+          </a>
+          <a href="#contact" className="link link-hover">
+            Dhaka Stock Exchange(DSE)
+          </a>
+          <a href="#contact" className="link link-hover">
+            RJSC
+          </a>
+          <a href="#contact" className="link link-hover">
+            Ministry of Commerce
+          </a>
+          <a href="#contact" className="link link-hover">
+            RevenueAid
+          </a>
+          <a href="#contact" className="link link-hover">
+            Webmail
+          </a>
         </nav>
       </footer>
       <hr />
@@ -90,7 +124,10 @@ const Footer = () => {
               className="w-6 h-auto mr-2"
             />
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/k-m-saiful-islam">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/k-m-saiful-islam"
+          >
             <img
               src="https://i.ibb.co/pRp6105/linkedin-2.png
                 "

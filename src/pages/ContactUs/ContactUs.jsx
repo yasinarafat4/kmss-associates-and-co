@@ -1,7 +1,7 @@
 import emailjs from "@emailjs/browser";
 import "leaflet/dist/leaflet.css";
 import { useRef } from "react";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import { MapContainer, Marker, Popup, TileLayer, Tooltip } from "react-leaflet";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -147,6 +147,9 @@ const ContactUs = () => {
               Visit us at Mirpur DOHS, Dhaka, Bangladesh. We look forward to
               connecting with you!
             </Popup>
+            <Tooltip>
+            Mirpur DOHS
+          </Tooltip>
           </Marker>
         </MapContainer>
       </div>
