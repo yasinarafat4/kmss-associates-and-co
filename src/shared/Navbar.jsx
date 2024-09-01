@@ -116,39 +116,25 @@ const Navbar = () => {
             )}
 
             {/* About */}
-            {isHomePage ? (
-              <a onClick={() => setNavToggle(false)} href="#about">
-                <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#C2410C] hover:duration-500">
-                  About
-                </p>
-              </a>
-            ) : (
-              <a
-                onClick={(e) => {
-                  e.preventDefault();
-                  setNavToggle(false);
-                  setTimeout(() => {
-                    navigate("/#about");
-                  }, 100);
-                }}
+            <Link to="/more-about-us" onClick={() => setNavToggle(false)}>
+              <p
+                className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
+                  isAboutPage ? "text-[#C2410C]" : "hover:text-[#C2410C]"
+                }`}
               >
-                <p
-                  className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
-                    isAboutPage ? "text-[#C2410C]" : "hover:text-[#C2410C]"
-                  }`}
-                >
-                  About
-                </p>
-              </a>
-            )}
+                About
+              </p>
+            </Link>
             {/* Contact */}
-              <Link to="/contact-us" onClick={() => setNavToggle(false)}>
-                <p className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
-                    isContactPage ? "text-[#C2410C]" : "hover:text-[#C2410C]"
-                  }`}>
-                  Contact
-                </p>
-              </Link>
+            <Link to="/contact-us" onClick={() => setNavToggle(false)}>
+              <p
+                className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
+                  isContactPage ? "text-[#C2410C]" : "hover:text-[#C2410C]"
+                }`}
+              >
+                Contact
+              </p>
+            </Link>
           </div>
 
           {/* Dark & Light mode */}

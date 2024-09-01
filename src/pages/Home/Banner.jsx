@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div
-      className="hero min-h-screen"
+      className="hero min-h-screen z-0"
       style={{
         backgroundImage: "url(https://i.ibb.co/tzJ3q9F/kms-banner.jpg)",
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content flex items-center justify-start text-neutral-content">
+      <div className="hero-content flex items-center justify-start text-neutral-content  z-0">
         <div>
           <h1 className="mb-5 text-2xl md:text-4xl lg:text-5xl font-bold">
             Welcome to <span className="text-[#2563EB] dark:text-white">KMSS</span> & <span className="text-[#C2410C] dark:text-white">Associates!</span>
