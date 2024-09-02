@@ -54,7 +54,7 @@ const Navbar = () => {
   }, [targetSection]);
 
   return (
-    <div className="sticky top-0 z-50">
+    <div className="sticky top-0 z-[1000]">
       <TopNav />
       <nav className="navbar bg-white shadow-lg dark:bg-slate-900  dark:text-slate-200 lg:px-20  ">
         <div className="flex-1">
