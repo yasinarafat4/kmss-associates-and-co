@@ -69,11 +69,13 @@ const Footer = () => {
           <a href="#faqs" className="link link-hover">
             FAQs
           </a>
-          <a href="#about" className="link link-hover">
-            About us
+          <a  className="link link-hover">
+            
+            <Link to={"/more-about-us"}>About us</Link>
           </a>
-          <a href="#contact" className="link link-hover">
-            Contact
+          <a className="link link-hover">
+            
+            <Link to={"/contact-us"}>Contact</Link>
           </a>
           <a className="link link-hover">
             <Link to={"/privacy-policy"}>Privacy Policy</Link>
