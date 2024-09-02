@@ -5,9 +5,18 @@ import Container from "../../components/Container";
 const MoreAboutUs = () => {
   return (
     <Container>
-      <h2 className="text-3xl lg:text-4xl font-semibold text-center text-orange-700 dark:text-slate-200">
-        About Us
-      </h2>
+      {/* Banner */}
+      {/* About Us Banner */}
+      <div className="bg-gradient-to-r from-blue-800 via-purple-700 to-purple-900 py-20 px-10 text-center dark:bg-gradient-to-r dark:from-gray-800 dark:via-gray-700 dark:to-gray-900">
+        <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4 dark:text-gray-200">
+          About Us
+        </h2>
+        <p className="text-lg lg:text-xl font-medium text-white opacity-90 dark:text-gray-300">
+          We are committed to excellence and innovation in everything we do.
+        </p>
+      </div>
+
+      {/* Body */}
       <div className="px-2 lg:px-10 py-4 space-y-3 text-base lg:text-lg">
         <p className="text-start text-slate-800 dark:text-slate-200">
           KMSS & Associates, a renowned consultancy firm in Dhaka, Bangladesh,
