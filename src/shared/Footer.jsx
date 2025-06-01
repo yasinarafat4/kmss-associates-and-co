@@ -8,8 +8,8 @@ const Footer = () => {
   const currentYear = currentDate.getFullYear();
 
   return (
-    <footer className="bg-slate-950 dark:bg-slate-950 text-white text-base lg:text-lg">
-      <footer className="footer pb-4">
+    <div className="bg-slate-950 dark:bg-slate-950 text-white text-base lg:text-lg">
+      <footer className="footer container mx-auto p-4 xl:px-0">
         <aside>
           <Link to="/">
             <img className="w-20 md:w-28 pb-2" src={logo} alt="footer logo" />
@@ -139,7 +139,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

@@ -2,7 +2,7 @@ import ceoImg from "../../assets/ceo_img.png";
 
 const MoreAboutUs = () => {
   return (
-    <div className="">
+    <div>
       {/* About Us Banner */}
       <div className="bg-gradient-to-r from-blue-800 via-purple-700 to-purple-900 py-20 text-center dark:bg-gradient-to-r dark:from-gray-800 dark:via-gray-700 dark:to-gray-900">
         <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4 dark:text-gray-200">
@@ -15,7 +15,7 @@ const MoreAboutUs = () => {
 
       {/* Top Section */}
       <section className="dark:bg-slate-800">
-        <div className="container mx-auto p-4 xl:p-0 space-y-3 text-base lg:text-lg">
+        <div className="container mx-auto p-4 xl:px-0 space-y-3 text-base lg:text-lg">
           <p className="text-start text-slate-800 dark:text-slate-200">
             KMSS Associates & Co., a renowned consultancy firm in Dhaka,
             Bangladesh, offers comprehensive legal and professional services
@@ -44,7 +44,7 @@ const MoreAboutUs = () => {
 
       {/* CEO Message Section*/}
       <section className="dark:bg-slate-800">
-        <div className="container mx-auto p-4 xl:p-0 space-y-3">
+        <div className="container mx-auto p-4 xl:px-0 space-y-3">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center text-orange-700 dark:text-slate-200">
             Message from Founder & CEO
           </h2>

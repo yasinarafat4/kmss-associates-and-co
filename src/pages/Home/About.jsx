@@ -1,18 +1,18 @@
-
 import { Link } from "react-router-dom";
 import aboutImage from "../../assets/about_img.jpg";
 import SectionTitle from "../../components/SectionTitle";
 
 const About = () => {
   return (
-      <section id="about" className="dark:bg-slate-900 dark:text-slate-200">
+    <section id="about" className="dark:bg-slate-900 dark:text-slate-200">
+      <div className="container mx-auto p-4 xl:px-0">
         <SectionTitle heading={"Who We Are"} />
         <div className="flex w-full items-center justify-center bg-white dark:bg-slate-900 dark:text-slate-200">
           <div className="grid grid-cols-1 xl:grid-cols-5 items-center xl:gap-10">
             <div className="order-last xl:order-first col-span-3 space-y-4 md:space-y-6">
               <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
-                <strong>KMSS Associates & Co.</strong> is a
-                renowned consultancy firm located in Dhaka, Bangladesh.
+                <strong>KMSS Associates & Co.</strong> is a renowned consultancy
+                firm located in Dhaka, Bangladesh.
               </p>
               <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
                 The firm offers a variety of legal and professional services,
@@ -46,7 +46,8 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
   );
 };
 
