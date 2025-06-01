@@ -1,4 +1,3 @@
-import React from "react";
 import ceoImg from "../../assets/ceo_img.png";
 import Container from "../../components/Container";
 
@@ -42,7 +41,7 @@ const MoreAboutUs = () => {
         </p>
       </div>
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center text-orange-700 dark:text-slate-200 xl:mt-5">
-        Massage from Founder & CEO
+        Message from Founder & CEO
       </h2>
       <div className="px-2 lg:px-10 py-4 space-y-3">
         <div className="xl:grid grid-cols-12 justify-between items-end gap-28">
@@ -58,7 +57,7 @@ const MoreAboutUs = () => {
                   By the grace of almighty Allah, I am grateful to lead this
                   company and express my words. Most service & consultant
                   companies, like most families, develop and live with a common
-                  set of values communicated and shared over the company's life.
+                  set of values communicated and shared over the company&apos;s life.
                   <br className="md:hidden" /> <br className="md:hidden" />
                   We have been consulting and serving both public sector and
                   private sector clients for almost 5 years, delivering our
@@ -72,7 +71,7 @@ const MoreAboutUs = () => {
                   <br className="md:hidden" /> <br className="md:hidden" /> Our
                   company is focused on providing the highest level of client
                   services, and our company culture reflects our goals of
-                  passionate and ethical commitment to our client's interests
+                  passionate and ethical commitment to our client&apos;s interests
                   and goals.
                   <br className="md:hidden" /> <br className="md:hidden" /> We
                   are also committed to public and community service and most of

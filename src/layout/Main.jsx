@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import BackToTop from "../components/BackToTop";
+import LightDarkSwitcher from "../components/LightDarkSwitcher";
 import PhoneButton from "../components/PhoneButton";
 import Footer from "../shared/Footer";
 import Navbar from "../shared/Navbar";
@@ -21,12 +22,13 @@ const Main = () => {
   return (
     <>
       <Navbar />
+      <LightDarkSwitcher />
       <div className="min-h-[calc(100vh-324px)]">
         <Outlet />
       </div>
       <Footer />
       <BackToTop />
-      <PhoneButton/>
+      <PhoneButton />
     </>
   );
 };

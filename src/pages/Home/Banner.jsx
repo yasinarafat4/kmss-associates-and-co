@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 
 const Banner = () => {
@@ -10,7 +10,7 @@ const Banner = () => {
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content flex items-center justify-start text-neutral-content  z-0">
+      <div className="hero-content flex items-center justify-start text-neutral-content z-0">
         <div>
           <h1 className="mb-5 text-2xl md:text-4xl lg:text-5xl font-bold">
             Welcome to <span className="text-[#2563EB] dark:text-white">KMSS</span> & <span className="text-[#C2410C] dark:text-white">Associates!</span>

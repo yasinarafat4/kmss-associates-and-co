@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../src/assets/kmss_logo.png";
 import emailImg from "../assets/email.png";
@@ -9,7 +8,7 @@ const Footer = () => {
   const currentYear = currentDate.getFullYear();
 
   return (
-    <footer className="bg-slate-950 dark:bg-slate-950 text-white pt-8 px-4 text-base lg:text-lg">
+    <footer className="bg-slate-950 dark:bg-slate-950 text-white text-base lg:text-lg">
       <footer className="footer pb-4">
         <aside>
           <Link to="/">
@@ -86,22 +85,22 @@ const Footer = () => {
         </nav>
         <nav>
           <h6 className="footer-title">Important Links</h6>
-          <a href="https://nbr.gov.bd" target="_blank" className="link link-hover">
+          <a href="https://nbr.gov.bd" target="_blank" className="link link-hover" rel="noreferrer">
             National Board Of Revenue
           </a>
-          <a href="https://bida.gov.bd" target="_blank" className="link link-hover">
+          <a href="https://bida.gov.bd" target="_blank" className="link link-hover" rel="noreferrer">
             BIDA
           </a>
-          <a href="https://www.bepza.gov.bd" target="_blank" className="link link-hover">
+          <a href="https://www.bepza.gov.bd" target="_blank" className="link link-hover" rel="noreferrer">
             BEPZA
           </a>
-          <a href="https://dsebd.org" target="_blank" className="link link-hover">
+          <a href="https://dsebd.org" target="_blank" className="link link-hover" rel="noreferrer">
             Dhaka Stock Exchange(DSE)
           </a>
-          <a href="https://roc.gov.bd" target="_blank" className="link link-hover">
+          <a href="https://roc.gov.bd" target="_blank" className="link link-hover" rel="noreferrer">
             RJSC
           </a>
-          <a href="https://mincom.gov.bd" target="_blank" className="link link-hover">
+          <a href="https://mincom.gov.bd" target="_blank" className="link link-hover" rel="noreferrer">
             Ministry of Commerce
           </a>
         </nav>
@@ -113,7 +112,7 @@ const Footer = () => {
         </p>
         {/* Social Icons */}
         <div className="flex justify-center items-center pt-3 gap-2">
-          <a target="_blank" href="https://www.facebook.com/jewel.finix">
+          <a target="_blank" href="https://www.facebook.com/jewel.finix" rel="noreferrer">
             <img
               src="https://i.ibb.co/3d2ygD0/facebook-4.png"
               alt="Facebook"
@@ -122,7 +121,7 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/k-m-saiful-islam"
+            href="https://www.linkedin.com/in/k-m-saiful-islam" rel="noreferrer"
           >
             <img
               src="https://i.ibb.co/pRp6105/linkedin-2.png

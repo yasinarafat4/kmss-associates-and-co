@@ -1,4 +1,3 @@
-import React from "react";
 import logo1 from "../../assets/partners_logo/logo-1.jpg";
 import logo2 from "../../assets/partners_logo/logo-2.jpg";
 import logo3 from "../../assets/partners_logo/logo-3.jpeg";
@@ -8,6 +7,8 @@ import logo6 from "../../assets/partners_logo/logo-6.jpeg";
 import logo7 from "../../assets/partners_logo/logo-7.png";
 import logo8 from "../../assets/partners_logo/logo-8.png";
 import logo9 from "../../assets/partners_logo/logo-9.png";
+import Container from "../../components/Container";
+import SectionTitle from "../../components/SectionTitle";
 
 const Partners = () => {
   const partners = [
@@ -59,17 +60,14 @@ const Partners = () => {
   ];
 
   return (
-    <section className="bg-white dark:bg-slate-700  py-10 px-5">
-      <div className="max-w-7xl mx-auto text-center">
-        <h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
-          Our Partners & Engagements
-        </h1>
+    <Container>
+      <section>
+        <SectionTitle heading={"Our Partners & Engagements"} />
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-          {partners.map((partner, index) => (
-            <a target="_blank" href={partner.link}>
+          {partners.map((partner, i) => (
+            <a key={i} target="_blank" href={partner.link} rel="noreferrer">
               <div
                 title={partner.name}
-                key={index}
                 className="group flex flex-col items-center justify-center"
               >
                 <img
@@ -81,8 +79,8 @@ const Partners = () => {
             </a>
           ))}
         </div>
-      </div>
-    </section>
+      </section>
+    </Container>
   );
 };
 

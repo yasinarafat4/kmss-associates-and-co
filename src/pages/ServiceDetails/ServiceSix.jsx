@@ -1,4 +1,4 @@
-import React from "react";
+
 import ServiceBanner from "../../components/ServiceBanner";
 
 const ServiceSix = () => {
