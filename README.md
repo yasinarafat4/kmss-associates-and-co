@@ -1,6 +1,6 @@
-# KMSS & Associates: Comprehensive Legal & Professional Services
+# KMSS Associates & Co.: Comprehensive Legal & Professional Services
 
-**KMSS & Associates** is a distinguished consultancy firm located in Dhaka, Bangladesh, dedicated to providing a broad spectrum of legal and professional services. We specialize in navigating and advising on matters related to various Bangladeshi Acts, including but not limited to:
+**KMSS Associates & Co.** is a distinguished consultancy firm located in Dhaka, Bangladesh, dedicated to providing a broad spectrum of legal and professional services. We specialize in navigating and advising on matters related to various Bangladeshi Acts, including but not limited to:
 
 - **Companies Act**
 - **Trade Organization Act**

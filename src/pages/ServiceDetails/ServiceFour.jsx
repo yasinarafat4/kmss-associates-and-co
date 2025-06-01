@@ -7,8 +7,8 @@ const ServiceFour = () => {
       <ServiceBanner heading={"Our Tax Advisory Service"} />
       <div className="px-[20px] py-[10px] md:px-[100px] md:py-[30px] dark:bg-slate-700 dark:text-slate-200">
         <p className="text-md lg:text-lg">
-          KMSS & Associates has a significant practice and experience in tax
-          services in Bangladesh. KMSS & Associates provides the best tax
+          KMSS Associates & Co. has a significant practice and experience in tax
+          services in Bangladesh. KMSS Associates & Co. provides the best tax
           lawyers in Bangladesh who are experts in tax law, which is generally
           divided into two categories: Value Added Tax and Income Tax.
         </p>
@@ -36,7 +36,7 @@ const ServiceFour = () => {
           We also provide regular services for personal income tax matters to
           individuals, including preparation and submission of returns,
           obtaining tax clearance certificates, and tax residency certificates.<br className="lg:hidden" /> <br className="lg:hidden" />
-          KMSS & Associates also provides major legal assistance for income tax
+          KMSS Associates & Co. also provides major legal assistance for income tax
           reference cases in Bangladesh in the Supreme Court of Bangladesh under
           section 160 of the Income Tax Ordinance.
         </p>

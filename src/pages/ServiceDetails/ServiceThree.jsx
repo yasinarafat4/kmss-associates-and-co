@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ServiceBanner from "../../components/ServiceBanner";
 
 const ServiceThree = () => {
@@ -42,7 +42,7 @@ const ServiceThree = () => {
       <ServiceBanner heading={"Our Accounting Service"} />
       <div className="px-[20px] py-[10px] md:px-[100px] md:py-[30px] dark:bg-slate-700 dark:text-slate-200">
         <p className="text-md lg:text-lg">
-          <strong>KMSS & Associates</strong> provides a wide range of accounting
+          <strong>KMSS Associates & Co.</strong> provides a wide range of accounting
           services to individuals and businesses in a variety of companies. Here
           we strive to meet each client's specific needs in planning for the
           future and achieving their goals in an ever-changing financial and
@@ -51,7 +51,7 @@ const ServiceThree = () => {
           start-ups to established enterprises, businesses rely on accurate and
           insightful financial information in order to maintain profitability
           and capitalize on new opportunities. <br /> <br />
-          <strong>KMSS & Associates</strong> accounting services steer you
+          <strong>KMSS Associates & Co.</strong> accounting services steer you
           closer to these goals with accurate record-keeping and reporting as
           well as support on financial issues such as initial accounting system
           setup, cost-containment, tax planning, investments, and employee

@@ -1,20 +1,17 @@
 
 import { Link } from "react-router-dom";
 import aboutImage from "../../assets/about_img.jpg";
-import Container from "../../components/Container";
 import SectionTitle from "../../components/SectionTitle";
 
 const About = () => {
   return (
-    <Container>
       <section id="about" className="dark:bg-slate-900 dark:text-slate-200">
         <SectionTitle heading={"Who We Are"} />
-
         <div className="flex w-full items-center justify-center bg-white dark:bg-slate-900 dark:text-slate-200">
           <div className="grid grid-cols-1 xl:grid-cols-5 items-center xl:gap-10">
             <div className="order-last xl:order-first col-span-3 space-y-4 md:space-y-6">
               <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
-                <strong>KMSS & Associates</strong> is a
+                <strong>KMSS Associates & Co.</strong> is a
                 renowned consultancy firm located in Dhaka, Bangladesh.
               </p>
               <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
@@ -23,7 +20,7 @@ const About = () => {
                 corporate affairs, and value-added tax (VAT).
               </p>
               <p className="w-full lg:w-10/12 xl:w-full mx-auto lg:text-lg md:text-base text-sm text-gray-600 dark:text-slate-200">
-                KMSS & Associates also provides services in compliance with
+                KMSS Associates & Co. also provides services in compliance with
                 various local laws and regulations such as the Companies Act,
                 Trade Organization Act, and Societies Registration Act, among
                 others.
@@ -50,7 +47,6 @@ const About = () => {
           </div>
         </div>
       </section>
-    </Container>
   );
 };
 

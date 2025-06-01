@@ -7,7 +7,6 @@ import logo6 from "../../assets/partners_logo/logo-6.jpeg";
 import logo7 from "../../assets/partners_logo/logo-7.png";
 import logo8 from "../../assets/partners_logo/logo-8.png";
 import logo9 from "../../assets/partners_logo/logo-9.png";
-import Container from "../../components/Container";
 import SectionTitle from "../../components/SectionTitle";
 
 const Partners = () => {
@@ -60,7 +59,6 @@ const Partners = () => {
   ];
 
   return (
-    <Container>
       <section>
         <SectionTitle heading={"Our Partners & Engagements"} />
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
@@ -80,7 +78,6 @@ const Partners = () => {
           ))}
         </div>
       </section>
-    </Container>
   );
 };
 

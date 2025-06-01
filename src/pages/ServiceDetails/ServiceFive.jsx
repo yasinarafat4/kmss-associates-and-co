@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ServiceBanner from "../../components/ServiceBanner";
 
 const ServiceFive = () => {
@@ -310,7 +310,7 @@ const ServiceFive = () => {
                     assurance, and compliance work, which map into corporate
                     governance. They work independently, understanding
                     organizational goals and working to achieve those goals.<br className="lg:hidden" /> <br className="lg:hidden" />
-                    KMSS & Associates' internal audit team is expert in the
+                    KMSS Associates & Co.' internal audit team is expert in the
                     audit process. Internal auditing activities are completely
                     independent and aim to add value and improve organizational
                     operations.
@@ -322,7 +322,7 @@ const ServiceFive = () => {
                     systematic, disciplined approaches for evaluating risk
                     management, control, and governance. Their work starts with
                     considering risks, following up on past audits, and taking
-                    corrective measures.<br className="lg:hidden" /> <br className="lg:hidden" /> KMSS & Associates' internal audit team
+                    corrective measures.<br className="lg:hidden" /> <br className="lg:hidden" /> KMSS Associates & Co.' internal audit team
                     ensures that errors don't recur and takes necessary steps.
                     They act independently from internal management systems with
                     integrity to prepare unbiased reports.
@@ -333,7 +333,7 @@ const ServiceFive = () => {
                     This demonstrates their excellence in internal audits.
                     Internal audit procedures vary by department; manufacturing
                     needs daily audits, while human resources need annual
-                    audits. <br className="lg:hidden" /> <br className="lg:hidden" />KMSS & Associates' procedures include transaction
+                    audits. <br className="lg:hidden" /> <br className="lg:hidden" />KMSS Associates & Co.' procedures include transaction
                     matching, physical inventory counts, and audit
                     reconciliation, adhering to governmental regulations. The
                     team works independently, understanding and achieving
@@ -344,7 +344,7 @@ const ServiceFive = () => {
                   <p className="text-md lg:text-lg">
                     Internal auditors address compliance audits, transaction
                     audits, and investigate fraud or miscalculations in several
-                    organizational areas.<br className="lg:hidden" /> <br className="lg:hidden" /> KMSS & Associates evaluates processes
+                    organizational areas.<br className="lg:hidden" /> <br className="lg:hidden" /> KMSS Associates & Co. evaluates processes
                     and control designs through proper inquiry, observation, and
                     examination methods. The team plans appropriately by
                     assessing specific area risks and developing written
@@ -392,13 +392,13 @@ const ServiceFive = () => {
                 <div>
                   <h2 className="text-lg md:text-xl font-semibold mb-1">Our Internal Audit Services in Bangladesh:</h2>
                   <p className="text-md lg:text-lg">
-                  KMSS & Associates maintains internal audit reports with objectives, background, scope, findings, recommendations, and follow-up tracking.<br className="lg:hidden" /> <br className="lg:hidden" /> The internal audit team controls and prevents fraud by assessing and evaluating clients' internal control systems. They monitor situations, communicate with clients, and provide training to prevent fraud.
+                  KMSS Associates & Co. maintains internal audit reports with objectives, background, scope, findings, recommendations, and follow-up tracking.<br className="lg:hidden" /> <br className="lg:hidden" /> The internal audit team controls and prevents fraud by assessing and evaluating clients' internal control systems. They monitor situations, communicate with clients, and provide training to prevent fraud.
                   </p><br/>
                   <p className="text-md lg:text-lg">
-                  Additionally, an internal auditor must be honest, have integrity, a strong work ethic, attention to detail, and a solid financial background.<br className="lg:hidden" /> <br className="lg:hidden" /> The KMSS & Associates internal audit team maintains a healthy level of professional skepticism to evaluate information and make judgments.
+                  Additionally, an internal auditor must be honest, have integrity, a strong work ethic, attention to detail, and a solid financial background.<br className="lg:hidden" /> <br className="lg:hidden" /> The KMSS Associates & Co. internal audit team maintains a healthy level of professional skepticism to evaluate information and make judgments.
                   </p><br/>
                   <p className="text-md lg:text-lg">
-                  They are proficient in negotiating and reasoning with various departments and groups and maintain exceptional written and verbal communication skills when needed. <br className="lg:hidden" /> <br className="lg:hidden" />KMSS & Associates internal audit team consistently demonstrates commitment and competence in internal auditing.
+                  They are proficient in negotiating and reasoning with various departments and groups and maintain exceptional written and verbal communication skills when needed. <br className="lg:hidden" /> <br className="lg:hidden" />KMSS Associates & Co. internal audit team consistently demonstrates commitment and competence in internal auditing.
                   </p><br/>
                   </div>
               </div>

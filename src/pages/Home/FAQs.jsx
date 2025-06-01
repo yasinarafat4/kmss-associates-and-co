@@ -11,7 +11,7 @@ const FAQs = () => {
     description:"Yes, we provide local and international accounting outsourcing services, ensuring efficient and accurate financial management for businesses of all sizes.",},
     {title: "How do you assist with tax-related matters?",
     description: "We provide comprehensive Income Tax Consultancy, helping clients understand and navigate their tax obligations, optimize their tax positions, and comply with relevant tax laws.",},
-    {title: "What sets KMSS & Associates apart from other consultancy firms?",
+    {title: "What sets KMSS Associates & Co. apart from other consultancy firms?",
     description:"Our commitment to excellence, broad expertise, and personalized services make us stand out. We aim to provide the best possible services to our clients, ensuring their satisfaction and success.",},];
   const toggle = (idx) => {
     setIsOpen((prevIdx) => (prevIdx === idx ? null : idx))

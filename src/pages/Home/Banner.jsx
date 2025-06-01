@@ -13,7 +13,7 @@ const Banner = () => {
       <div className="hero-content flex items-center justify-start text-neutral-content z-0">
         <div>
           <h1 className="mb-5 text-2xl md:text-4xl lg:text-5xl font-bold">
-            Welcome to <span className="text-[#2563EB] dark:text-white">KMSS</span> & <span className="text-[#C2410C] dark:text-white">Associates!</span>
+            Welcome to <span className="text-[#C2410C] dark:text-white">KMSS Associates</span> &<span className="text-[#2563EB] dark:text-white"> Co.</span>
           </h1>
           <p className="mb-5 w-full md:w-3/5 lg:w-2/5 text-sm md:text-base lg:text-lg">
           Trusted legal and professional consultants specializing in corporate law, tax, accounting, VAT, and investment services. Get expert guidance and personalized support. Choose us for comprehensive solutions.

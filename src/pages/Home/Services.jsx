@@ -1,6 +1,5 @@
 import { IoMdCheckmarkCircle } from "react-icons/io";
 import { Link } from "react-router-dom";
-import Container from "../../components/Container";
 import SectionTitle from "../../components/SectionTitle";
 
 const Services = () => {
@@ -50,7 +49,6 @@ const Services = () => {
   ];
 
   return (
-    <Container>
       <section id="services">
         <SectionTitle heading={"Our Services"} />
         <div
@@ -77,7 +75,6 @@ const Services = () => {
           ))}
         </div>
       </section>
-    </Container>
   );
 };
 
