@@ -106,8 +106,8 @@ const Footer = () => {
         </nav>
       </footer>
       <hr />
-      <div className="text-center md:flex items-center justify-between py-4 md:px-10 xl:px-3">
-        <p className="mt-4 text-base lg:text-lg">
+      <div className="container mx-auto text-center md:flex items-center justify-between p-4 xl:px-0">
+        <p className="mt-4 text-base">
           © {currentYear} All rights reserved by KMSS Associates.
         </p>
         {/* Social Icons */}
@@ -116,7 +116,7 @@ const Footer = () => {
             <img
               src="https://i.ibb.co/3d2ygD0/facebook-4.png"
               alt="Facebook"
-              className="w-6 h-auto mr-2"
+              className="w-9 h-auto mr-2"
             />
           </a>
           <a
@@ -127,14 +127,14 @@ const Footer = () => {
               src="https://i.ibb.co/pRp6105/linkedin-2.png
                 "
               alt="LinkedIn"
-              className="w-6 h-auto mr-2"
+              className="w-9 h-auto mr-2"
             />
           </a>
           <a href="https://twitter.com">
             <img
               src="https://i.ibb.co/MGRThhw/twitter-2.png"
               alt="Twitter"
-              className="w-6 h-auto mr-2"
+              className="w-9 h-auto mr-2"
             />
           </a>
         </div>

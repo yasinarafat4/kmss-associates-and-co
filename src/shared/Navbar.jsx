@@ -49,7 +49,7 @@ const Navbar = () => {
               {isHomePage ? (
                 <div>
                   <Link onClick={() => setNavToggle(false)} to="/">
-                    <p className="text-lg 2xl:text-xl font-medium text-[#C2410C] hover:duration-500">
+                    <p className="text-lg 2xl:text-xl font-medium text-[#e77243] hover:duration-500">
                       Home
                     </p>
                   </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
               ) : (
                 <div>
                   <Link onClick={() => setNavToggle(false)} to="/">
-                    <p className="text-lg 2xl:text-xl font-medium hover:text-[#C2410C] hover:duration-500">
+                    <p className="text-lg 2xl:text-xl font-medium hover:text-[#e77243] hover:duration-500">
                       Home
                     </p>
                   </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
               <Link to="/all-services" onClick={() => setNavToggle(false)}>
                 <p
                   className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
-                    isServicesPage ? "text-[#C2410C]" : "hover:text-[#C2410C]"
+                    isServicesPage ? "text-[#e77243] font-bold" : "hover:text-[#e77243] font-bold"
                   }`}
                 >
                   Services
@@ -78,7 +78,7 @@ const Navbar = () => {
               <Link to="/more-about-us" onClick={() => setNavToggle(false)}>
                 <p
                   className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
-                    isAboutPage ? "text-[#C2410C]" : "hover:text-[#C2410C]"
+                    isAboutPage ? "text-[#e77243] font-bold" : "hover:text-[#e77243] font-bold"
                   }`}
                 >
                   About
@@ -88,7 +88,7 @@ const Navbar = () => {
               <Link to="/contact-us" onClick={() => setNavToggle(false)}>
                 <p
                   className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
-                    isContactPage ? "text-[#C2410C]" : "hover:text-[#C2410C]"
+                    isContactPage ? "text-[#e77243] font-bold" : "hover:text-[#e77243] font-bold"
                   }`}
                 >
                   Contact

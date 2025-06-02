@@ -35,7 +35,7 @@ const BackToTop = () => {
     circumference - (scrollPercent / 100) * circumference;
 
   return (
-    <div className="fixed bottom-12 lg:bottom-14 right-4 lg:right-8 z-10">
+    <div className="fixed bottom-9 lg:bottom-12 right-4 lg:right-8 z-10">
       <svg
         height={radius * 2}
         width={radius * 2}
