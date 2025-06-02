@@ -8,42 +8,42 @@ const AllServices = () => {
       name: "LICENSING",
       subTitle:
         "We obtain formal government licenses for clients specific business or professional needs.",
-      route: "licencing-service",
+      route: "/licencing-service",
     },
     {
       id: 2,
       name: "ENTITY FORMATION",
       subTitle:
         "We guide Registered Companies in complying with business entity formation regulations.",
-      route: "entity-formation-service",
+      route: "/entity-formation-service",
     },
     {
       id: 3,
       name: "ACCOUNTING",
       subTitle:
         "We handle recording, analyzing, and reporting financial transactions for clients.",
-      route: "accounting-service",
+      route: "/accounting-service",
     },
     {
       id: 4,
       name: "TAX ADVISORY",
       subTitle:
         "We offer guidance and strategic advice on tax-related matters.",
-      route: "tax-advisory-service",
+      route: "/tax-advisory-service",
     },
     {
       id: 5,
       name: "AUDIT & ASSURANCE",
       subTitle:
         "We review financial data to ensure accuracy and compliance with standards.",
-      route: "audit-and-assurance-service",
+      route: "/audit-and-assurance-service",
     },
     {
       id: 6,
       name: "IPO & CAPITAL MARKET",
       subTitle:
         "We assist in IPOs and facilitate trading in capital markets for clients.",
-      route: "ipo-capital-market-service",
+      route: "/ipo-capital-market-service",
     },
   ];
 
