@@ -13,7 +13,9 @@ const Navbar = () => {
 
   // Check the current path
   const isHomePage = location.pathname === "/";
-  const isServicesPage = location.pathname === "/all-services";
+  const isServicesPage =
+    location.pathname.startsWith("/all-services") ||
+    location.pathname.includes("-service");
   const isAboutPage = location.pathname === "/more-about-us";
   const isContactPage = location.pathname === "/contact-us";
 
@@ -68,7 +70,9 @@ const Navbar = () => {
               <Link to="/all-services" onClick={() => setNavToggle(false)}>
                 <p
                   className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
-                    isServicesPage ? "text-[#e77243] font-bold" : "hover:text-[#e77243] font-bold"
+                    isServicesPage
+                      ? "text-[#e77243] font-bold"
+                      : "hover:text-[#e77243] font-bold"
                   }`}
                 >
                   Services
@@ -78,7 +82,9 @@ const Navbar = () => {
               <Link to="/more-about-us" onClick={() => setNavToggle(false)}>
                 <p
                   className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
-                    isAboutPage ? "text-[#e77243] font-bold" : "hover:text-[#e77243] font-bold"
+                    isAboutPage
+                      ? "text-[#e77243] font-bold"
+                      : "hover:text-[#e77243] font-bold"
                   }`}
                 >
                   About
@@ -88,7 +94,9 @@ const Navbar = () => {
               <Link to="/contact-us" onClick={() => setNavToggle(false)}>
                 <p
                   className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
-                    isContactPage ? "text-[#e77243] font-bold" : "hover:text-[#e77243] font-bold"
+                    isContactPage
+                      ? "text-[#e77243] font-bold"
+                      : "hover:text-[#e77243] font-bold"
                   }`}
                 >
                   Contact
