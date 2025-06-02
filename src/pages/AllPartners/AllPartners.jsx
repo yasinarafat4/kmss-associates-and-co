@@ -4,7 +4,6 @@ import logo11 from "../../assets/partners_logo/logo-11.jpg";
 import logo12 from "../../assets/partners_logo/logo-12.jpg";
 import logo13 from "../../assets/partners_logo/logo-13.jpg";
 import logo14 from "../../assets/partners_logo/logo-14.jpg";
-import logo15 from "../../assets/partners_logo/logo-15.jpg";
 import logo2 from "../../assets/partners_logo/logo-2.jpg";
 import logo3 from "../../assets/partners_logo/logo-3.jpeg";
 import logo5 from "../../assets/partners_logo/logo-4.png";
@@ -34,7 +33,7 @@ const AllPartners = () => {
     {
       name: "Asian Imports Ltd.",
       logo: logo4,
-      link: "https://asianimportsltd.com",
+      link: "https://www.facebook.com/asianimportsbd",
     },
     {
       name: "Asian Holdings Ltd.",
@@ -77,19 +76,14 @@ const AllPartners = () => {
       link: "https://www.fipperslipper.com",
     },
     {
-      name: "Privilege Technologies Ltd.",
+      name: "Creative Architects",
       logo: logo13,
-      link: "https://www.privilege.com.bd",
+      link: "https://www.facebook.com/Creativearchitects.info",
     },
     {
-      name: "Privilege Technologies Ltd.",
+      name: "The Sky Traders Pvt. Ltd.",
       logo: logo14,
-      link: "https://www.privilege.com.bd",
-    },
-    {
-      name: "Privilege Technologies Ltd.",
-      logo: logo15,
-      link: "https://www.privilege.com.bd",
+      link: "https://www.facebook.com/theskytraderspvt.Ltd",
     },
   ];
 
