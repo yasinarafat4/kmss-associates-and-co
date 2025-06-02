@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../src/assets/kmss_logo.png";
 import TopNav from "./TopNav";
 
@@ -9,19 +9,11 @@ const Navbar = () => {
   const [targetSection, setTargetSection] = useState(null);
 
   // Navigate & Location
-  const navigate = useNavigate();
   const location = useLocation();
 
   // Check the current path
   const isHomePage = location.pathname === "/";
-  const isServicePages = [
-    "/licencing-service",
-    "/entity-formation-service",
-    "/accounting-service",
-    "/tax-advisory-service",
-    "/audit-and-assurance-service",
-    "/ipo-capital-market-service",
-  ].includes(location.pathname);
+  const isServicesPage = location.pathname === "/all-services";
   const isAboutPage = location.pathname === "/more-about-us";
   const isContactPage = location.pathname === "/contact-us";
 
@@ -39,8 +31,8 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 z-[1000]">
       <TopNav />
-      <nav className=" bg-white shadow-lg dark:bg-slate-900  dark:text-slate-200">
-        <div className="navbar container mx-auto">
+      <nav className="bg-white shadow-lg dark:bg-slate-900  dark:text-slate-200">
+        <div className="navbar xl:!px-0 container mx-auto">
           <div className="flex-1">
             <Link to="/">
               <div className="flex flex-col justify-center items-center">
@@ -71,34 +63,17 @@ const Navbar = () => {
                   </Link>
                 </div>
               )}
-              {/* Services */}
-              {isHomePage ? (
-                <a onClick={() => setNavToggle(false)} href="#services">
-                  <p className="text-lg lg:text-base 2xl:text-lg font-medium hover:text-[#C2410C] hover:duration-500">
-                    Services
-                  </p>
-                </a>
-              ) : (
-                <a
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setNavToggle(false);
-                    setTimeout(() => {
-                      navigate("/#services");
-                    }, 100);
-                  }}
-                  href="#services"
-                >
-                  <p
-                    className={`text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
-                      isServicePages ? "text-[#C2410C]" : "hover:text-[#C2410C]"
-                    }`}
-                  >
-                    Services
-                  </p>
-                </a>
-              )}
 
+              {/* Services */}
+              <Link to="/all-services" onClick={() => setNavToggle(false)}>
+                <p
+                  className={`cursor-pointer text-lg lg:text-base 2xl:text-lg font-medium hover:duration-500 ${
+                    isServicesPage ? "text-[#C2410C]" : "hover:text-[#C2410C]"
+                  }`}
+                >
+                  Services
+                </p>
+              </Link>
               {/* About */}
               <Link to="/more-about-us" onClick={() => setNavToggle(false)}>
                 <p

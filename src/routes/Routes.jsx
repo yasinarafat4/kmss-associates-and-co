@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import AllPartners from "../pages/AllPartners/AllPartners";
+import AllServices from "../pages/AllServices/AllServices";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import Home from "../pages/Home/Home";
 import MoreAboutUs from "../pages/MoreAboutUs/MoreAboutUs";
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: "/all-partners",
         element: <AllPartners />,
+      },
+      {
+        path: "/all-services",
+        element: <AllServices />,
       },
       {
         path: "/contact-us",

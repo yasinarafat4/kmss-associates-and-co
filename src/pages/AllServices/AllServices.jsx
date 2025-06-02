@@ -1,9 +1,7 @@
-import { GoArrowRight } from "react-icons/go";
 import { IoMdCheckmarkCircle } from "react-icons/io";
 import { Link } from "react-router-dom";
-import SectionTitle from "../../components/SectionTitle";
 
-const Services = () => {
+const AllServices = () => {
   const serviceData = [
     {
       id: 1,
@@ -50,19 +48,21 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="dark:bg-slate-900 dark:text-slate-200">
-      <div className="container mx-auto p-4 xl:px-0">
-        <div className="flex flex-col md:flex-row justify-between md:items-center">
-          <SectionTitle heading={"Our Services"} />
-          <Link
-            to={"/all-services"}
-            className="text-slate-900 hover:text-[#C2410C] flex justify-end items-center gap-1 text-md font-medium duration-300 pb-2"
-          >
-            <span>View All Services</span>
-            <GoArrowRight className="text-lg font-medium" />
-          </Link>
-        </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div>
+      {/* Services Banner */}
+      <div className="bg-gradient-to-r from-blue-800 via-purple-700 to-purple-900 py-20 text-center dark:bg-gradient-to-r dark:from-gray-800 dark:via-gray-700 dark:to-gray-900">
+        <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4 dark:text-gray-200">
+          Our All Services
+        </h2>
+        <p className="text-lg lg:text-xl font-medium text-white opacity-90 dark:text-gray-300">
+          Comprehensive tax planning, VAT compliance, and advisory services
+          tailored to your business needs.
+        </p>
+      </div>
+
+      {/* Section */}
+      <section className="dark:bg-slate-800">
+        <div className="container mx-auto px-4 py-10 xl:px-0 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* services */}
           {serviceData.map((service, i) => (
             <div
@@ -87,9 +87,9 @@ const Services = () => {
             </div>
           ))}
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 
-export default Services;
+export default AllServices;

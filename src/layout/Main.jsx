@@ -8,27 +8,31 @@ import Navbar from "../shared/Navbar";
 import Spinner from "../shared/Spinner";
 
 const Main = () => {
-  // Set loading spinner
   const [loading, setLoading] = useState(false);
+
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 2000);
   }, []);
-  if (loading) {
-    return <Spinner />;
-  }
+
   return (
     <>
-      <Navbar />
-      <LightDarkSwitcher />
-      <div className="min-h-[calc(100vh-324px)]">
-        <Outlet />
-      </div>
-      <Footer />
-      <BackToTop />
-      <PhoneButton />
+      {loading ? (
+        <Spinner />
+      ) : (
+        <>
+          <Navbar />
+          <LightDarkSwitcher />
+          <div className="min-h-[calc(100vh-324px)]">
+            <Outlet />
+          </div>
+          <Footer />
+          <BackToTop />
+          <PhoneButton />
+        </>
+      )}
     </>
   );
 };
