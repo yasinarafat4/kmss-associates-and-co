@@ -69,7 +69,7 @@ const ContactUs = () => {
                   id="name"
                   name="name"
                   placeholder="Your Name"
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-indigo-100 text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
                   required
                 />
               </div>
@@ -83,7 +83,7 @@ const ContactUs = () => {
                   id="email"
                   name="email"
                   placeholder="Your Email"
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-indigo-100 text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
                   required
                 />
               </div>
@@ -97,7 +97,7 @@ const ContactUs = () => {
                   id="phone"
                   name="phone"
                   placeholder="Your Number"
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-indigo-100 text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
                   required
                 />
               </div>
@@ -114,7 +114,7 @@ const ContactUs = () => {
                   id="subject"
                   name="subject"
                   placeholder="Your Subject"
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-indigo-100 text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
                   required
                 />
               </div>
@@ -128,13 +128,13 @@ const ContactUs = () => {
                   name="message"
                   rows="5"
                   placeholder="Your Message"
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-indigo-100 text-slate-900 dark:bg-slate-900 dark:text-slate-200 font-normal text-base"
                   required
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full bg-indigo-700 hover:bg-indigo-800 text-white dark:bg-[#014AA9] dark:text-white py-2 px-4 rounded-md dark:hover:bg-indigo-700 transition-colors duration-300 font-medium border border-white"
+                className="w-full bg-indigo-700 hover:bg-indigo-800 text-white dark:bg-slate-600 dark:text-white py-2 px-4 rounded-md dark:hover:bg-slate-700 transition-colors duration-300 font-medium border border-slate-400"
               >
                 Submit
               </button>
