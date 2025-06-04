@@ -22,7 +22,7 @@ export default function LightDarkSwitcher() {
     <div className="fixed right-[-50px] top-[200px] z-[99999] transition-all duration-300 hover:right-0 2xl:top-[300px]">
       <button
         onClick={toggleTheme}
-        className="theme-controller flex h-10 w-[90px] items-center rounded-l-lg bg-[#16110f] px-2 text-white shadow-md transition-colors duration-300 dark:bg-white dark:text-[#C2410C] dark:shadow-lg"
+        className="theme-controller border border-[#C2410C] flex h-10 w-[90px] items-center rounded-l-lg bg-[#16110f] px-2  shadow-md transition-colors duration-300 dark:bg-white text-[#C2410C] dark:shadow-lg"
       >
         {theme === 'light' ? (
           <>
