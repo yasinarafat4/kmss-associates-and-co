@@ -15,18 +15,18 @@ const TopNav = () => {
   const formattedDateTime = currentTime.toLocaleString();
 
   return (
-    <div className="bg-[#C2410C] py-[6px] px-4 xl:px-0">
+    <div className="bg-[#C2410C] px-5 py-2 md:px-10 xl:px-0">
       <div className="container mx-auto text-white flex justify-between items-center">
-        <div className="hidden md:flex items-center space-x-4">
-          <div className="flex items-center space-x-2">
+        <div className="hidden md:flex flex-col lg:flex-row items-start gap-1 lg:gap-4">
+          <div className="flex items-center gap-2">
             <FaPhoneAlt className="text-white" />
-            <span className="text-sm tracking-[2px]">
-              01893972509 | 01761573171
+            <span className="text-xs lg:text-sm tracking-[2px]">
+              +8801893972509 | +8801761573171
             </span>
           </div>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center gap-2">
             <FaEnvelope className="text-white" />
-            <span className="text-sm tracking-[1px]">
+            <span className="text-xs lg:text-sm tracking-[1px]">
               kmssassociates52@gmail.com
             </span>
           </div>

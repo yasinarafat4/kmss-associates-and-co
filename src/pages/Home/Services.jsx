@@ -51,7 +51,7 @@ const Services = () => {
 
   return (
     <section id="services" className="dark:bg-slate-900 dark:text-slate-200">
-      <div className="container mx-auto p-4 xl:px-0">
+      <div className="container mx-auto p-5 md:p-10 xl:px-0">
         <div className="flex flex-col md:flex-row justify-between md:items-center">
           <SectionTitle heading={"Our Services"} />
           <Link

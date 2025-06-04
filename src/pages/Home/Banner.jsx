@@ -10,8 +10,8 @@ const Banner = () => {
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content flex items-center justify-start text-neutral-content z-0">
-        <div>
+      <div className="flex items-center justify-start text-neutral-content z-0">
+        <div className="container mx-auto p-5 md:p-10 xl:px-0">
           <h1 className="mb-5 text-2xl md:text-4xl lg:text-5xl font-bold">
             Welcome to <span className="text-[#C2410C] dark:text-white">KMSS Associates</span> &<span className="text-[#2563EB] dark:text-white"> Co.</span>
           </h1>

@@ -56,7 +56,7 @@ const Partners = () => {
 
   return (
     <section>
-      <div className="container mx-auto p-4 xl:px-0">
+      <div className="container mx-auto p-5 md:p-10 xl:px-0">
         <div className="flex flex-col md:flex-row justify-between md:items-center">
           <SectionTitle heading={"Our Partners"} />
           <Link to={'/all-partners'} className="text-slate-900 hover:text-[#C2410C] flex justify-end items-center gap-1 text-md font-medium duration-300 pb-2">

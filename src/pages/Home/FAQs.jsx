@@ -19,7 +19,7 @@ const FAQs = () => {
   
   return (
     <section id="faqs"
-      className="bg-cover md:bg-fixed h-full md:h-[450px] lg:h-[500px] py-6 px-3 md:px-4 lg:px-10 flex justify-center items-center"
+      className="container bg-cover md:bg-fixed h-full md:h-[450px] lg:h-[500px] p-5 md:p-10 xl:px-0 flex justify-center items-center"
       style={{
         backgroundImage:
           'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("https://i.ibb.co/tzJ3q9F/kms-banner.jpg")',

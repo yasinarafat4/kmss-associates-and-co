@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <div className="bg-slate-950 dark:bg-slate-950 text-white text-base lg:text-lg">
-      <footer className="footer container mx-auto p-4 xl:px-0">
+      <footer className="footer container mx-auto p-5 md:p-10 xl:px-0">
         <aside>
           <Link to="/">
             <img className="w-20 md:w-28 pb-2" src={logo} alt="footer logo" />
@@ -108,7 +108,7 @@ const Footer = () => {
         </nav>
       </footer>
       <hr />
-      <div className="container mx-auto text-center md:flex items-center justify-between p-4 xl:px-0">
+      <div className="container mx-auto text-center md:flex items-center justify-between px-5 py-3 md:px-10 xl:px-0">
         <p className="mt-4 text-base">
           © {currentYear} All rights reserved by KMSS Associates.
         </p>
