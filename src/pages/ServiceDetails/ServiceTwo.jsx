@@ -408,7 +408,7 @@ const ServiceTwo = () => {
               <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
-                  Here at KMSS Associates & Co., we can help you register and set up
+                  Here at KMSS Associates & Co., we can help you register and set up
                   your trust. The details and procedure for opening a trust in
                   Bangladesh are set below:
                   <br />
@@ -425,7 +425,7 @@ const ServiceTwo = () => {
                   responsible authority is the relevant sub-registry office.
                   <br className="lg:hidden" /> <br className="lg:hidden" /> The
                   main document required to do a Trust is a trust deed - duly
-                  stamped including the author's intention, purpose,
+                  stamped including the author&apos; intention, purpose,
                   beneficiary, trust property, and transfer of trust property to
                   the trustee.
                 </p>

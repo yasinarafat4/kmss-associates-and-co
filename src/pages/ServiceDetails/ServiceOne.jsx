@@ -64,7 +64,7 @@ const ServiceOne = () => {
               <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
-                  KMSS Associates & Co. provides services in regard of application
+                  KMSS Associates & Co. provides services in regard of application
                   for Trade License local government / Pouroshava / Union/City
                   Corporation in Bangladesh. Trade License is mandatory for
                   every form of business entity in Bangladesh.
@@ -204,7 +204,7 @@ const ServiceOne = () => {
                         Memorandum and Articles of Association of the company;
                       </li>
                       <li>
-                        Promoters' resolution to open a Company in Bangladesh;
+                        Promoters&apos; resolution to open a Company in Bangladesh;
                       </li>
                       <li>
                         Obtaining and executing the following forms for
@@ -421,7 +421,7 @@ const ServiceOne = () => {
                     identification number (E-TIN) with the aim of enhancing the
                     effectiveness and efficiency of tax collection procedure.{" "}
                     <br className="md:hidden" /> <br className="md:hidden" />
-                    Under this scenario, Taxpayer's Identification Number (TIN)
+                    Under this scenario, Taxpayer&apos; Identification Number (TIN)
                     Certificate is very important documents for Bangladeshi
                     personnel and companies.
                   </p>
@@ -499,7 +499,7 @@ const ServiceOne = () => {
               <div className="overflow-hidden bg-white dark:bg-slate-800 p-4 md:py-4 lg:py-6 md:px-8 lg:px-12 text-[#014AA8] dark:text-white space-y-6">
                 {" "}
                 <p className="text-md lg:text-lg">
-                  KMSS Associates & Co. has a very significant practice and
+                  KMSS Associates & Co. has a very significant practice and
                   experience in VAT related services in Bangladesh. KMSS &
                   Associates provides the best VAT Consultant in Bangladesh who
                   is the experts in VAT Law which are in generally divided to
@@ -610,7 +610,7 @@ const ServiceOne = () => {
                   country.
                   <br />
                   <br /> The government has established export processing zones
-                  to enhance Bangladesh's export industry globally.
+                  to enhance Bangladesh&apos; export industry globally.
                   <br className="md:hidden" /> <br className="md:hidden" /> To
                   initiate an export business, one must obtain a trade license
                   followed by an export registration certificate; without these,
@@ -859,12 +859,12 @@ const ServiceOne = () => {
                     <li>Trade license</li>
                     <li>
                       Yearly Valuation Certificate from the relevant City
-                      Corporation or Municipality's zonal office
+                      Corporation or Municipality&apos; zonal office
                     </li>
                     <li>Deed of Agreement and receipt of rent</li>
                     <li>
                       Layout of the establishment authorized by RAJUK or City
-                      Corporation or relevant municipality's zonal office
+                      Corporation or relevant municipality&apos; zonal office
                     </li>
                     <li>
                       Certificate of Incorporation and Memorandum of Association
@@ -874,7 +874,7 @@ const ServiceOne = () => {
                     </li>
                     <li>Clearance certificate from the FSCD office</li>
                     <li>
-                      Duly filled in additional form (in case of garment's
+                      Duly filled in additional form (in case of garment&apos;
                       factories)
                     </li>
                     <li>Treasury Challan or Demand note</li>

@@ -13,7 +13,7 @@ const TermsAndConditions = () => {
         <div className="mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Introduction</h2>
           <p className="text-lg leading-relaxed font-normal">
-            Welcome to KMSS Associates & Co.. By accessing or using our services, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
+            Welcome to KMSS Associates & Co.. By accessing or using our services, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ const TermsAndConditions = () => {
         <div className="mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Intellectual Property</h2>
           <p className="text-lg leading-relaxed font-normal">
-            All content and materials on our website, including text, graphics, logos, and images, are the intellectual property of KMSS Associates & Co. or its licensors and are protected by applicable copyright and trademark laws.
+            All content and materials on our website, including text, graphics, logos, and images, are the intellectual property of KMSS Associates & Co. or its licensors and are protected by applicable copyright and trademark laws.
           </p>
         </div>
 
@@ -37,7 +37,7 @@ const TermsAndConditions = () => {
         <div className="mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Limitation of Liability</h2>
           <p className="text-lg leading-relaxed font-normal">
-            KMSS Associates & Co. shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to or use of our services. This limitation applies to all claims, whether based on warranty, contract, tort, or any other legal theory.
+            KMSS Associates & Co. shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to or use of our services. This limitation applies to all claims, whether based on warranty, contract, tort, or any other legal theory.
           </p>
         </div>
 

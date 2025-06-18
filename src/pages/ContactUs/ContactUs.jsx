@@ -49,7 +49,7 @@ const ContactUs = () => {
   return (
       <section className="bg-gradient-to-r from-indigo-800 to-indigo-500 dark:from-slate-950 dark:to-slate-900">
         {/* Contact Form */}
-        <div className="container mx-auto text-white px-4  py-20 gap-10">
+        <div className="container mx-auto text-white p-5 md:p-10 gap-10">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center text-white mb-10">
             Get In Touch
           </h2>

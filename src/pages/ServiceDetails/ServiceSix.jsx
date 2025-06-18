@@ -54,7 +54,7 @@ const ServiceSix = () => {
           existing securities are traded, either over-the-counter (OTC) or
           through other platforms.
           <br /> <br />
-          At KMSS Associates & Co. Consulting International, our experienced team
+          At KMSS Associates & Co. Consulting International, our experienced team
           provides comprehensive services for the entire IPO (Initial Public
           Offering) process. We start with the appraisal and assessment of the
           benefits of an IPO and explore all possible options.
@@ -100,7 +100,7 @@ const ServiceSix = () => {
           regulator, enforcing rules and regulations, monitoring compliance, and
           developing the capital market.
           <br className="lg:hidden" /> <br className="lg:hidden" />
-          The experts at KMSS Associates & Co. Consulting International are
+          The experts at KMSS Associates & Co. Consulting International are
           well-versed in IPOs and restructuring for listing on both local and
           global securities exchanges.
           <br className="lg:hidden" /> <br className="lg:hidden" /> We work as

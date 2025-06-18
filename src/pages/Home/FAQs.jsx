@@ -26,7 +26,7 @@ const FAQs = () => {
     },
     {
       title:
-        "What sets KMSS Associates & Co. apart from other consultancy firms?",
+        "What sets KMSS Associates & Co. apart from other consultancy firms?",
       description:
         "Our commitment to excellence, broad expertise, and personalized services make us stand out. We aim to provide the best possible services to our clients, ensuring their satisfaction and success.",
     },

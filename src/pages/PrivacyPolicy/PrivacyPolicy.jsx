@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
         <div className="mb-6">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Introduction</h2>
           <p className="text-lg leading-relaxed font-normal">
-            At KMSS Associates & Co., we value your privacy and are committed to
+            At KMSS Associates & Co., we value your privacy and are committed to
             protecting your personal information. This Privacy Policy outlines
             how we collect, use, and safeguard your data when you use our
             services.

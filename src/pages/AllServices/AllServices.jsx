@@ -62,7 +62,7 @@ const AllServices = () => {
 
       {/* Section */}
       <section className="dark:bg-slate-800">
-        <div className="container mx-auto px-4 py-10  grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="container mx-auto p-5 md:p-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* services */}
           {serviceData.map((service, i) => (
             <div
