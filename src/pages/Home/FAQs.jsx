@@ -38,14 +38,14 @@ const FAQs = () => {
   return (
     <section
       id="faqs"
-      className="bg-cover md:bg-fixed h-full md:h-[450px] lg:h-[500px] p-5 md:p-10 xl:px-0 flex justify-center items-center"
+      className="bg-cover md:bg-fixed h-full md:h-[450px] lg:h-[500px] flex justify-center items-center"
       style={{
         backgroundImage:
           'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("https://i.ibb.co/tzJ3q9F/kms-banner.jpg")',
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="rounded-lg font-serif container mx-auto">
+      <div className="rounded-lg font-serif container mx-auto p-5 md:p-10">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center text-white mb-4">
           Frequently Asked Questions
         </h2>
@@ -61,9 +61,9 @@ const FAQs = () => {
               <span className="text-base lg:text-xl xl:text-[22px] text-start">
                 {PerAccordion.title}
               </span>
-              <span className="rounded-full p-2 ">
+              <span className="rounded-full md:p-2">
                 <svg
-                  className="ml-8 mr-7 shrink-0 fill-[#fff]"
+                  className="ml-4 shrink-0 fill-[#fff]"
                   width="16"
                   height="16"
                   xmlns="http://www.w3.org/2000/svg"

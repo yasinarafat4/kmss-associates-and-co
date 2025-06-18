@@ -5,7 +5,7 @@ import SectionTitle from "../../components/SectionTitle";
 const About = () => {
   return (
     <section id="about" className="dark:bg-slate-900 dark:text-slate-200">
-      <div className="container mx-auto p-5 md:p-10 xl:px-0">
+      <div className="container mx-auto p-5 md:p-10 ">
         <SectionTitle heading={"Who We Are"} />
         <div className="flex w-full items-center justify-center bg-white dark:bg-slate-900 dark:text-slate-200">
           <div className="grid grid-cols-1 xl:grid-cols-5 items-center xl:gap-10">

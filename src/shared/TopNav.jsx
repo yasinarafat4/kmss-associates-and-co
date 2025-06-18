@@ -15,8 +15,8 @@ const TopNav = () => {
   const formattedDateTime = currentTime.toLocaleString();
 
   return (
-    <div className="bg-[#C2410C] px-5 py-2 md:px-10 xl:px-0">
-      <div className="container mx-auto text-white flex justify-between items-center">
+    <div className="bg-[#C2410C]">
+      <div className="container px-5 py-2 md:px-10 mx-auto text-white flex justify-between items-center">
         <div className="hidden md:flex flex-col lg:flex-row items-start gap-1 lg:gap-4">
           <div className="flex items-center gap-2">
             <FaPhoneAlt className="text-white" />

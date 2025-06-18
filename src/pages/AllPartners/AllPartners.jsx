@@ -102,7 +102,7 @@ const AllPartners = () => {
 
       {/* Top Section */}
       <section className="dark:bg-slate-800">
-        <div className="container mx-auto px-4 py-10 xl:px-0 grid grid-cols-2 md:grid-cols-4 gap-4 xl:gap-10">
+        <div className="container mx-auto px-4 py-10  grid grid-cols-2 md:grid-cols-4 gap-4 xl:gap-10">
           {partners.map((partner, i) => (
             <a key={i} target="_blank" href={partner.link} rel="noreferrer">
               <div

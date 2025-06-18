@@ -34,7 +34,7 @@ const Navbar = () => {
     <div className="sticky top-0 z-[1000]">
       <TopNav />
       <nav className="bg-white shadow-lg dark:bg-slate-900  dark:text-slate-200">
-        <div className="navbar px-5 md:px-10 xl:!px-0 container mx-auto">
+        <div className="navbar px-5 md:px-10 container mx-auto">
           <div className="flex-1">
             <Link to="/">
               <div className="flex flex-col justify-center items-center">

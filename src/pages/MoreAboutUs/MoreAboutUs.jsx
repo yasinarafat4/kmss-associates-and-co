@@ -15,7 +15,7 @@ const MoreAboutUs = () => {
 
       {/* Top Section */}
       <section className="dark:bg-slate-800">
-        <div className="container mx-auto p-5 md:p-10 xl:px-0 space-y-3 text-base lg:text-lg">
+        <div className="container mx-auto p-5 md:p-10  space-y-3 text-base lg:text-lg">
           <p className="text-start text-slate-800 dark:text-slate-200">
             KMSS Associates & Co., a renowned consultancy firm in Dhaka,
             Bangladesh, offers comprehensive legal and professional services
@@ -44,7 +44,7 @@ const MoreAboutUs = () => {
 
       {/* CEO Message Section*/}
       <section className="dark:bg-slate-800">
-        <div className="container mx-auto p-5 md:p-10 xl:px-0 space-y-3">
+        <div className="container mx-auto p-5 md:p-10  space-y-3">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center text-orange-700 dark:text-slate-200">
             Message from Founder & CEO
           </h2>
