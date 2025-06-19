@@ -177,8 +177,7 @@ const ServiceFive = () => {
                   The External Audit Coordinator must have to keep the audit
                   focused to resolve any audit issues as soon as they are made
                   known also keep informed of the auditor&apos; progress.
-                  <br className="lg:hidden" /> <br className="lg:hidden" /> KMSS
-                  & ASSOCIATE External audit team&apos; main objective is to give
+                  <br className="lg:hidden" /> <br className="lg:hidden" /> KMSS Associates & Co. External audit team&apos; main objective is to give
                   reliability and credibility to the financial reports that go
                   to shareholders. <br className="lg:hidden" />{" "}
                   <br className="lg:hidden" />
@@ -189,10 +188,9 @@ const ServiceFive = () => {
                 <p className="text-md lg:text-lg">
                   Also, an external auditor has to reports to the shareholders
                   who are outside the governing structure of an organization
-                  which also done diligently by KMSS & ASSOCIATE external
+                  which also done diligently by KMSS Associates & Co. external
                   auditor team.
-                  <br className="lg:hidden" /> <br className="lg:hidden" /> KMSS
-                  & ASSOCIATE external audit team has always maintained the un
+                  <br className="lg:hidden" /> <br className="lg:hidden" /> KMSS Associates & Co. external audit team has always maintained the un
                   biasness in any work. There are some initial procedures which
                   an external auditor must have to follow which are not befriend
                   with the clients, manager or any employee of that particular
@@ -207,7 +205,7 @@ const ServiceFive = () => {
                   Which makes it easier for an external auditor to recognize
                   problems. <br className="hidden lg:block" />{" "}
                   <br className="hidden lg:block" /> The external audit team of
-                  KMSS & ASSOCIATE provide an independent opinion to the
+                  KMSS Associates & Co. provide an independent opinion to the
                   shareholders on the truth and fairness of the financial
                   statements.
                   <br className="lg:hidden" /> <br className="lg:hidden" />{" "}
@@ -274,8 +272,8 @@ const ServiceFive = () => {
                 {" "}
                 <div>
                   <p className="text-md lg:text-lg">
-                    The word "audit" comes from the Latin word “audire,” which
-                    means "to listen." Originally, it implied the practice of
+                    The word &quot;audit&quot; comes from the Latin word “audire,” which
+                    means &quot;to listen&quot;. Originally, it implied the practice of
                     listening and informing others. <br className="lg:hidden" />{" "}
                     <br className="lg:hidden" />
                     An auditor evaluates accounting policies and work
@@ -310,7 +308,7 @@ const ServiceFive = () => {
                     assurance, and compliance work, which map into corporate
                     governance. They work independently, understanding
                     organizational goals and working to achieve those goals.<br className="lg:hidden" /> <br className="lg:hidden" />
-                    KMSS Associates & Co.' internal audit team is expert in the
+                    KMSS Associates & Co. internal audit team is expert in the
                     audit process. Internal auditing activities are completely
                     independent and aim to add value and improve organizational
                     operations.
@@ -322,8 +320,8 @@ const ServiceFive = () => {
                     systematic, disciplined approaches for evaluating risk
                     management, control, and governance. Their work starts with
                     considering risks, following up on past audits, and taking
-                    corrective measures.<br className="lg:hidden" /> <br className="lg:hidden" /> KMSS Associates & Co.' internal audit team
-                    ensures that errors don't recur and takes necessary steps.
+                    corrective measures.<br className="lg:hidden" /> <br className="lg:hidden" /> KMSS Associates & Co. internal audit team
+                    ensures that errors don&quot;t recur and takes necessary steps.
                     They act independently from internal management systems with
                     integrity to prepare unbiased reports.
                   </p>
@@ -333,7 +331,7 @@ const ServiceFive = () => {
                     This demonstrates their excellence in internal audits.
                     Internal audit procedures vary by department; manufacturing
                     needs daily audits, while human resources need annual
-                    audits. <br className="lg:hidden" /> <br className="lg:hidden" />KMSS Associates & Co.' procedures include transaction
+                    audits. <br className="lg:hidden" /> <br className="lg:hidden" />KMSS Associates & Co. procedures include transaction
                     matching, physical inventory counts, and audit
                     reconciliation, adhering to governmental regulations. The
                     team works independently, understanding and achieving
@@ -392,7 +390,7 @@ const ServiceFive = () => {
                 <div>
                   <h2 className="text-lg md:text-xl font-semibold mb-1">Our Internal Audit Services in Bangladesh:</h2>
                   <p className="text-md lg:text-lg">
-                  KMSS Associates & Co. maintains internal audit reports with objectives, background, scope, findings, recommendations, and follow-up tracking.<br className="lg:hidden" /> <br className="lg:hidden" /> The internal audit team controls and prevents fraud by assessing and evaluating clients' internal control systems. They monitor situations, communicate with clients, and provide training to prevent fraud.
+                  KMSS Associates & Co. maintains internal audit reports with objectives, background, scope, findings, recommendations, and follow-up tracking.<br className="lg:hidden" /> <br className="lg:hidden" /> The internal audit team controls and prevents fraud by assessing and evaluating clients&apos; internal control systems. They monitor situations, communicate with clients, and provide training to prevent fraud.
                   </p><br/>
                   <p className="text-md lg:text-lg">
                   Additionally, an internal auditor must be honest, have integrity, a strong work ethic, attention to detail, and a solid financial background.<br className="lg:hidden" /> <br className="lg:hidden" /> The KMSS Associates & Co. internal audit team maintains a healthy level of professional skepticism to evaluate information and make judgments.

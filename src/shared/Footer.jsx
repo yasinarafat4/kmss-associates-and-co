@@ -110,7 +110,7 @@ const Footer = () => {
       <hr />
       <div className="container mx-auto text-center md:flex items-center justify-between px-5 py-3 md:px-10">
         <p className="mt-4 text-base">
-          © {currentYear} All rights reserved by KMSS Associates.
+          © {currentYear} All rights reserved by KMSS Associates & Co.
         </p>
         {/* Social Icons */}
         <div className="flex justify-center items-center pt-3 gap-2">

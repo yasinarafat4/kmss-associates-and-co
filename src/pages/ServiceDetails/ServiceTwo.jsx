@@ -517,17 +517,13 @@ const ServiceTwo = () => {
                   <br className="lg:hidden" />
                   Nor any company or a trade organization other than a
                   registered trade organization can use in its name or title the
-                  words "Federation" "Chamber" or "Association".
+                  words &quot;Federation&quot; &quot;Chamber&quot; or &quot;Association&quot;.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/*
-vii)	Foreign Company
-ix)	Liaison Or Branch Office
-*/}
     </>
   );
 };

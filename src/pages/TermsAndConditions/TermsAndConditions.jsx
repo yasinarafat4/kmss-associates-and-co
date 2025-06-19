@@ -13,7 +13,7 @@ const TermsAndConditions = () => {
         <div className="mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Introduction</h2>
           <p className="text-lg leading-relaxed font-normal">
-            Welcome to KMSS Associates & Co.. By accessing or using our services, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
+            Welcome to KMSS Associates & Co. By accessing or using our services, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
           </p>
         </div>
 

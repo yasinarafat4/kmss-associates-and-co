@@ -11,7 +11,7 @@ const ServiceSix = () => {
           When a company raises capital by issuing shares of stock, it is called
           an Initial Public Offering (IPO). An IPO is the process by which a
           company issues stock to the public for the first time, often referred
-          to as "going public."
+          to as &quot;going public&quot;.
           <br className="lg:hidden" /> <br className="lg:hidden" /> One reason
           for the existence of the stock market is to facilitate the issuance of
           shares through IPOs. This process allows a company to raise capital

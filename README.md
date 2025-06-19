@@ -31,4 +31,4 @@
 
 ### Live Link
 
-- **Hosted in Vercel -> [KMSS Associates](https://kmssassociatesco.vercel.app)**
+- **Hosted in Vercel -> [KMSS Associates & Co.](https://kmssassociatesco.vercel.app)**
